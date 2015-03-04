@@ -1,0 +1,14 @@
+
+*.class
+
+*.properties
+
+*.xml
+
+*.mf
+
+build/classes/.netbeans_update_resources
+
+build/classes/.netbeans_automatic_build
+
+build/classes/problems/problem54/test.txt
