@@ -1,9 +1,8 @@
-package problems.problem55;
+package problems;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
-import problems.Library;
 
 /**
  *
