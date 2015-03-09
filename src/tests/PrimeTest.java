@@ -14,7 +14,7 @@ public class PrimeTest {
     public static void main(String[] args) {
         int depth = 100;
 
-        PrimeGenerator pgen = new SieveOfEratosthenes(depth);
+        PrimeGenerator pgen = new SieveOfEratosthenes(depth, false);
         clock(pgen);
 
         System.out.println(pgen.getPrimes());

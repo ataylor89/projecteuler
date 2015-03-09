@@ -13,10 +13,13 @@ public class SieveOfEratosthenes extends PrimeGenerator {
     private boolean[] sieve;
     private List<Integer> primes;
     
-    public SieveOfEratosthenes(int depth) {
+    public SieveOfEratosthenes(int depth, boolean init) {
         super(depth);
         
         sieve = new boolean[depth + 1];
+        
+        if (init)
+            generate();
     }
     
     @Override
