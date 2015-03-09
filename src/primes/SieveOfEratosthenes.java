@@ -42,7 +42,7 @@ public class SieveOfEratosthenes extends PrimeGenerator {
 
     @Override
     public int getNthPrime(int n) {
-        return getPrimes().get(0);
+        return getPrimes().get(n);
     }
 
     @Override
