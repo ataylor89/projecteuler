@@ -1,4 +1,4 @@
-package problems;
+package util;
 
 import org.apache.commons.math3.fraction.BigFraction;
 

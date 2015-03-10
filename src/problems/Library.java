@@ -1,5 +1,8 @@
 package problems;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -25,10 +28,10 @@ public class Library {
     }
     
     public static void generatePrimes(int n) {
-        if (sieve != null && sieve.length > n)
+        if (sieve != null && (sieve.length > n))
             return;
         
-        System.out.println("Generating primes up to " + n + "...");
+//        System.out.println("Generating primes up to " + n + "...");
         
         sieve = new boolean[n+1];
         sieve[2] = true;
@@ -53,14 +56,12 @@ public class Library {
                 primes.add(i);
         }
         
-        System.out.println("Finished generating primes.");
+//        System.out.println("Finished generating primes.");
     }
-    
-    public static void generateNthPrime(int n) {
+
+    public static int generateNthPrime(int n) {
         if (primes.size() >= n)
-            return;
-        
-        System.out.println("Generating the first " + n + " primes...");
+            return primes.get(n - 1);
         
         primes = new ArrayList<>();
         primes.add(2);
@@ -80,7 +81,7 @@ public class Library {
                 primes.add(i);
         }
         
-        System.out.println("Generated " + n + " primes.");
+        return primes.get(n - 1);
     }
     
     public static int getNthPrime(int n) {
@@ -89,6 +90,39 @@ public class Library {
         
         generateNthPrime(n);
         return primes.get(n - 1);
+    }
+    
+    public static void generatePrimesFromFile(String path) {
+        try {
+            byte[] encoded = Files.readAllBytes(Paths.get(path));
+            String str = new String(encoded);
+            
+            String[] words = str.split("\\s+");
+            int maxPrime = Integer.parseInt(words[words.length -1]);
+            
+            sieve = new boolean[maxPrime + 1];
+            primes = new ArrayList<>();
+            
+            for (String word : words) {
+                if (word == null || word.equals(""))
+                    continue;
+                    
+                int prime = Integer.parseInt(word);
+                
+                sieve[prime] = true;
+                primes.add(prime);
+            }
+        } catch (IOException e) {
+            System.err.println(e);
+        }
+    }
+    
+    public static boolean[] getSieve() {
+        return sieve;
+    }
+    
+    public static List<Integer> getPrimes() {
+        return primes;
     }
     
     /**

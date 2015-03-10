@@ -1,9 +1,9 @@
 package tests;
 
 import java.util.List;
-import primes.PrimeGenerator;
-import primes.SieveOfEratosthenes;
-import primes.TrialDivision;
+import util.PrimeGenerator;
+import util.SieveOfEratosthenes;
+import util.TrialDivision;
 
 /**
  *

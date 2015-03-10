@@ -1,7 +1,7 @@
-package problems;
+package problems.problem58;
 
-import primes.PrimeGenerator;
-import primes.SieveOfEratosthenes;
+import util.PrimeGenerator;
+import util.SieveOfEratosthenes;
 
 /**
  *

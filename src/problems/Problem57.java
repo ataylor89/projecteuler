@@ -1,5 +1,6 @@
 package problems;
 
+import util.ContinuedFraction;
 import static java.lang.System.out;
 import org.apache.commons.math3.fraction.BigFraction;
 

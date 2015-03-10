@@ -1,9 +1,9 @@
-package problems;
+package problems.problem58;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.math3.fraction.Fraction;
-import primes.PrimeGenerator;
+import util.PrimeGenerator;
 
 /**
  *
