@@ -52,7 +52,7 @@ public class Message implements Comparable<Message> {
     }
     
     public long getSum() {
-        if (sum == 0) {
+        if (sum < 0) {
             sum = 0;
             for (byte b : message_d) 
                 sum += b;
