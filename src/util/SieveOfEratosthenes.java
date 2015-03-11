@@ -23,7 +23,7 @@ public class SieveOfEratosthenes extends PrimeGenerator {
     }
     
     @Override
-    public void generate() {
+    public final void generate() {
         Arrays.fill(sieve,true);
         sieve[0]=false;
         sieve[1]=false;
