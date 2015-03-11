@@ -13,10 +13,9 @@ public class Message implements Comparable<Message> {
     private byte[] message_e, message_d;
     
     private int score = -1;
+    private long sum = -1;
     
     private final byte[] VOWELS = new byte[] {'a', 'e', 'i', 'o', 'u'};
-    
-    private long sum = -1;
     
     public Message(String key, byte[] message) {
         this.key = key;
