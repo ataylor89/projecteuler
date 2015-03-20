@@ -78,9 +78,9 @@ public class PrimeNumberGraph extends Graph {
         return m1 + m2;
     }
     
-    private int digits(Integer n) {
-        return n.toString().length();
-    }
+//    private int digits(Integer n) {
+//        return n.toString().length();
+//    }
        
     @Override
     public String toString() {
