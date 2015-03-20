@@ -2,6 +2,7 @@ package problems;
 
 import java.util.ArrayList;
 import java.util.List;
+import util.Sets;
 
 /**
  *
@@ -11,7 +12,7 @@ public class Problem43 {
     
     public void solve() {
         List<Long> suchNumbers = new ArrayList<>();
-        List<String> permutations = Library.permutations("0123456789");
+        List<String> permutations = Sets.permutations("0123456789");
         
         Library.generatePrimes(1000);
         

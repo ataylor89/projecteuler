@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import problems.Library;
+import util.Sets;
 
 /**
  *
@@ -56,7 +57,7 @@ public class Problem51 {
         for (int i = 0; i < n; i++) 
             s += i;
         
-        Set<String> y = Library.combinations(s);
+        Set<String> y = Sets.combinations(s);
         for (String x : y) {
             List<Integer> cb = new ArrayList<>();
             

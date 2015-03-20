@@ -1,9 +1,11 @@
 package tests;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
-import util.PrimeGenerator;
+import util.PrimeFinder;
 import util.SieveOfEratosthenes;
-import util.TrialDivision;
 
 /**
  *
@@ -11,22 +13,31 @@ import util.TrialDivision;
  */
 public class PrimeTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int depth = 100;
 
-        PrimeGenerator pgen = new SieveOfEratosthenes(depth, false);
+        PrimeFinder pgen = new SieveOfEratosthenes(depth);
         clock(pgen);
 
         System.out.println(pgen.getPrimes());
+        printToFile(pgen.getPrimes());
     }
 
-    public static void clock(PrimeGenerator pgen) {
+    public static void clock(PrimeFinder pgen) {
         long begin = System.currentTimeMillis();
         
-        pgen.generate(); 	
+        pgen.generate(true); 	
        
         long end = System.currentTimeMillis();
         
         System.out.println(pgen.getClass().getSimpleName() + ": " + (end - begin) + "ms");
+    }
+    
+    public static void printToFile(List<Integer> primes) throws IOException {
+        BufferedWriter bw = new BufferedWriter(new FileWriter("src/tests/primes.txt"));
+        for (Integer p : primes)
+            bw.write(p + " ");
+        
+        bw.flush();
     }
 }

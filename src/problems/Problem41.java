@@ -2,6 +2,7 @@ package problems;
 
 import java.util.Collections;
 import java.util.List;
+import util.Sets;
 
 /**
  *
@@ -16,7 +17,7 @@ public class Problem41 {
         String s = "1234567";
         while (s.length() >= 2) {
             int x = Integer.parseInt(s);
-            List<Integer> permutations = Library.permutations(x);
+            List<Integer> permutations = Sets.permutations(x);
             Collections.sort(permutations);
             
             for (int i = permutations.size() - 1; i >= 0; i--) {

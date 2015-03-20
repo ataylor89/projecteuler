@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import util.Sets;
 
 /**
  *
@@ -46,7 +47,7 @@ public class Problem49 {
         System.out.println("There are " + fourDigitPrimes.size() + " four digit primes.");
         
         for (int prime : fourDigitPrimes) {
-            Set<Integer> permutations = new HashSet<>(Library.permutations(prime));
+            Set<Integer> permutations = new HashSet<>(Sets.permutations(prime));
             
             for (Integer x : new ArrayList<>(permutations)) { 
                if (x < 1000)

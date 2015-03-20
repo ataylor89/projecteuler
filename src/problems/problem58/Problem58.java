@@ -1,6 +1,6 @@
 package problems.problem58;
 
-import util.PrimeGenerator;
+import util.PrimeFinder;
 import util.SieveOfEratosthenes;
 
 /**
@@ -10,7 +10,8 @@ import util.SieveOfEratosthenes;
 public class Problem58 {
     public static void main(String[] args) {
         int depth = 30001;
-        PrimeGenerator pgen = new SieveOfEratosthenes(depth * depth, true);
+        PrimeFinder pgen = new SieveOfEratosthenes(depth * depth);
+        pgen.generate(true);
         
         SquareSpiral sp = new SquareSpiral(depth, pgen);
         sp.solve();

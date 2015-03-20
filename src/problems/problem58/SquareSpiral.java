@@ -3,7 +3,7 @@ package problems.problem58;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.math3.fraction.Fraction;
-import util.PrimeGenerator;
+import util.PrimeFinder;
 
 /**
  *
@@ -19,9 +19,9 @@ public class SquareSpiral {
     List<Integer> diagonals;
     List<Integer> primeDiagonals;
     
-    private PrimeGenerator pgen;
+    private PrimeFinder pgen;
 
-    public SquareSpiral(int depth, PrimeGenerator pgen) {
+    public SquareSpiral(int depth, PrimeFinder pgen) {
         assert (depth % 2 == 1);
         
         SIZE = depth;
