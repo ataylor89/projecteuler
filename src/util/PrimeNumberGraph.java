@@ -10,7 +10,7 @@ public class PrimeNumberGraph extends Graph {
 
     private PrimeFinder primeFinder;
     private int sizeOfGraph;
-    private int sieveDepth = Integer.MAX_VALUE - 8; // ten million
+    private int sieveDepth = Integer.MAX_VALUE - 8;
     
     public PrimeNumberGraph(int sizeOfGraph) {
         super();
