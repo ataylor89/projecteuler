@@ -1,4 +1,4 @@
-package problems;
+package archived;
 
 import java.io.IOException;
 import java.nio.file.Files;

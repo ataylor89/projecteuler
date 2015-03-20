@@ -1,8 +1,9 @@
 package problems;
+import archived.Library;
 import java.util.ArrayList;
 import java.util.List;
-import static problems.Library.isPalindrome;
-import static problems.Library.base2;
+import static archived.Library.isPalindrome;
+import static archived.Library.base2;
 /**
  *
  * @author ataylor

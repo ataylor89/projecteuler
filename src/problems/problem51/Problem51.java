@@ -2,7 +2,7 @@ package problems.problem51;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-import problems.Library;
+import archived.Library;
 import util.Sets;
 
 /**
