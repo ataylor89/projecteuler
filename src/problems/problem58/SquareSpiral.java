@@ -3,7 +3,7 @@ package problems.problem58;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.math3.fraction.Fraction;
-import util.PrimeFinder;
+import util.SieveOfEratosthenes;
 
 /**
  *
@@ -19,9 +19,9 @@ public class SquareSpiral {
     List<Integer> diagonals;
     List<Integer> primeDiagonals;
     
-    private PrimeFinder pgen;
+    private SieveOfEratosthenes sieve;
 
-    public SquareSpiral(int depth, PrimeFinder pgen) {
+    public SquareSpiral(int depth) {
         assert (depth % 2 == 1);
         
         SIZE = depth;
@@ -30,7 +30,8 @@ public class SquareSpiral {
         diagonals = new ArrayList<>();
         primeDiagonals = new ArrayList<>();
         
-        this.pgen = pgen;
+        this.sieve = new SieveOfEratosthenes(depth * depth);
+        sieve.generate(true);
     }
 
     public void solve() {
@@ -81,7 +82,7 @@ public class SquareSpiral {
         if (row == col || (row + col == SIZE - 1)) {
             diagonals.add(counter);
             
-            if (pgen.isPrime(counter)) 
+            if (sieve.isPrime(counter)) 
                 primeDiagonals.add(counter);
         }
     }

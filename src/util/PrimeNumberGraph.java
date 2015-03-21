@@ -1,5 +1,6 @@
 package util;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -7,23 +8,23 @@ import java.util.List;
  * @author ataylor
  */
 public class PrimeNumberGraph extends Graph {
-
-    private PrimeFinder primeFinder;
+    
+    private SieveOfEratosthenes sieve;
+    private int sizeOfSieve = Integer.MAX_VALUE - 8;
     private int sizeOfGraph;
-    private int sieveDepth = Integer.MAX_VALUE - 8;
     
     public PrimeNumberGraph(int sizeOfGraph) {
         super();
         this.sizeOfGraph = sizeOfGraph;
         
-        primeFinder = new SieveOfEratosthenes(sieveDepth);
-        primeFinder.generate(true);
+        sieve = new SieveOfEratosthenes(sizeOfSieve);
+        sieve.generate(true);
     }
     
     public void generate(boolean showRunningTime) {
         long begin = System.currentTimeMillis();
         
-        List<Integer> primes = primeFinder.getPrimes(sizeOfGraph);
+        List<Integer> primes = sieve.getPrimes(sizeOfGraph);
         
         for (int i = 0; i < primes.size(); i++) {
             for (int j = i + 1; j < primes.size(); j++) {
@@ -36,16 +37,17 @@ public class PrimeNumberGraph extends Graph {
         }
         
         long runningTime = System.currentTimeMillis() - begin;
+        
         if (showRunningTime)
-            System.out.println("Generated graph in " + runningTime + "ms.");
+            System.out.println("Generated graph in " + runningTime + "ms. Highest prime: " + Collections.max(vertices.keySet()));
     }
     
     private boolean hasProperty(Integer n1, Integer n2) {
         long c1 = concat(n1, n2);
         long c2 = concat(n2, n1);
 
-        if (c1 <= sieveDepth && c2 <= sieveDepth)
-            return primeFinder.isPrime((int) c1) && primeFinder.isPrime((int) c2);
+        if (c1 < sizeOfSieve && c2 < sizeOfSieve)
+            return sieve.isPrime((int) c1) && sieve.isPrime((int) c2);
         
         return false; 
         

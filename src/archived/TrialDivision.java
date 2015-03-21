@@ -2,13 +2,12 @@ package archived;
 
 import java.util.ArrayList;
 import java.util.List;
-import util.PrimeFinder;
 
 /**
  *
  * @author ataylor
  */
-public class TrialDivision implements PrimeFinder {
+public class TrialDivision {
 
     private int depth;
     private List<Integer> primes;
@@ -22,7 +21,6 @@ public class TrialDivision implements PrimeFinder {
         primes.add(n);
     }
     
-    @Override
     public long generate(boolean showRunningTime) {
         long begin = System.currentTimeMillis();
         
@@ -48,7 +46,6 @@ public class TrialDivision implements PrimeFinder {
         return runningTime;
     }
     
-    @Override
     public boolean isPrime(int n) {
         for (int i = 0; i < primes.size(); i++) {
             if (primes.get(i) == n)
@@ -59,12 +56,10 @@ public class TrialDivision implements PrimeFinder {
         return false;
     }
 
-    @Override
     public List<Integer> getPrimes() {
         return primes;
     }
 
-    @Override
     public List<Integer> getPrimesUpTo(int n) {
         for (int i = 0; i < primes.size(); i++) {
             if (primes.get(i) >= n)
@@ -73,13 +68,11 @@ public class TrialDivision implements PrimeFinder {
         return primes;
     }
 
-    @Override
     public List<Integer> getPrimes(int howMany) {
         return primes.subList(1, howMany);
     }
 
-    @Override
-    public int getDepth() {
+    public int size() {
         return depth;
     }
 }

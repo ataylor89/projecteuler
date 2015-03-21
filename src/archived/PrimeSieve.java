@@ -1,4 +1,4 @@
-package util;
+package archived;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import java.util.List;
  *
  * @author ataylor
  */
-public interface PrimeFinder {
+public interface PrimeSieve {
     
     public abstract long generate(boolean showRunningTime);
     
@@ -18,5 +18,5 @@ public interface PrimeFinder {
     
     public abstract List<Integer> getPrimesUpTo(int upperBound);
     
-    public int getDepth();
+    public int size();
 }

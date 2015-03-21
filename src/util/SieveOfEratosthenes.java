@@ -8,19 +8,20 @@ import java.util.List;
  *
  * @author ataylor
  */
-public class SieveOfEratosthenes implements PrimeFinder {
+public class SieveOfEratosthenes {
 
-    private int depth;
-    private boolean[] sieve;
+    protected boolean[] sieve;
     
-    public SieveOfEratosthenes(int depth) {
-        this.depth = depth;
-        sieve = new boolean[depth + 1];
+    protected SieveOfEratosthenes() {}
+    
+    public SieveOfEratosthenes(int size) {
+        sieve = new boolean[size];
     }
     
-    @Override
     public long generate(boolean showRunningTime) {
         long begin = System.currentTimeMillis();
+        
+        final int depth = sieve.length - 1;
         
         Arrays.fill(sieve,true);
         sieve[0]=false;
@@ -40,7 +41,6 @@ public class SieveOfEratosthenes implements PrimeFinder {
         return runningTime;
     }
     
-    @Override
     public boolean isPrime(int n) {
         if (n < 0)
             return false;
@@ -48,7 +48,6 @@ public class SieveOfEratosthenes implements PrimeFinder {
         return sieve[n];
     }
 
-    @Override
     public List<Integer> getPrimes() {
         List<Integer> primes = new ArrayList<>();
         
@@ -59,7 +58,6 @@ public class SieveOfEratosthenes implements PrimeFinder {
         return primes;
     }
     
-    @Override
     public List<Integer> getPrimes(int howMany) {
         List<Integer> primes = new ArrayList<>();
             
@@ -70,7 +68,6 @@ public class SieveOfEratosthenes implements PrimeFinder {
         return primes;
     }
     
-    @Override 
     public List<Integer> getPrimesUpTo(int cutoff) {
         List<Integer> subset = new ArrayList<>();
         
@@ -81,8 +78,7 @@ public class SieveOfEratosthenes implements PrimeFinder {
         return subset;
     }
 
-    @Override
-    public int getDepth() {
-        return depth;
+    public int size() {
+        return sieve.length;
     }
 }

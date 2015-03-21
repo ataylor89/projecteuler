@@ -1,7 +1,6 @@
 package problems;
 
 import java.util.List;
-import util.PrimeFinder;
 import util.SieveOfEratosthenes;
 
 /**
@@ -10,16 +9,16 @@ import util.SieveOfEratosthenes;
  */
 public class Problem10 {
     
-    private PrimeFinder primeFinder;
+    private SieveOfEratosthenes sieve;
     private int depth = 2000000; // 2 million
     
     public Problem10() {
-        primeFinder = new SieveOfEratosthenes(depth);
-        primeFinder.generate(true);
+        sieve = new SieveOfEratosthenes(depth);
+        sieve.generate(true);
     }
     
     public void solve() {
-        List<Integer> primes = primeFinder.getPrimes();
+        List<Integer> primes = sieve.getPrimes();
         
         long sum = 0;
         for (int p : primes)

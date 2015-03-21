@@ -11,6 +11,8 @@ import java.net.URL;
 public class Problem54 {
     
     public static void main(String[] args) throws Exception {
+        long begin = System.currentTimeMillis();
+        
         Score score = new Score();
         
         URL url = new URL("https://projecteuler.net/project/resources/p054_poker.txt");
@@ -36,11 +38,16 @@ public class Problem54 {
             }
             
             Result result = new Result(h1, h2);
-            System.out.println(result + "\n");
+//            System.out.println(result + "\n");
             
             score.addResult(result);
         }
         
         System.out.println(score);
+        clock(begin);
+    }
+    
+    public static void clock(long beginTime) {
+        System.out.println("Execution time: " + (System.currentTimeMillis() - beginTime) + "ms");
     }
 }

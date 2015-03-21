@@ -4,7 +4,6 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import util.PrimeFinder;
 import util.SieveOfEratosthenes;
 
 /**
@@ -14,7 +13,7 @@ import util.SieveOfEratosthenes;
 public class BruteForceAttempt {
     
     private List<Integer> primes;
-    PrimeFinder pgen;
+    SieveOfEratosthenes sieve;
     
     private int minSum = 0;
     
@@ -28,9 +27,9 @@ public class BruteForceAttempt {
     public BruteForceAttempt() {
         int N = 20002000;
         
-        pgen = new SieveOfEratosthenes(N);
-        pgen.generate(true);
-        primes = pgen.getPrimesUpTo(2000);
+        sieve = new SieveOfEratosthenes(N);
+        sieve.generate(true);
+        primes = sieve.getPrimesUpTo(2000);
     }
     
     public void solve() {
@@ -63,7 +62,7 @@ public class BruteForceAttempt {
                Integer n1 = concat2(cmb.get(i), cmb.get(j));
                Integer n2 = concat2(cmb.get(j), cmb.get(i));
 
-               if (!pgen.isPrime(n1) || !pgen.isPrime(n2))
+               if (!sieve.isPrime(n1) || !sieve.isPrime(n2))
                    return false;
            }
         }

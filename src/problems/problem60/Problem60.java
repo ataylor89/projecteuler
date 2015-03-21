@@ -17,7 +17,7 @@ import util.Vertex;
 public class Problem60 {
     
     private PrimeNumberGraph graph;
-    int sizeOfGraph = 10000;
+    int sizeOfGraph = 3000;
     
     public Problem60() {
         graph = new PrimeNumberGraph(sizeOfGraph);
@@ -39,7 +39,7 @@ public class Problem60 {
         List<Clique> endpoint = generate(origin, 2, cliqueSize, pool);
         Collections.sort(endpoint);
         
-        System.out.println(endpoint);
+        System.out.println("Solutions: " + endpoint);
     }
     
     private List<Clique> generate(Set<Clique> current, int currentSize, int targetSize, List<Vertex> pool) {
@@ -59,6 +59,13 @@ public class Problem60 {
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem60().solve(5);
+        clock(begin);
+    }
+    
+    public static void clock(long beginTime) {
+        System.out.println("Execution time : " + (System.currentTimeMillis() - beginTime) + "ms");
     }
 }
