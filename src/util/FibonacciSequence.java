@@ -48,9 +48,6 @@ public class FibonacciSequence {
     }
     
     public int get(int n) {
-        if (n < 0)
-            throw new ArrayIndexOutOfBoundsException();
-        
         return sequence.get(n);
     }
     
