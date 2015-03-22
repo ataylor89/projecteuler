@@ -25,7 +25,6 @@ public class Problem4 {
         
         long runningTime = System.currentTimeMillis() - begin;
         System.out.println("Execution time: " + runningTime + "ms");
-        
     }
     
     // Faster
