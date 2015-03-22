@@ -10,10 +10,10 @@ import util.SieveOfEratosthenes;
 public class Problem10 {
     
     private SieveOfEratosthenes sieve;
-    private int depth = 2000000; // 2 million
+    private int size = 2000000; // 2 million
     
     public Problem10() {
-        sieve = new SieveOfEratosthenes(depth);
+        sieve = new SieveOfEratosthenes(size);
         sieve.generate(true);
     }
     
