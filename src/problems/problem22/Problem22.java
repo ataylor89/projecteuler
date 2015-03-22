@@ -1,4 +1,4 @@
-package problems;
+package problems.problem22;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Problem22 {
     
     public static void main(String[] args) throws IOException {
-        List<String> names = readFileAsList("names.txt");
+        List<String> names = readFileAsList("src/problems/problem22/names.txt");
         Collections.sort(names);
         
         int sum = 0;

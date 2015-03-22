@@ -1,4 +1,4 @@
-package problems;
+package problems.problem42;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -52,7 +52,7 @@ public class Problem42 {
     public static void main(String[] args) 
             throws Exception {
         
-        String s = new String(Files.readAllBytes(Paths.get("words.txt")));
+        String s = new String(Files.readAllBytes(Paths.get("src/problems/problem42/words.txt")));
         List<String> words = new ArrayList<>();
         
         for (String w : s.split(",")) 
