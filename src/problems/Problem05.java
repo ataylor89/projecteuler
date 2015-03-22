@@ -10,8 +10,6 @@ import util.PrimeFactorization;
  */
 public class Problem05 {
     
-    
-    
     public void solve() {
         Map<Long, Integer> answer = new HashMap<>();
         
