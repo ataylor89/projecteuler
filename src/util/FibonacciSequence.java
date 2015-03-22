@@ -16,6 +16,9 @@ public class FibonacciSequence {
     }
     
     public static FibonacciSequence ofLength(int length) {
+        if (length < 2)
+            throw new IllegalArgumentException("Length should be >= 2.");
+        
         List<Integer> sequence = new ArrayList<>();
 
         sequence.add(1);
@@ -27,6 +30,9 @@ public class FibonacciSequence {
     }
     
     public static FibonacciSequence upTo(int upperBound) {
+        if (upperBound < 2)
+            throw new IllegalArgumentException("Upper bound should be >= 2.");
+        
         List<Integer> sequence = new ArrayList<>();
 
         sequence.add(1);
@@ -43,7 +49,7 @@ public class FibonacciSequence {
     
     public int get(int n) {
         if (n < 0)
-            throw new IllegalArgumentException("Argument n cannot be negative.");
+            throw new ArrayIndexOutOfBoundsException();
         
         return sequence.get(n);
     }
