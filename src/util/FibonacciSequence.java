@@ -15,13 +15,15 @@ public class FibonacciSequence {
         this.sequence = sequence;
     }
     
-    public FibonacciSequence(int length) {
-        sequence = new ArrayList<>();
+    public static FibonacciSequence ofLength(int length) {
+        List<Integer> sequence = new ArrayList<>();
 
         sequence.add(1);
         sequence.add(1);
         for (int i = 2; i < length; i++) 
             sequence.add(sequence.get(i-1) + sequence.get(i-2));
+        
+        return new FibonacciSequence(sequence);
     }
     
     public static FibonacciSequence upTo(int upperBound) {
