@@ -8,7 +8,7 @@ import java.util.List;
  *
  * @author ataylor
  */
-public class Problem4 {
+public class Problem04 {
     
     public void solve() {
         long begin = System.currentTimeMillis();
@@ -47,6 +47,6 @@ public class Problem4 {
     }
     
     public static void main(String[] args) {
-        new Problem4().solve();
+        new Problem04().solve();
     }
 }

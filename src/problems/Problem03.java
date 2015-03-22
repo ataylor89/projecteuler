@@ -6,7 +6,7 @@ import util.PrimeFactorization;
  *
  * @author ataylor
  */
-public class Problem3 {
+public class Problem03 {
     
     public void solve(long n) {
         PrimeFactorization pf = new PrimeFactorization(n);
@@ -16,6 +16,6 @@ public class Problem3 {
     }
     
     public static void main(String[] args) {
-        new Problem3().solve(600851475143L);
+        new Problem03().solve(600851475143L);
     }
 }

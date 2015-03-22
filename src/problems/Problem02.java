@@ -6,7 +6,7 @@ import util.FibonacciSequence;
  *
  * @author ataylor
  */
-public class Problem2 {
+public class Problem02 {
     
     public void solve() {
         FibonacciSequence sequence = FibonacciSequence.upTo(4000000);
@@ -20,7 +20,7 @@ public class Problem2 {
     }
     
     public static void main(String[] args) {
-        new Problem2().solve();
+        new Problem02().solve();
     }
     
 }

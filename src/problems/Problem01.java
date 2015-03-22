@@ -4,7 +4,7 @@ package problems;
  *
  * @author ataylor
  */
-public class Problem1 {
+public class Problem01 {
     
     public void solve() {
         int sum = 0;
@@ -18,6 +18,6 @@ public class Problem1 {
     }
     
     public static void main(String[] args) {
-        new Problem1().solve();
+        new Problem01().solve();
     }
 }

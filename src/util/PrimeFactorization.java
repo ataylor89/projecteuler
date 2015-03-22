@@ -1,12 +1,10 @@
 package util;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  *
@@ -22,9 +20,23 @@ public class PrimeFactorization {
         primeFactors = new HashMap<>();
     }
     
-    public long generate(boolean showRunningTime) {
-        long begin = System.currentTimeMillis();
+    public PrimeFactorization(Map<Long, Integer> map) {
+        this.primeFactors = map;
         
+        long n = 1;
+        for (long prime : map.keySet())
+            for (int i = 0; i < map.get(prime); i++)
+                n *= prime;
+        
+        this.number = n;
+    }
+    
+    public long generate(boolean showRunningTime) {
+        if (!primeFactors.isEmpty())
+            return 0;
+        
+        long begin = System.currentTimeMillis();
+
         long quotient = number;
         for (long i = 2; i <= number && quotient > 1; i++) {
             while (quotient % i == 0) {
@@ -32,12 +44,12 @@ public class PrimeFactorization {
                 add(i);
             }
         }
-        
+
         long runningTime = System.currentTimeMillis() - begin;
-        
+
         if (showRunningTime)
             System.out.printf("Factored %d in %d ms.%n", number, runningTime);
-        
+
         return runningTime;
     }
     
@@ -50,7 +62,14 @@ public class PrimeFactorization {
     }
     
     public Map<Long, Integer> get() {
+        if (primeFactors.isEmpty())
+            generate(false);
+        
         return primeFactors;
+    }
+    
+    public long value() {
+        return number;
     }
     
     @Override
