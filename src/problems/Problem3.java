@@ -9,7 +9,6 @@ import util.SieveOfEratosthenes;
  */
 public class Problem3 {
     
-    
     public void solution1() {
         long n = 600851475143L;
         int m = (int) Math.sqrt(n);

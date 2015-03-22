@@ -1,4 +1,4 @@
-package problems;
+package problems.problem18;
 
 import java.io.FileReader;
 import java.util.Scanner;
@@ -20,7 +20,7 @@ public class Problem18 {
     }
     
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(new FileReader("problem18.txt"));
+        Scanner sc = new Scanner(new FileReader("src/problems/problem18/problem18.txt"));
         
         Node[] top = parse(sc.nextLine());
         Node root = top[0];
