@@ -1,7 +1,6 @@
 package problems;
 
-import java.util.List;
-import util.SieveOfEratosthenes;
+import util.PrimeFactorization;
 
 /**
  *
@@ -9,26 +8,14 @@ import util.SieveOfEratosthenes;
  */
 public class Problem3 {
     
-    public void solution1() {
-        long n = 600851475143L;
-        int m = (int) Math.sqrt(n);
+    public void solve(long n) {
+        PrimeFactorization pf = new PrimeFactorization(n);
+        pf.generate(true);
         
-        SieveOfEratosthenes sieve = new SieveOfEratosthenes(m);
-        sieve.generate(true);
-        
-        List<Integer> primes = sieve.getPrimes();
-        
-        for (int i = primes.size() - 1; i >= 0; i--) {
-            int p = primes.get(i);
-            
-            if (n % p == 0) {
-                System.out.println(p);
-                break;
-            }
-        }
+        System.out.println(pf);
     }
     
     public static void main(String[] args) {
-        new Problem3().solution1();
+        new Problem3().solve(600851475143L);
     }
 }
