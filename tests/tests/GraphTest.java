@@ -18,17 +18,6 @@ public class GraphTest {
     private PrimeNumberGraph graph;
     private int sizeOfGraph = 7000; // ten thousand
     
-    public GraphTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
     @Before
     public void setUp() {
 //        graph = new Graph();
@@ -47,10 +36,6 @@ public class GraphTest {
         
         graph = new PrimeNumberGraph(sizeOfGraph);
         graph.generate(true);
-    }
-    
-    @After
-    public void tearDown() {
     }
     
     @Test

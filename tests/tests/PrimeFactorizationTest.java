@@ -14,25 +14,6 @@ import util.PrimeFactorization;
  */
 public class PrimeFactorizationTest {
     
-    public PrimeFactorizationTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
-    
     @Test
     public void testFactorization() {
         test(10, "2 * 5");

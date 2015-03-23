@@ -15,25 +15,6 @@ import util.CollatzSequence;
  */
 public class CollatzSequenceTest {
     
-    public CollatzSequenceTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
-    
     @Test
     public void testKnownSequence() {
         CollatzSequence s = new CollatzSequence(13);
