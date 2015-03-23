@@ -1,4 +1,4 @@
-package problems.problem60;
+package problems;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -48,12 +48,10 @@ public class Problem60 {
         
         Set<Clique> next = new HashSet<>();
         
-        for (Vertex v : pool) {
-            for (Clique c : current) {
+        for (Vertex v : pool) 
+            for (Clique c : current) 
                 if (c.belongs(v))
                     next.add(new Clique(c, v));
-            }
-        }
         
         return generate(next, currentSize + 1, targetSize, pool);
     }
