@@ -20,7 +20,7 @@ public class Problem14 {
             System.out.println(n);
         }
         
-        System.out.println(longest);
+        System.out.println("Start: " + longest.get(0) + ", Length: " + longest.length());
     }
     
     public static void main(String[] args) {

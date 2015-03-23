@@ -25,7 +25,7 @@ public class CollatzSequenceTest {
         
         int start = 113383;
         CollatzSequence s = new CollatzSequence(start);
-        System.out.println("Collatz sequence starting at " + start + ". Length: " + s.length());
+        System.out.println("Start: " + s.get(0) + ". Length: " + s.length());
         clock(begin);
     }
     
