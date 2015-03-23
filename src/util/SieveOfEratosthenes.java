@@ -10,9 +10,7 @@ import java.util.List;
  */
 public class SieveOfEratosthenes {
 
-    protected boolean[] sieve;
-    
-    protected SieveOfEratosthenes() {}
+    private boolean[] sieve;
     
     public SieveOfEratosthenes(int size) {
         sieve = new boolean[size];
