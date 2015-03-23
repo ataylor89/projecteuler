@@ -31,7 +31,6 @@ public class Problem60 {
         List<Vertex> pool = graph.verticesOfDegreeAtLeast(D);
         
         // This for loop will give us all relevant cliques size 2.
-        // By relevant: they are the only cliques with potential of becoming cliques size 5.
         for (Edge e : graph.edges())
             if (e.v1().degree() >= D && e.v2().degree() >= D)
                 origin.add(new Clique(e));
