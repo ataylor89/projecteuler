@@ -1,7 +1,6 @@
 package problems;
 
 import util.Divisors;
-import util.PrimeFactorization;
 
 /**
  *
