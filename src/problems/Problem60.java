@@ -30,7 +30,6 @@ public class Problem60 {
         Set<Clique> origin = new HashSet<>();
         List<Vertex> pool = graph.verticesOfDegreeAtLeast(D);
         
-        // This for loop will give us all relevant cliques size 2.
         for (Edge e : graph.edges())
             if (e.v1().degree() >= D && e.v2().degree() >= D)
                 origin.add(new Clique(e));
