@@ -33,8 +33,8 @@ public class PrimeFactorizationTest {
     public void tearDown() {
     }
     
-    @Test
-    public void test() {
+//    @Test
+    public void testFactorization() {
         test(10, "2 * 5");
         test(11, "11");
         test(64, "2^6");
@@ -42,8 +42,7 @@ public class PrimeFactorizationTest {
     }
     
     private void test(long number, String expected) {
-        PrimeFactorization pf = new PrimeFactorization(number);
-        pf.generate(true);
+        PrimeFactorization pf = new PrimeFactorization(number, true);
         
         System.out.println(pf);
         Assert.assertEquals(expected, pf.toString());
