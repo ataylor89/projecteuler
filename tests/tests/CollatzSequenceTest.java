@@ -1,12 +1,7 @@
 package tests;
 
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import util.CollatzSequence;
 
 /**
@@ -22,5 +17,21 @@ public class CollatzSequenceTest {
         
         String expected = "[13, 40, 20, 10, 5, 16, 8, 4, 2, 1]";
         Assert.assertEquals(s.toString(), expected);
+    }
+    
+    @Test
+    public void testLongSequence() {
+        long begin = System.currentTimeMillis();
+        
+        int start = 113383;
+        CollatzSequence s = new CollatzSequence(start);
+        System.out.println("Collatz sequence starting at " + start + ". Length: " + s.length());
+        clock(begin);
+    }
+    
+    private void clock(long begin) {
+        long runningTime = System.currentTimeMillis() - begin;
+        
+        System.out.println("Execution time: " + runningTime + "ms.");
     }
 }
