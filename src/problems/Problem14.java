@@ -16,8 +16,6 @@ public class Problem14 {
             
             if (seq.length() > longest.length())
                 longest = seq;
-            
-            System.out.println(n);
         }
         
         System.out.println("Start: " + longest.get(0) + ", Length: " + longest.length());
