@@ -119,6 +119,11 @@ public class Problem13 {
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem13().solve();
+        
+        long runningTime = System.currentTimeMillis() - begin;
+        System.out.println("Execution time: " + runningTime + "ms.");
     }
 }

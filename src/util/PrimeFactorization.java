@@ -15,15 +15,16 @@ public class PrimeFactorization {
     private final long number;
     private Map<Long, Integer> primeFactors;
     
-    public PrimeFactorization(long number, boolean showRunningTime) {
+    public PrimeFactorization(long number) {
         this.number = number;
         primeFactors = new HashMap<>();
         
-        generate(showRunningTime);
-    }
-    
-    public PrimeFactorization(long number) {
-        this(number, false);
+        for (long i = 2; i <= number; i++) {
+            while (number % i == 0) {
+                number /= i;
+                add(i);
+            }
+        }
     }
     
     public PrimeFactorization(Map<Long, Integer> map) {
@@ -35,23 +36,6 @@ public class PrimeFactorization {
                 n *= prime;
         
         this.number = n;
-    }
-    
-    private void generate(boolean showRunningTime) {
-        long begin = System.currentTimeMillis();
-
-        long quotient = number;
-        for (long i = 2; i <= number && quotient > 1; i++) {
-            while (quotient % i == 0) {
-                quotient /= i;
-                add(i);
-            }
-        }
-
-        long runningTime = System.currentTimeMillis() - begin;
-
-        if (showRunningTime)
-            System.out.printf("Factored %d in %d ms.%n", number, runningTime);
     }
     
     private void add(long p) {

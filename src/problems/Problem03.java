@@ -9,7 +9,7 @@ import util.PrimeFactorization;
 public class Problem03 {
     
     public void solve(long n) {
-        PrimeFactorization pf = new PrimeFactorization(n, true);
+        PrimeFactorization pf = new PrimeFactorization(n);
         System.out.println(pf);
     }
     
