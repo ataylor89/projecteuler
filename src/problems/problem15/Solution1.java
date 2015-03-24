@@ -1,4 +1,4 @@
-package problems;
+package problems.problem15;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
  *
  * @author ataylor
  */
-public class Problem15 {
+public class Solution1 {
 
     private long[] paths = new long[21];
     
@@ -52,6 +52,6 @@ public class Problem15 {
     }
     
     public static void main(String[] args) {
-        new Problem15().solve();
+        new Solution1().solve();
     }
 }
