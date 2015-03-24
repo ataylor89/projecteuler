@@ -1,7 +1,5 @@
 package problems;
 
-import java.util.Arrays;
-
 /**
  *
  * @author ataylor
@@ -9,12 +7,8 @@ import java.util.Arrays;
 public class Problem15 {
     
     public void solve() {
-        long begin = System.currentTimeMillis();
         long answer = solve(new long[21][21], 0, 0);
-
-        long runningTime = System.currentTimeMillis() - begin;
         System.out.println("Number of paths: " + answer);
-        System.out.println("Execution time: " + runningTime + "ms.");
     }
     
     private long solve(long[][] grid, int x, int y) {
@@ -33,7 +27,16 @@ public class Problem15 {
         return grid[x][y];
     }
     
+    public void clock(long begin) {
+        long runningTime = System.currentTimeMillis() - begin;
+        System.out.println("Execution time: " + runningTime + "ms.");
+    }
+    
     public static void main(String[] args) {
-        new Problem15().solve();
+        long begin = System.currentTimeMillis();
+        
+        Problem15 problem = new Problem15();
+        problem.solve();
+        problem.clock(begin);
     }
 }
