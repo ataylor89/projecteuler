@@ -9,9 +9,11 @@ import java.util.Map;
  */
 public class Problem17 {
     
-    static final Map<Integer, String> numbers = new HashMap<>();
+    static final Map<Integer, String> numbers;
     
     static {  
+        numbers = new HashMap<>();
+        
         numbers.put(1, "one");
         numbers.put(2, "two");
         numbers.put(3, "three");
@@ -52,11 +54,12 @@ public class Problem17 {
     }
     
     public static void main(String[] args) {
-        for (int n = 21; n <= 1000; n++) 
+        for (int n = 21; n <= 1000; n++) {
             if (numbers.containsKey(n)) 
                 continue;
             else
                 numbers.put(n, spell(n));
+        }
         
         String result = "";
         for (int i = 1; i <= 1000; i++) {
@@ -64,9 +67,7 @@ public class Problem17 {
             result += numbers.get(i);
         }
         
-        String mini = minify(result);
-        int len = mini.length();
-        System.out.println("Number of letters: " + len);
+        System.out.println("Number of letters: " + minify(result).length());
     }
     
     public static String spell(int num) {
