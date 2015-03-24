@@ -1,4 +1,4 @@
-package problems.problem15;
+package problems;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
  *
  * @author ataylor
  */
-public class Solution2 {
+public class Problem15 {
     
     public void solve() {
         long begin = System.currentTimeMillis();
@@ -34,6 +34,6 @@ public class Solution2 {
     }
     
     public static void main(String[] args) {
-        new Solution2().solve();
+        new Problem15().solve();
     }
 }
