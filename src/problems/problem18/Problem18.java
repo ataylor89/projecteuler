@@ -1,6 +1,6 @@
-package problems;
+package problems.problem18;
 
-import util.BinaryTree;
+import java.util.List;
 
 /**
  *
@@ -26,11 +26,29 @@ public class Problem18 {
     
     public void solve() {
         BinaryTree tree = new BinaryTree(s);
-        System.out.println("Maximal path: " + tree.maximalPath());
-        System.out.println("Sum: " + tree.maximalPathSum());
+        List<TreeNode> maximalPath = tree.maximalPath();
+        
+        System.out.println("Maximal path: " + maximalPath);
+        System.out.println("Sum: " + sum(maximalPath));
+        
+        assert(tree.maximalPath().size() == s.split("\\n").length);
+    }
+    
+    public long sum(List<TreeNode> path) {
+        long sum = 0;
+        
+        for (TreeNode n : path)
+            sum += n.getValue();
+        
+        return sum;
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem18().solve();
+        
+        long runningTime = System.currentTimeMillis() - begin;
+        System.out.println("Execution time: " + runningTime + "ms.");
     }
 }

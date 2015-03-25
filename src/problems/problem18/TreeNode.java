@@ -1,48 +1,43 @@
-package util;
+package problems.problem18;
 
 /**
  *
  * @author ataylor
  */
-public class Node implements Comparable<Node> { 
+public class TreeNode implements Comparable<TreeNode> { 
     
-    private int value;
+    private Integer value;
     private Long weight;
     
-    private Node left, right, parent;
-
-    public Node() {}
+    private TreeNode left, right, parent;
     
-    public Node(int value) {
-        this.value = value;
-    }
-    
-    public Node(int value, long weight) {
+    public TreeNode(TreeNode parent, int value, long weight) {
+        this.parent = parent;
         this.value = value;
         this.weight = weight;
     }
     
-    public Node getLeft() {
+    public TreeNode getLeft() {
         return left;
     }
 
-    public void setLeft(Node left) {
+    public void setLeft(TreeNode left) {
         this.left = left;
     }
 
-    public Node getRight() {
+    public TreeNode getRight() {
         return right;
     }
 
-    public void setRight(Node right) {
+    public void setRight(TreeNode right) {
         this.right = right;
     }
 
-    public Node getParent() {
+    public TreeNode getParent() {
         return parent;
     }
 
-    public void setParent(Node parent) {
+    public void setParent(TreeNode parent) {
         this.parent = parent;
     }
 
@@ -67,7 +62,12 @@ public class Node implements Comparable<Node> {
     }
 
     @Override
-    public int compareTo(Node o) {
+    public int compareTo(TreeNode o) {
         return weight.compareTo(o.getWeight());
+    }
+    
+    @Override
+    public String toString() {
+        return value.toString();
     }
 }

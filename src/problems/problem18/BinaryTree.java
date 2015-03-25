@@ -1,7 +1,9 @@
-package util;
+package problems.problem18;
 
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  *
@@ -9,16 +11,16 @@ import java.util.List;
  */
 public class BinaryTree {
     
-    private Node root;
+    private TreeNode root;
     
     public BinaryTree(String s) {
         int[][] numbers = parse(s);
-        root = new Node(numbers[0][0], numbers[0][0]);
+        root = new TreeNode(null, numbers[0][0], numbers[0][0]);
         
         addChildren(root, numbers, 1, 0);
     }
     
-    private void addChildren(Node p, int[][] v, int row, int col) {
+    private void addChildren(TreeNode p, int[][] v, int row, int col) {
         if (row >= v.length)
             adjustWeights(p);
         
@@ -26,8 +28,8 @@ public class BinaryTree {
             int valueL = v[row][col];
             int valueR = v[row][col + 1];
 
-            p.setLeft(new Node(valueL, valueL + p.getWeight()));
-            p.setRight(new Node(valueR, valueR + p.getWeight()));
+            p.setLeft(new TreeNode(p, valueL, valueL + p.getWeight()));
+            p.setRight(new TreeNode(p, valueR, valueR + p.getWeight()));
 
             addChildren(p.getLeft(), v, row+1, col);
             addChildren(p.getRight(), v, row+1, col+1);
@@ -50,37 +52,30 @@ public class BinaryTree {
         return numbers;
     }
     
-    private void adjustWeights(Node n) {
-        long weight = n.getWeight();
+    private void adjustWeights(TreeNode n) {
+        long leafWeight = n.getWeight();
         
         while (n != root) {
             n = n.getParent();
-            n.setWeight(weight);
+            
+            if (leafWeight > n.getWeight())
+                n.setWeight(leafWeight);
         }
     }
     
-    public List<Node> maximalPath() {
-        Node cursor = root;
-        List<Node> path = new ArrayList<>();
+    public List<TreeNode> maximalPath() {
+        TreeNode cursor = root;
+        List<TreeNode> path = new ArrayList<>();
         path.add(cursor);
         
         while (!cursor.isLeaf()) {
-            Node left = cursor.getLeft();
-            Node right = cursor.getRight();
+            TreeNode left = cursor.getLeft();
+            TreeNode right = cursor.getRight();
             
             cursor = left.compareTo(right) > 0 ? left : right;
             path.add(cursor);
         }
         
         return path;
-    }
-    
-    public long maximalPathSum() {
-        long sum = 0;
-        
-        for (Node n : maximalPath())
-            sum += n.getValue();
-        
-        return sum;
     }
 }
