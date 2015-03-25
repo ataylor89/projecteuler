@@ -1,6 +1,8 @@
-package problems.problem18;
+package problems;
 
 import java.util.List;
+import problems.problem18.BinaryTree;
+import problems.problem18.TreeNode;
 
 /**
  *
