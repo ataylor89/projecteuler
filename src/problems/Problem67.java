@@ -14,12 +14,8 @@ public class Problem67 {
     
     public void solve(String s) {
         Node[][] triangle = parse(s);
-        int len = triangle.length;
         
-        for (int row = len - 2 - (len % 2); row >= 0; row -= 2)
-            maximalPath(triangle, row, row/2);
-        
-        System.out.println("Maximal path: " + triangle[0][0].getMaximalPath());
+        System.out.println("Maximal path: " + maximalPath(triangle, 0, 0));
     }
     
     private long maximalPath(Node[][] triangle, int row, int col) {

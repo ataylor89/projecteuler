@@ -13,7 +13,7 @@ public class Problem12 {
         for (long i=1;;i++) {
             T += i;
             
-            if (new Divisors(T).number() > 500)
+            if (new Divisors(T).count() > 500)
                 break;
         }
         System.out.println(T);

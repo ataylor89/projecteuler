@@ -1,14 +1,5 @@
 package problems;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.List;
-import java.util.Scanner;
-import archived.BinaryTree;
-import archived.TreeNode;
-import problems.problem67.Node;
-
 /**
  *
  * @author ataylor

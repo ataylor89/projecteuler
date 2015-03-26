@@ -2,6 +2,7 @@ package problems;
 
 import java.util.HashSet;
 import java.util.Set;
+import util.Divisors;
 
 /**
  *
@@ -9,39 +10,44 @@ import java.util.Set;
  */
 public class Problem21 {
     
-    static Set<Integer> amicableNumbers = new HashSet<>();
-    
-    public static void main(String[] args) {
-        for (int i = 0; i < 10000; i++) {
-            for (int j = 0; j < 10000; j++) {
-                if (i == j) {
-                    continue;
-                }
-                if (d(i) == j && d(j) == i) {
-                    amicableNumbers.add(i);
-                    amicableNumbers.add(j);
+    public void solve() {
+        final int bound = 10000;
+        
+        Set<Integer> amicable = new HashSet<>();
+        Divisors[] table = new Divisors[10000];
+        
+        for (int i = 1; i < table.length; i++)
+            table[i] = new Divisors(i);
+        
+        for (int i = 1; i < bound; i++) {
+            for (int j = i + 1; j < bound; j++) {
+                Divisors di = table[i];
+                Divisors dj = table[j];
+                
+                if (di.sumProper() == j && dj.sumProper() == i) {
+                    amicable.add(i);
+                    amicable.add(j);
                 }
             }
-            if (i % 1000 == 0) {
-                System.out.println("i: " + i);
-                System.out.println(amicableNumbers);
-                System.out.println("Cardinality: " + amicableNumbers.size() + "\n");
-            }
         }
-        int answer = 0;
-        for (int num : amicableNumbers) {
-            answer += num;
-        }
-        System.out.println("Sum of amicable numbers under 10000: " + answer);
+
+        System.out.println("Sum of amicable numbers under " + bound + ": " + sum(amicable));
     }
     
-    public static int d(int n) {
+    public int sum(Set<Integer> set) {
         int sum = 0;
-        for (int i = 1; i < n; i++) {
-            if (n % i == 0) {
-                sum += i;
-            }
-        }
+        for (int n : set)
+            sum += n;
+        
         return sum;
+    }
+    
+    public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
+        new Problem21().solve();
+        
+        long runningTime = System.currentTimeMillis() - begin;
+        System.out.println("Execution time: " + runningTime + "ms.");
     }
 }
