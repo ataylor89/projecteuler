@@ -23,12 +23,17 @@ public class Divisors {
     
     private void generate() {
         divisors.add(1L);
-        for (long m = 2; m * m < number; m++) {
+        long m = 2;
+        
+        for (m = 2; m * m < number; m++) {
             if (number % m == 0) {
                 divisors.add(m);
                 divisors.add(number/m);
             }
         }
+        
+        if (m * m == number)
+            divisors.add(m);
         
         if (number > 1)
             divisors.add(number);
