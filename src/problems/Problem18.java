@@ -1,15 +1,21 @@
 package problems;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.List;
-import problems.problem18.BinaryTree;
-import problems.problem18.TreeNode;
+import java.util.Scanner;
+import archived.BinaryTree;
+import archived.TreeNode;
+import problems.problem67.Node;
 
 /**
  *
  * @author ataylor
  */
 public class Problem18 {
-    String s = 
+    
+    static String s = 
         "75\n" +
         "95 64\n" +
         "17 47 82\n" +
@@ -26,29 +32,44 @@ public class Problem18 {
         "63 66 04 68 89 53 67 30 73 16 69 87 40 31\n" +
         "04 62 98 27 23 09 70 98 73 93 38 53 60 04 23";
     
-    public void solve() {
-        BinaryTree tree = new BinaryTree(s);
-        List<TreeNode> maximalPath = tree.maximalPath();
+    public void solve(String s) {
+        int[][] triangle = parse(s);
         
-        System.out.println("Maximal path: " + maximalPath);
-        System.out.println("Sum: " + sum(maximalPath));
-        
-        assert(tree.maximalPath().size() == s.split("\\n").length);
+        System.out.println("Maximal path: " + maximalPath(triangle, 0, 0));
     }
     
-    public long sum(List<TreeNode> path) {
-        long sum = 0;
+    private long maximalPath(int[][] triangle, int row, int col) {
+        long value = triangle[row][col];
         
-        for (TreeNode n : path)
-            sum += n.getValue();
+        if (row >= triangle.length - 1)
+            return value;
         
-        return sum;
+        long L = value + maximalPath(triangle, row+1, col);
+        long R = value + maximalPath(triangle, row+1, col+1);
+            
+        return L > R ? L : R;
+    }
+
+    private int[][] parse(String s) {
+        String[] rows = s.split("\\n");
+        int max = rows[rows.length - 1].split(" ").length;
+        
+        int[][] triangle = new int[max][max];
+        
+        for (int i = 0; i < rows.length; i++) {
+            String[] strvalues = rows[i].split(" ");
+            
+            for (int j = 0; j < strvalues.length; j++)
+                triangle[i][j] = Integer.parseInt(strvalues[j]);
+        }
+        
+        return triangle;
     }
     
     public static void main(String[] args) {
         long begin = System.currentTimeMillis();
         
-        new Problem18().solve();
+        new Problem18().solve(s);
         
         long runningTime = System.currentTimeMillis() - begin;
         System.out.println("Execution time: " + runningTime + "ms.");

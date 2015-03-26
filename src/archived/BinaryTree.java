@@ -1,4 +1,4 @@
-package problems.problem18;
+package archived;
 
 import java.net.URL;
 import java.util.ArrayList;
