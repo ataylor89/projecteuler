@@ -14,7 +14,7 @@ public class Problem21 {
         final int bound = 10000;
         
         Set<Integer> amicable = new HashSet<>();
-        Divisors[] table = new Divisors[10000];
+        Divisors[] table = new Divisors[bound];
         
         for (int i = 1; i < table.length; i++)
             table[i] = new Divisors(i);
