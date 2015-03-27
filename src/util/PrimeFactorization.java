@@ -19,12 +19,15 @@ public class PrimeFactorization {
         this.number = number;
         primeFactors = new HashMap<>();
         
-        for (long i = 2; i <= number; i++) {
+        for (long i = 2; i * i <= number; i++) {
             while (number % i == 0) {
                 number /= i;
                 add(i);
             }
         }
+        
+        if (number > 1)
+            add(number);
     }
     
     public PrimeFactorization(Map<Long, Integer> map) {
