@@ -1,6 +1,6 @@
 package problems;
 
-import java.util.ArrayList;
+import util.PrimeFactorization;
 
 /**
  *
@@ -8,112 +8,39 @@ import java.util.ArrayList;
  */
 public class Problem47 {
     
-    private final int NUM_PRIMES = 10000;
-    private boolean[] primeSieve = new boolean[NUM_PRIMES];
-    
-    private final int MAX_N = NUM_PRIMES * 100;
-    private ArrayList[] primeFactors = new ArrayList[MAX_N];
-    
-    private final int ND = 4;
-    
-    private void fillSieve() {
-        primeSieve[2] = true;
-        
-        for (int n = 3; n < primeSieve.length; n++) {
-            primeSieve[n] = true;
-            
-            for (int m = 2; m < n; m++) {
-                if (n % m == 0) {
-                    primeSieve[n] = false;
-                    break;
-                }
-            }
-        }
-    }
-    
-    private void primeFactorize() {
-        for (int n = 2; n < MAX_N; n++) {
-            primeFactors[n] = new ArrayList();
-            
-            for (int j = 2; j <= n && j < NUM_PRIMES; j++) {
-                if (primeSieve[j] && (n % j == 0)) {
-                    primeFactors[n].add(j);
-                }
-            }
-        }
-    }
-    
-    private void display() {
-        for (int n = 2; n < NUM_PRIMES; n++) 
-            display(n);
-    }
-    
-    private void display(int n ) {
-        System.out.print(n + ":");
-            
-        for (Object o : primeFactors[n])
-            System.out.print(" " + o);
-
-        System.out.println();
-    }
-    
     public void solve() {
-        fillSieve();
+        final int bound = 1000000;
+        final int start = 2*3*5*7;
         
-        primeFactorize();
+        PrimeFactorization[] pfs = new PrimeFactorization[] {
+            new PrimeFactorization(start),
+            new PrimeFactorization(start + 1),
+            new PrimeFactorization(start + 2),
+            new PrimeFactorization(start + 3)
+        };
         
-//        display();
-        
-        boolean solved = false;
-        int n = 2;
-        
-        while(n < (MAX_N - ND) && !solved) {
-            solved = true;
-            
-            for (int i = n; i < n + ND; i++) {
-                int num = primeFactors[i].size();
+        for (int n = start; n < bound; n++) {
+            if (count(pfs[0]) >= 4 
+                    && count(pfs[1]) >= 4 
+                    && count(pfs[2]) >= 4 
+                    && count(pfs[3]) >= 4) {
                 
-                if (num < ND) {
-                    solved = false;
-                    n++;
-                    break;
-                }
+                System.out.println("Solution: " + n);
+                return;
             }
+            shift(pfs);
         }
-        
-        if (solved)
-            for (int i = n; i < n + ND; i++)
-                display(i);
-        else
-            System.out.println("Not solved :(");
-        
-//        int n = 2 * 3 * 5 * 7;
-//        boolean solved = false;
-//        
-//        while (!solved && (n < MAX - 4)) {
-//            solved = true;
-//            
-//            for (int i = n; i < n + 4; i++) {
-//                int numPFs = 0;
-//                
-//                for (int j = 2; j < i; j++) {
-//                    if (primeSieve[j] && (i % j) == 0) {
-//                        numPFs++;
-//                    }
-//                }
-//                
-//                if (numPFs < 4) {
-//                    solved = false;
-//                    n = i + 1;
-//                    break;
-//                }
-//            }
-//        }
-//        
-//        if (solved)
-//            System.out.println(n);
-//        else
-//            System.out.println("Not solved!");
+    }
+
+    private int count(PrimeFactorization pf) {
+        return pf.get().keySet().size();
+    }
+    
+    private void shift(PrimeFactorization[] pfs) {
+        pfs[0] = pfs[1];
+        pfs[1] = pfs[2];
+        pfs[2] = pfs[3];
+        pfs[3] = new PrimeFactorization(pfs[3].value() + 1);
     }
     
     public static void main(String[] args) {
