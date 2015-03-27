@@ -1,9 +1,10 @@
 package problems;
 
-import archived.Library;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import util.Sets;
+import util.Permutations;
+import util.SieveOfEratosthenes;
 
 /**
  *
@@ -12,24 +13,32 @@ import util.Sets;
 public class Problem41 {
     
     public void solve() { 
-        int max = 7654321;
-        Library.generatePrimes(max);
+        SieveOfEratosthenes sieve = new SieveOfEratosthenes(987654321 + 1);
+        sieve.generate(true);
         
-        String s = "1234567";
-        while (s.length() >= 2) {
-            int x = Integer.parseInt(s);
-            List<Integer> permutations = Sets.permutations(x);
+        String s = "123456789";
+        while (s.length() >= 3) {
+            List<Integer> permutations = asNumbers(new Permutations(s).get());
             Collections.sort(permutations);
             
             for (int i = permutations.size() - 1; i >= 0; i--) {
-                Integer p = permutations.get(i);
-                if (Library.isPrime(p)) {
-                    System.out.println(p);
+                int pandigital = permutations.get(i);
+                
+                if (sieve.isPrime(pandigital)) {
+                    System.out.println("Largest pandigital prime: " + pandigital);
                     return;
                 }
             }
             s = s.substring(0, s.length() - 1);
         }
+    }
+    
+    private List<Integer> asNumbers(List<String> strings) {
+        List<Integer> numbers = new ArrayList<>();
+        for (String s : strings)
+            numbers.add(Integer.parseInt(s));
+        
+        return numbers;
     }
     
     public static void main(String[] args) {

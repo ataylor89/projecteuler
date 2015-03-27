@@ -30,6 +30,11 @@ public class Problem25 {
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem25().solve();
+        
+        long runningTime = System.currentTimeMillis() - begin;
+        System.out.println("Execution time: " + runningTime + "ms.");
     }
 }

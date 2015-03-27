@@ -1,6 +1,6 @@
 package problems;
 
-import java.math.BigInteger;
+import util.BigInteger;
 
 /**
  *
@@ -21,6 +21,11 @@ public class Problem16 {
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem16().solve();
+        
+        long runningTime = System.currentTimeMillis() - begin;
+        System.out.println("Execution time: " + runningTime + "ms.");
     }
 }

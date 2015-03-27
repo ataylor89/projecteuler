@@ -1,6 +1,6 @@
 package problems;
 
-import java.math.BigInteger;
+import util.BigInteger;
 
 /**
  *
@@ -117,7 +117,7 @@ public class Problem13 {
         
         System.out.println(sum.toString().substring(0, 10));
     }
-    
+
     public static void main(String[] args) {
         long begin = System.currentTimeMillis();
         
