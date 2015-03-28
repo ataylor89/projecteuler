@@ -1,7 +1,6 @@
 package problems;
 
-import java.util.ArrayList;
-import java.util.List;
+import util.Fraction;
 
 /**
  *
@@ -9,41 +8,21 @@ import java.util.List;
  */
 public class Problem26 {
 
-    public static void main(String[] args) {
-        System.out.println("1/3: " + find_cycle_length(1, 3, null));
-        System.out.println("1/6: " + find_cycle_length(1, 6, null));
-        System.out.println("1/7: " + find_cycle_length(1, 7, null));
-        System.out.println("1/9: " + find_cycle_length(1, 9, null));
+    public void solve() {
+        Fraction max = new Fraction(0, 1);
         
-        int longest = 0;
-        int longest_n = 0;
-        for (int n = 2; n < 1000; n++) {
-            int len = find_cycle_length(1, n, null);
-            if (len > longest) {
-                longest_n = n;
-                longest = len;
-            }
+        for (int n = 1; n < 1000; n++) {
+            Fraction f = new Fraction(1, n);
+            
+            if (f.cycleLength() > max.cycleLength())
+                max = f;
         }
         
-        System.out.println("n: " + longest_n + " // cycle length: " + longest);
+        System.out.println(max);
+        System.out.println("Answer: " + max.denominator());
     }
-
-    public static int find_cycle_length(int m, int n, List<Integer> L) {
-        if (L == null)
-            L = new ArrayList<>();
-        
-        if (n > m) 
-            m *= 10;
-        
-        int remainder = m % n;
-        if (remainder == 0) 
-            return 0;
-        
-        int index = L.indexOf(remainder);
-        if (index > -1) 
-            return L.size() - index;
-        
-        L.add(remainder);
-        return find_cycle_length(remainder, n, L);
+    
+    public static void main(String[] args) {
+        new Problem26().solve();
     }
 }
