@@ -3,6 +3,7 @@ package problems;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import util.Sets;
 
 /**
  *
@@ -13,7 +14,7 @@ public class Problem32 {
     Set<Integer> products = new HashSet<>();
 
     public void solve() {
-        List<String> permutations = Problem24.permutations("123456789");
+        List<String> permutations = Sets.permutations("123456789");
         int m1, m2, product;
         
         for (String number : permutations) {
