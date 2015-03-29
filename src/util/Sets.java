@@ -38,15 +38,17 @@ public class Sets {
     public static List<String> permutations(String s) { 
         List<String> permutations = new ArrayList<>();
         permutations("", s, permutations);
+        
         return permutations;
     }
     
     private static void permutations(String prefix, String s, List<String> perms) {
         int N = s.length();
-        if (N == 0) perms.add(prefix);
-        else {
+        
+        if (N == 0) 
+            perms.add(prefix);
+        else 
             for (int i = 0; i < N; i++)
                permutations(prefix + s.charAt(i), s.substring(0, i) + s.substring(i+1, N), perms);
-        }
     }
 }

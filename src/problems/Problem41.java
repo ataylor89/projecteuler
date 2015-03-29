@@ -3,7 +3,7 @@ package problems;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import util.Permutations;
+import util.Sets;
 import util.SieveOfEratosthenes;
 
 /**
@@ -18,7 +18,7 @@ public class Problem41 {
         
         String s = "123456789";
         while (s.length() >= 3) {
-            List<Integer> permutations = asNumbers(new Permutations(s).get());
+            List<Integer> permutations = asNumbers(Sets.permutations(s));
             Collections.sort(permutations);
             
             for (int i = permutations.size() - 1; i >= 0; i--) {

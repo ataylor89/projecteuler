@@ -2,7 +2,7 @@ package problems;
 
 import java.util.ArrayList;
 import java.util.List;
-import util.Permutations;
+import util.Sets;
 
 /**
  *
@@ -13,7 +13,7 @@ public class Problem43 {
     int[] primes = new int[] {2,3,5,7,11,13,17};
     
     public void solve() {
-        List<String> permutations = filter(new Permutations("0123456789").get());
+        List<String> permutations = filter(Sets.permutations("0123456789"));
         
         List<Long> solutions = new ArrayList<>();
         
