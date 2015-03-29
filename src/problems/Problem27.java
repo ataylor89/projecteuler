@@ -1,6 +1,6 @@
 package problems;
 
-import java.util.Arrays;
+import util.SieveOfEratosthenes;
 
 /**
  *
@@ -8,78 +8,51 @@ import java.util.Arrays;
  */
 public class Problem27 {
     
-    static final PrimeFinder pf = new PrimeFinder();
+    SieveOfEratosthenes sieve;
     
-    static {
-        pf.fillSieve();
+    public void solve() {
+        sieve = new SieveOfEratosthenes(100000);
+        sieve.generate(true);
+        
+        int maxValue = 0, bestA = 0, bestB = 0;
+        for (int a = -999; a < 1000; a++) {
+            for (int b = a+1; b < 1000; b++) {
+                
+                int value = f(a, b);
+                if (value > maxValue) {
+                    maxValue = value;
+                    bestA = a;
+                    bestB = b;
+                }
+            }
+            int value = f(a, a);
+            if (value > maxValue) {
+                maxValue = value;
+                bestA = a;
+                bestB = a;
+            }
+        }
+        
+        System.out.printf("(%d, %d) => %d consecutive primes%n", bestA, bestB, maxValue);
+        System.out.println("a*b = " + bestA*bestB);
+    }
+    
+    public int f(int a, int b) {
+        int consecutivePrimes = 0;
+        
+        for (int n = 0; ;n++) {
+            int value = n*n + a*n + b;
+            
+            if (sieve.isPrime(value))
+                consecutivePrimes++;
+            else 
+                break;
+        }
+        
+        return consecutivePrimes;
     }
     
     public static void main(String[] args) {
-        int a = 0, b = 0;
-        int numprimes = 0;
-
-        for (int i = -1000; i < 1000; i++) {
-            for (int j = -1000; j < 1000; j++) {
-                int k = numPrimes(i, j);
-                if (k  > numprimes) {
-                    a = i;
-                    b = j;
-                    numprimes = k;
-                }
-            }
-        }
-
-        System.out.println("a: " + a);
-        System.out.println("b: " + b);
-        System.out.println("a*b: " + a * b);
-        System.out.println("# of primes: " + numprimes);
-    }
-
-    static int numPrimes(int a, int b) {
-        int numPrimes = 0;
-        int n = 0;
-
-        while (true) {
-            int eval = n * n + a * n + b;
-            if (pf.isPrime(eval)) {
-                numPrimes++;
-                n++;
-                continue;
-            }
-            break;
-        }        
-        return numPrimes;
-    }
-    
-    /** 
-     * Taken from mkyong.com
-     * http://www.mkyong.com/java/how-to-determine-a-prime-number-in-java/
-     */
-    
-    static class PrimeFinder {        
-        // will contain true or false values for the first 10,000 integers
-        boolean[] primes = new boolean[100000];
-
-        //set up the primesieve
-        public void fillSieve() {
-            Arrays.fill(primes, true);        // assume all integers are prime.
-            primes[0] = primes[1] = false;       // we know 0 and 1 are not prime.
-            for (int i = 2; i < primes.length; i++) {
-                //if the number is prime, 
-                //then go through all its multiples and make their values false.
-                if (primes[i]) {
-                    for (int j = 2; i * j < primes.length; j++) {
-                        primes[i * j] = false;
-                    }
-                }
-            }
-        }
-
-        public boolean isPrime(int n) {
-            if (n > 0) {
-                return primes[n];
-            }
-            return false;
-        }
+        new Problem27().solve();
     }
 }
