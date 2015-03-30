@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 import problems.problem67.Node;
+import util.RunningTime;
 
 /**
  *
@@ -58,8 +59,6 @@ public class Problem67 {
         long begin = System.currentTimeMillis();
         
         new Problem67().solve(s);
-        
-        long runningTime = System.currentTimeMillis() - begin;
-        System.out.println("Execution time: " + runningTime + "ms.");
+        RunningTime.print(begin);
     }
 }

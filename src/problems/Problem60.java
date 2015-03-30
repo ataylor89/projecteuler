@@ -8,6 +8,7 @@ import java.util.Set;
 import util.Clique;
 import util.Edge;
 import util.PrimeNumberGraph;
+import util.RunningTime;
 import util.Vertex;
 
 /**
@@ -58,10 +59,6 @@ public class Problem60 {
         long begin = System.currentTimeMillis();
         
         new Problem60().solve(5);
-        clock(begin);
-    }
-    
-    public static void clock(long beginTime) {
-        System.out.println("Execution time : " + (System.currentTimeMillis() - beginTime) + "ms");
+        RunningTime.print(begin);
     }
 }
