@@ -1,6 +1,7 @@
 package problems;
 
 import java.math.BigInteger;
+import util.RunningTime;
 
 /**
  *
@@ -39,6 +40,10 @@ public class Problem63 {
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem63().solve();
+        
+        RunningTime.print(begin);
     }
 }
