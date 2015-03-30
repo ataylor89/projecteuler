@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Set;
 import util.Sets;
 import util.SieveOfEratosthenes;
+import util.RunningTime;
 
 /**
  *
@@ -68,6 +69,9 @@ public class Problem49 {
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem49().solve();
+        RunningTime.print(begin);
     }
 }
