@@ -1,7 +1,6 @@
 package problems;
 
-import java.util.HashSet;
-import java.util.Set;
+import util.Divisors;
 
 /**
  *
@@ -9,51 +8,40 @@ import java.util.Set;
  */
 public class Problem23 {
     
+    private int upperLimit = 28123;
+    private Divisors[] divisors;
+    
+    public Problem23() {
+        divisors = new Divisors[upperLimit + 1];
+        for (int i = 1; i < divisors.length; i++) 
+            divisors[i] = new Divisors(i);
+    }
+    
+    public void solve() {
+        int sum = 0;
+        
+        for (int n = 1; n <= upperLimit; n++) 
+            if (!isAbundantSum(n))
+                sum += n;
+        
+        System.out.println("Sum: " + sum);
+    }
+    
+    private boolean isAbundantSum(int n) {
+        for (int i = 1; i * 2 <= n; i++) {
+            int j = n - i;
+            
+            if (isAbundant(i) && isAbundant(j))
+                return true;
+        }
+        return false;
+    }
+    
+    private boolean isAbundant(int n) {
+        return divisors[n].sumProper() > n;
+    }
+    
     public static void main(String[] args) {
-        final int UPPER_LIMIT = 28123;
-        Set<Integer> abundantNumbers = new HashSet<>();
-        
-        System.out.println("Generating a set of abundant numbers...");
-        for (int i = 1; i <= UPPER_LIMIT; i++) {
-            if (isAbundant(i)) {
-                abundantNumbers.add(i);
-            }
-        }
-        
-        int[] range = range(UPPER_LIMIT);
-        
-        System.out.println("Zeroing out the array...");
-        for (Integer i : abundantNumbers) {
-            for (Integer j : abundantNumbers) {
-                int sum = i + j;
-                if (sum < range.length) {
-                    range[sum] = 0;
-                }
-            }
-        }
-        
-        int answer = 0;
-        for (int x : range) {
-            answer += x;
-        }
-        System.out.println("Answer: " + answer);
-    }
-    
-    public static boolean isAbundant(int n) {
-        int sum = 0; 
-        for (int i = 1; i < n; i++) {
-            if (n % i == 0) {
-                sum += i;
-            }
-        }
-        return sum > n ? true : false;
-    }
-    
-    public static int[] range(int end) {
-        int[] range = new int[end + 1];
-        for (int i = 0; i < range.length; i++) {
-            range[i] = i;
-        }
-        return range;
+        new Problem23().solve();
     }
 }
