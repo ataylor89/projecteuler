@@ -1,95 +1,70 @@
 package problems;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import util.Sets;
+import util.SieveOfEratosthenes;
 
 /**
  *
  * @author ataylor
  */
 public class Problem49 {
-    private boolean[] sieve = new boolean[10000];
     
-    private void fillSieve() {
-        sieve[2] = true;
-        
-        for (int n = 3; n < sieve.length; n++) {
-            sieve[n] = true;
-            
-            for (int m = 2; m <= (int) Math.sqrt(n); m++) {
-                if (n % m == 0) {
-                    sieve[n] = false;
-                    break;
-                }
-            }
-        }
-    }
+    private SieveOfEratosthenes sieve;
+    private Set<List<Integer>> candidates, solutions;
     
-    private List<Integer> getFourDigitPrimes() {
-        List<Integer> lst = new ArrayList<>();
+    public Problem49() {
+        sieve = new SieveOfEratosthenes(10000);
+        sieve.generate(true);
         
-        for (int n = 1000; n < sieve.length; n++) 
-            if (sieve[n])
-                lst.add(n);
-        
-        return lst;
+        candidates = new HashSet<>();
+        solutions = new HashSet<>();
     }
     
     public void solve() {
-        fillSieve();
-        
-        List<Integer> fourDigitPrimes = getFourDigitPrimes();
-        
-        System.out.println("There are " + fourDigitPrimes.size() + " four digit primes.");
-        
-        for (int prime : fourDigitPrimes) {
-            Set<Integer> permutations = new HashSet<>(Sets.permutations(prime));
+        for (Integer p : sieve.getPrimesBetween(1000, 9999)) {
+            List<Integer> pp = primePermutations(p);
             
-            for (Integer x : new ArrayList<>(permutations)) { 
-               if (x < 1000)
-                   permutations.remove(x);
-               else if (!sieve[x])
-                   permutations.remove(x);
-            }
-            
-            Set<List<Integer>> sequences = findArithmeticSequences(new ArrayList<>(permutations));
-            
-            if (!sequences.isEmpty()) {
-                for (List<Integer> seq : sequences) {
-                    System.out.println(seq);
-                }
-            }
+            if (pp.size() >= 3)
+                candidates.add(pp);
         }
+        
+        for (List<Integer> cnd : candidates)
+            search(cnd);
+        
+        System.out.println(solutions);
     }
     
-    private Set<List<Integer>> findArithmeticSequences(List<Integer> lst) {
-        Set<List<Integer>> sequences = new HashSet<>();
+    private List<Integer> primePermutations(Integer p) {
+        List<Integer> primes = new ArrayList<>();
         
-        if (lst.size() < 3)
-            return sequences;
+        for (Integer n : Sets.permuteDigits(p))
+            if (sieve.isPrime(n))
+                primes.add(n);
         
-        for (int i = 0; i < lst.size() - 2; i++) {
-            for (int j = i + 1; j < lst.size() - 1; j++) {
-                for (int k = i + 2; k < lst.size(); k++) {
-                    
-                    if (lst.get(j) - lst.get(i) == lst.get(k) - lst.get(j)) {
-                        List<Integer> seq = new ArrayList<>();
-                        seq.add(lst.get(i));
-                        seq.add(lst.get(j));
-                        seq.add(lst.get(k));
-                        Collections.sort(seq);
-                        
-                        sequences.add(seq);
-                    }
-                }
-            }
-        }
+        Collections.sort(primes);
+        return primes;
+    }
+    
+    private void search(List<Integer> s) {
+        Collections.sort(s);
+        int length = s.size();
         
-        return sequences;
+        for (int i=0; i < length; i++) 
+            for (int j=i+1; j < length; j++) 
+                for (int k=j+1; k < length; k++) 
+                    if (isArithmeticSequence(s.get(i), s.get(j), s.get(k)))
+                        solutions.add(Arrays.asList(s.get(i), s.get(j), s.get(k)));
+
+    }
+    
+    private boolean isArithmeticSequence(int i, int j, int k) {
+        return (j - i) == (k - j);
     }
     
     public static void main(String[] args) {

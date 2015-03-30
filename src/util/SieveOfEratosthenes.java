@@ -75,6 +75,16 @@ public class SieveOfEratosthenes {
         
         return subset;
     }
+    
+    public List<Integer> getPrimesBetween(int min, int max) {
+        List<Integer> primesBetween = new ArrayList<>();
+        
+        for (int p : getPrimes())
+            if (p >= min && p <= max)
+                primesBetween.add(p);
+        
+        return primesBetween;
+    }
 
     public int size() {
         return sieve.length;
