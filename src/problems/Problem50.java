@@ -43,6 +43,7 @@ public class Problem50 {
         long begin = System.currentTimeMillis();
         
         new Problem50().solve();
+        
         RunningTime.print(begin);
     }
 }

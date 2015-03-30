@@ -1,6 +1,7 @@
 package problems;
 
 import util.Divisors;
+import util.RunningTime;
 
 /**
  *
@@ -42,6 +43,9 @@ public class Problem23 {
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem23().solve();
+        RunningTime.print(begin);
     }
 }
