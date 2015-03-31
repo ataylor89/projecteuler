@@ -1,7 +1,6 @@
 package problems;
 
 import util.ContinuedFraction;
-import static java.lang.System.out;
 import org.apache.commons.math3.fraction.BigFraction;
 
 /**
@@ -28,7 +27,6 @@ public class Problem57 {
     }
     
     static class SquareRootTwo extends ContinuedFraction {
-
         @Override
         public int getA(int n) {
             return (n > 0) ? 2 : 1;
@@ -38,6 +36,5 @@ public class Problem57 {
         public int getB(int n) {
             return 1;
         }
-        
     }
 }
