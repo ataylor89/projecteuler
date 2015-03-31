@@ -36,6 +36,16 @@ public class Sets {
         return new ArrayList<>(permutations);
     }
     
+    public static List<Long> permuteDigits(Long number) {
+        Set<Long> permutations = new HashSet<>();
+        
+        for (String s : permutations(String.valueOf(number))) 
+            if (!s.startsWith("0"))
+                permutations.add(Long.parseLong(s));
+        
+        return new ArrayList<>(permutations);
+    }
+    
     public static List<String> permutations(String s) { 
         List<String> permutations = new ArrayList<>();
         permutations("", s, permutations);
