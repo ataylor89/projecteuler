@@ -8,9 +8,8 @@ import java.util.List;
  * @author ataylor
  */
 public class SquareRoot extends ContinuedFraction {
-
-    private final int N;
     
+    private final int N;
     private List<Integer> terms;
     
     public SquareRoot(int n) {
