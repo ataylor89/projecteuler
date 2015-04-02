@@ -54,7 +54,6 @@ public class SquareRoot extends ContinuedFraction {
         // First, get the next term of the continued fraction.
         // This is simply the integer square root of the expression.
         int nextTerm = (a * (int) Math.sqrt(N) + b)/c;
-        terms.add(nextTerm);
         
         // Now we have to subtract this term from the expression
         b -= nextTerm * c;
@@ -76,6 +75,8 @@ public class SquareRoot extends ContinuedFraction {
         x = reduced[0];
         y = reduced[1];
         z = reduced[2];
+        
+        terms.add(nextTerm);
         
         // Recursive stop condition.
         if (x == 1 && z == 1)
