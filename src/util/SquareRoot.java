@@ -49,8 +49,6 @@ public class SquareRoot extends ContinuedFraction {
      * @param a the integer coefficient of sqrt(N)
      * @param b an integer
      * @param c an integer
-     * 
-     * @return the nth term in the continued fraction
      */
     private void generate(int a, int b, int c, List<Integer> terms) {
         // First, get the next term of the continued fraction.
