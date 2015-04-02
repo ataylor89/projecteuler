@@ -24,12 +24,10 @@ public class SquareRoot extends ContinuedFraction {
     
     @Override
     public int getA(int n) {
-        int period = terms.size() - 1;
-        
         if (n < terms.size())
             return terms.get(n);
         
-        return terms.get(1 + (n % period));
+        return terms.get(1 + (n % period()));
     }
 
     @Override
