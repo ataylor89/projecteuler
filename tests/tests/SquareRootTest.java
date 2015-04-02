@@ -19,13 +19,6 @@ public class SquareRootTest {
         
         int depth = 10;
         
-        for (int i = 0; i < depth; i++) 
-            System.out.println(root2.evaluate(i));
-        
-        System.out.println("Expected\n===============");
-        for (int i = 0; i < depth; i++) 
-            System.out.println(expected.evaluate(i));
-        
         for (int i = 0; i < depth; i++)     
             Assert.assertEquals(root2.evaluate(i), expected.evaluate(i));
     }
@@ -37,12 +30,14 @@ public class SquareRootTest {
         System.out.println(new SquareRoot(5));
         System.out.println(new SquareRoot(6));
         System.out.println(new SquareRoot(11));
+        System.out.println(new SquareRoot(12));
         
         Assert.assertEquals(new SquareRoot(2).toString(), "[1; (2)]");
         Assert.assertEquals(new SquareRoot(3).toString(), "[1; (1, 2)]");
         Assert.assertEquals(new SquareRoot(5).toString(), "[2; (4)]");
         Assert.assertEquals(new SquareRoot(6).toString(), "[2; (2, 4)]");
         Assert.assertEquals(new SquareRoot(11).toString(), "[3; (3, 6)]");
+        Assert.assertEquals(new SquareRoot(12).toString(), "[3; (2, 6)]");
     }
     
     @Test
