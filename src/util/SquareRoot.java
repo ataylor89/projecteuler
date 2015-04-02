@@ -58,7 +58,7 @@ public class SquareRoot extends ContinuedFraction {
         // Now we have to subtract this term from the expression
         b -= nextTerm * c;
         
-        // To get the next term, we take the reciprocal of our expression.
+        // To get the subsequent term, we take the reciprocal of our expression.
         // We then multiply numerator and denominator by a*sqrt(N) - b to get a new expression.
         int x, y, z;
         
