@@ -30,7 +30,7 @@ public class Problem66 {
         }
         
         System.out.println("Largest X: " + largestX);
-        System.out.println("D value: " + answer);
+        System.out.println("Value of N: " + answer);
     }
     
     public static void main(String[] args) {
