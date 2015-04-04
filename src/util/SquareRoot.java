@@ -4,7 +4,6 @@ import java.math.BigInteger;
 import static java.math.BigInteger.ONE;
 import static java.math.BigInteger.ZERO;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import org.apache.commons.math3.fraction.BigFraction;
 
@@ -15,29 +14,30 @@ import org.apache.commons.math3.fraction.BigFraction;
 public class SquareRoot extends ContinuedFraction {
     
     private final int N;
+    private List<Integer> terms;
     
-    private Integer firstTerm;
-    private List<Integer> period;
+    private final String errorMsg = "N must be a nonnegative integer.";
     
     public SquareRoot(int n) {
         this.N = n;
-        List<Integer> terms = new ArrayList<>();
+        
+        if (N < 0)
+            throw new IllegalArgumentException(errorMsg);
+        
+        terms = new ArrayList<>();
         
         if (isPerfectSquare())
             terms.add((int) Math.sqrt(n));
         else
             generate(1, 0, 1, terms);
-        
-        firstTerm = terms.get(0);
-        period = terms.subList(1, terms.size());
     }
     
     @Override
     public int getA(int n) {
-        if (n == 0)
-            return firstTerm;
+        if (n < terms.size())
+            return terms.get(n);
         
-        return period.get((n - 1) % period.size());
+        return terms.get((n - 1) % period() + 1);
     }
 
     @Override
@@ -46,13 +46,10 @@ public class SquareRoot extends ContinuedFraction {
     }
     
     public int period() {
-        return period.size();
+        return terms.size() - 1;
     }
     
-    public List<Integer> getTerms() {
-        List<Integer> terms = Arrays.asList(firstTerm);
-        terms.addAll(period);
-        
+    public List<Integer> terms() {
         return terms;
     }
     
@@ -147,13 +144,13 @@ public class SquareRoot extends ContinuedFraction {
     
     @Override
     public String toString() {
-        if (period.isEmpty())
-            return String.format("[%d]", firstTerm);
+        if (period() == 0)
+            return String.format("[%d]", terms.get(0));
         
         String periodStr = "";
-        for (int term : period)
-            periodStr += (periodStr.equals("") ? term : ", " + term);
+        for (int i = 1; i < terms.size(); i++)
+            periodStr += (periodStr.equals("") ? terms.get(i) : ", " + terms.get(i));
         
-        return String.format("[%d; (%s)]", firstTerm, periodStr);
+        return String.format("[%d; (%s)]", terms.get(0), periodStr);
     }
 }
