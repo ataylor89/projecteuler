@@ -3,6 +3,7 @@ package problems;
 import java.math.BigInteger;
 import util.PellEquation;
 import util.Numbers;
+import util.RunningTime;
 
 /**
  *
@@ -34,6 +35,10 @@ public class Problem66 {
     }
     
     public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
+        
         new Problem66().solve();
+        
+        RunningTime.print(begin);
     }
 }
