@@ -14,18 +14,18 @@ public class Problem66 {
         BigInteger largestX = BigInteger.ZERO;
         int answer = 0;
         
-        for (int D = 2; D <= 1000; D++) {
-            if (Numbers.isPerfectSquare(D))
+        for (int N = 2; N <= 1000; N++) {
+            if (Numbers.isPerfectSquare(N))
                 continue;
             
-            PellEquation eq = new PellEquation(D);
+            PellEquation eq = new PellEquation(N);
             
             BigInteger[] soln = eq.solve();
             BigInteger x = soln[0], y = soln[1];
             
             if (x.compareTo(largestX) > 0) {
                 largestX = x;
-                answer = D;
+                answer = N;
             }
         }
         
