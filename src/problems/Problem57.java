@@ -1,8 +1,6 @@
 package problems;
 
-import util.ContinuedFraction;
 import org.apache.commons.math3.fraction.BigFraction;
-import util.ContinuedFractions;
 import util.SquareRoot;
 
 /**

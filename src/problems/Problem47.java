@@ -33,7 +33,7 @@ public class Problem47 {
     }
 
     private int count(PrimeFactorization pf) {
-        return pf.get().keySet().size();
+        return pf.map().keySet().size();
     }
     
     private void shift(PrimeFactorization[] pfs) {

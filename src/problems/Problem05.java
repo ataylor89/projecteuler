@@ -14,7 +14,7 @@ public class Problem05 {
         Map<Long, Integer> answer = new HashMap<>();
         
         for (int n = 1; n <= 20; n++) {
-            Map<Long, Integer> mapN = new PrimeFactorization(n).get(); 
+            Map<Long, Integer> mapN = new PrimeFactorization(n).map(); 
             
             for (long prime : mapN.keySet()) {
                 int exp1 = 0;

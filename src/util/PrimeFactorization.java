@@ -22,12 +22,12 @@ public class PrimeFactorization {
         for (long i = 2; i * i <= number; i++) {
             while (number % i == 0) {
                 number /= i;
-                add(i);
+                addFactor(i, primeFactors);
             }
         }
         
         if (number > 1)
-            add(number);
+            addFactor(number, primeFactors);
     }
     
     public PrimeFactorization(Map<Long, Integer> map) {
@@ -41,20 +41,20 @@ public class PrimeFactorization {
         this.number = n;
     }
     
-    private void add(long p) {
-        if (!primeFactors.containsKey(p))
-            primeFactors.put(p, 0);
-        
-        int exponent = primeFactors.get(p);
-        primeFactors.put(p, exponent + 1);
-    }
-    
-    public Map<Long, Integer> get() {
+    public Map<Long, Integer> map() {
         return primeFactors;
     }
     
     public long value() {
         return number;
+    }
+
+    public boolean isPerfectSquare() {
+        for (long f : primeFactors.keySet())
+            if (primeFactors.get(f) % 2 == 1)
+                return false;
+        
+        return true;
     }
     
     @Override
@@ -73,5 +73,13 @@ public class PrimeFactorization {
             str += prime + ((exp > 1) ? "^" + exp : "");
         }
         return str;
+    }
+    
+    private void addFactor(long p, Map<Long, Integer> m) {
+        if (!m.containsKey(p))
+            m.put(p, 0);
+        
+        int exponent = m.get(p);
+        m.put(p, exponent + 1);
     }
 }

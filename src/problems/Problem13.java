@@ -1,6 +1,6 @@
 package problems;
 
-import util.BigInteger;
+import java.math.BigInteger;
 
 /**
  *

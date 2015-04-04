@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import util.ContinuedFraction;
 import util.ContinuedFractions;
+import util.RunningTime;
 import util.SquareRoot;
 
 /**
@@ -12,7 +13,7 @@ import util.SquareRoot;
  */
 public class SquareRootTest {
     
-    @Test
+//    @Test
     public void testRootTwo() {
         ContinuedFraction expected = ContinuedFractions.squareRootTwo;
         SquareRoot root2 = new SquareRoot(2);
@@ -23,7 +24,7 @@ public class SquareRootTest {
             Assert.assertEquals(root2.evaluate(i), expected.evaluate(i));
     }
     
-    @Test
+//    @Test
     public void testRepresentations() {
         System.out.println(new SquareRoot(2));
         System.out.println(new SquareRoot(3));
@@ -40,7 +41,7 @@ public class SquareRootTest {
         Assert.assertEquals(new SquareRoot(12).toString(), "[3; (2, 6)]");
     }
     
-    @Test
+//    @Test
     public void testPerfectSquares() {
         System.out.println(new SquareRoot(1));
         System.out.println(new SquareRoot(4));
@@ -51,5 +52,17 @@ public class SquareRootTest {
         Assert.assertEquals(new SquareRoot(4).toString(), "[2]");
         Assert.assertEquals(new SquareRoot(9).toString(), "[3]");
         Assert.assertEquals(new SquareRoot(16).toString(), "[4]");
+    }
+    
+    @Test
+    public void testManyIterations() {
+        long begin = System.currentTimeMillis();
+        
+        SquareRoot sqrtN = new SquareRoot(61);
+        System.out.println("Generated period in " + (System.currentTimeMillis() - begin) + " ms.");
+        
+        System.out.println(sqrtN.evaluate(5000));
+        
+        RunningTime.print(begin);
     }
 }

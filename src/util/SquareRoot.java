@@ -1,7 +1,12 @@
 package util;
 
+import java.math.BigInteger;
+import static java.math.BigInteger.ONE;
+import static java.math.BigInteger.ZERO;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import org.apache.commons.math3.fraction.BigFraction;
 
 /**
  *
@@ -10,24 +15,29 @@ import java.util.List;
 public class SquareRoot extends ContinuedFraction {
     
     private final int N;
-    private List<Integer> terms;
+    
+    private Integer firstTerm;
+    private List<Integer> period;
     
     public SquareRoot(int n) {
         this.N = n;
-        terms = new ArrayList<>();
+        List<Integer> terms = new ArrayList<>();
         
         if (isPerfectSquare())
             terms.add((int) Math.sqrt(n));
         else
             generate(1, 0, 1, terms);
+        
+        firstTerm = terms.get(0);
+        period = terms.subList(1, terms.size());
     }
     
     @Override
     public int getA(int n) {
-        if (n < terms.size())
-            return terms.get(n);
+        if (n == 0)
+            return firstTerm;
         
-        return terms.get(1 + (n % period()));
+        return period.get((n - 1) % period.size());
     }
 
     @Override
@@ -35,12 +45,36 @@ public class SquareRoot extends ContinuedFraction {
         return 1;
     }
     
-    public List<Integer> terms() {
+    public int period() {
+        return period.size();
+    }
+    
+    public List<Integer> getTerms() {
+        List<Integer> terms = Arrays.asList(firstTerm);
+        terms.addAll(period);
+        
         return terms;
     }
     
-    public int period() {
-        return terms.size() - 1;
+    @Override
+    public BigFraction evaluate(int iterations) {
+        BigInteger[] p = new BigInteger[] {ZERO, ONE, null};
+        BigInteger[] q = new BigInteger[] {ONE, ZERO, null};
+        
+        for (int n = 0; n <= iterations; n++) {
+            BigInteger A = BigInteger.valueOf(getA(n));
+            
+            p[2] = A.multiply(p[1]).add(p[0]);
+            q[2] = A.multiply(q[1]).add(q[0]);
+            
+            p[0] = p[1];
+            p[1] = p[2];
+            
+            q[0] = q[1];
+            q[1] = q[2];
+        }
+        
+        return new BigFraction(p[2], q[2]);
     }
     
     /**
@@ -113,13 +147,13 @@ public class SquareRoot extends ContinuedFraction {
     
     @Override
     public String toString() {
-        if (period() == 0)
-            return String.format("[%d]", terms.get(0));
+        if (period.isEmpty())
+            return String.format("[%d]", firstTerm);
         
-        String period = "";
-        for (int i = 1; i < terms.size(); i++)
-            period += (period.equals("") ? terms.get(i) : ", " + terms.get(i));
+        String periodStr = "";
+        for (int term : period)
+            periodStr += (periodStr.equals("") ? term : ", " + term);
         
-        return String.format("[%d; (%s)]", terms.get(0), period);
+        return String.format("[%d; (%s)]", firstTerm, periodStr);
     }
 }

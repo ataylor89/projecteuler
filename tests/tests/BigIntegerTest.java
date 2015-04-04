@@ -2,7 +2,7 @@ package tests;
 
 import org.junit.Assert;
 import org.junit.Test;
-import util.BigInteger;
+import archived.BigInteger;
 /**
  *
  * @author ataylor
