@@ -1,9 +1,9 @@
 package problems;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import util.RunningTime;
+import util.Strings;
 
 /**
  *
@@ -22,15 +22,13 @@ public class Problem62 {
     }
     
     private Map<String, CubicPermutation> map;
-    
-    public Problem62() {
-        map = new HashMap<>();
-    }
-    
+
     public void solve(long X) {
+       map = new HashMap<>(); 
+        
        for (long n=1;;n++) {
-            Long cube = n*n*n;
-            String hash = sortDigits(cube);
+            long cube = n*n*n;
+            String hash = Strings.alphabetize(cube);
             
             count(hash, cube);
             
@@ -46,13 +44,6 @@ public class Problem62 {
             map.put(hash, new CubicPermutation(cube, 0));
         
         map.get(hash).frequency++;
-    }
-    
-    private String sortDigits(Long cube) {
-        char[] arr = cube.toString().toCharArray();
-        Arrays.sort(arr);
-        
-        return new String(arr);
     }
     
     public static void main(String[] args) {

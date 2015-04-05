@@ -26,14 +26,14 @@ public class Sets {
         return S;
     }
     
-    public static List<Integer> permuteDigits(Integer number) {
+    public static Set<Integer> permuteDigits(Integer number) {
         Set<Integer> permutations = new HashSet<>();
         
         for (String s : permutations(String.valueOf(number))) 
             if (!s.startsWith("0"))
                 permutations.add(Integer.parseInt(s));
         
-        return new ArrayList<>(permutations);
+        return permutations;
     }
     
     public static List<Long> permuteDigits(Long number) {

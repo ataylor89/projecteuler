@@ -12,33 +12,33 @@ import java.util.Map;
  */
 public class PrimeFactorization {
     
-    private final long number;
+    private final long value;
     private Map<Long, Integer> primeFactors;
     
-    public PrimeFactorization(long number) {
-        this.number = number;
+    public PrimeFactorization(long N) {
+        this.value = N;
         primeFactors = new HashMap<>();
         
-        for (long i = 2; i * i <= number; i++) {
-            while (number % i == 0) {
-                number /= i;
+        for (long i = 2; i * i <= N; i++) {
+            while (N % i == 0) {
+                N /= i;
                 addFactor(i, primeFactors);
             }
         }
         
-        if (number > 1)
-            addFactor(number, primeFactors);
+        if (N > 1)
+            addFactor(N, primeFactors);
     }
     
     public PrimeFactorization(Map<Long, Integer> map) {
         this.primeFactors = map;
         
-        long n = 1;
+        long N = 1;
         for (long prime : map.keySet())
             for (int i = 0; i < map.get(prime); i++)
-                n *= prime;
+                N *= prime;
         
-        this.number = n;
+        this.value = N;
     }
     
     public Map<Long, Integer> map() {
@@ -46,15 +46,7 @@ public class PrimeFactorization {
     }
     
     public long value() {
-        return number;
-    }
-
-    public boolean isPerfectSquare() {
-        for (long f : primeFactors.keySet())
-            if (primeFactors.get(f) % 2 == 1)
-                return false;
-        
-        return true;
+        return value;
     }
     
     @Override
