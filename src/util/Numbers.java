@@ -21,6 +21,17 @@ public class Numbers {
        return product;
     }
     
+    public static long gcd(long a, long b) {
+        if (b == 0)
+            return a;
+        
+        return gcd(b, a%b);
+    }
+    
+    public static boolean coPrime(long n, long m) {
+        return gcd(n, m) == 1;
+    }
+    
     public static int digitalRoot(long n) {
         if (n % 10 == n)
             return (int) n;

@@ -14,7 +14,7 @@ public class Problem26 {
         for (int n = 1; n < 1000; n++) {
             Fraction f = new Fraction(1, n);
             
-            if (f.cycleLength() > max.cycleLength())
+            if (f.period() > max.period())
                 max = f;
         }
         
