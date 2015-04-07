@@ -1,5 +1,6 @@
 package problems;
 
+import java.util.List;
 import util.FareySequence;
 import util.Fraction;
 
@@ -10,12 +11,13 @@ import util.Fraction;
 public class Problem73 {
     
     public void solve() {
-        int order = 12000;
-        Fraction start = new Fraction(1,3);
-        Fraction end = new Fraction(1,2);
+        FareySequence seq = FareySequence.directly(12000);
+        List<Fraction> terms = seq.terms();
         
-        FareySequence seq = new FareySequence(order, start, end);
-        System.out.println(seq.terms().size());
+        int a = terms.indexOf(new Fraction(1,3));
+        int b = (terms.size() - 1)/2;
+        
+        System.out.println("There are " + (b - a - 1) + " terms between 1/3 and 1/2.");
     }
     
     public static void main(String[] args) {  
