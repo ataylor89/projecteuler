@@ -1,7 +1,5 @@
 package problems;
 
-import java.util.List;
-import util.FareySequence;
 import util.Fraction;
 
 /**
