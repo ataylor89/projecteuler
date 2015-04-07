@@ -11,7 +11,7 @@ import util.Fraction;
 public class Problem73 {
     
     public void solve() {
-        FareySequence seq = FareySequence.directly(12000);
+        FareySequence seq = FareySequence.quickly(12000);
         List<Fraction> terms = seq.terms();
         
         int a = terms.indexOf(new Fraction(1,3));

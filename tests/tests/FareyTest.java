@@ -13,7 +13,7 @@ public class FareyTest {
     @Test
     public void compareSmall() {
         for (int n = 2; n < 10; n++) {
-            FareySequence s = FareySequence.directly(n);
+            FareySequence s = FareySequence.quickly(n);
             FareySequence t = FareySequence.recursively(n);
             
             System.out.println(s);

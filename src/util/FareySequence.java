@@ -20,7 +20,7 @@ public class FareySequence {
         this.terms = terms;
     }
     
-    public static FareySequence directly(int n) {
+    public static FareySequence quickly(int n) {
         int a = 0, b = 1, c = 1, d = n;
         
         List<Fraction> terms = new ArrayList<>();
