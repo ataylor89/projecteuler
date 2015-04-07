@@ -75,7 +75,9 @@ public class SquareRoot extends ContinuedFraction {
     }
     
     /**
-     * These parameters store the fraction (a*sqrt(N) + b)/c.
+     * Generates the periodic continued fraction for sqrt(N).
+     * 
+     * The parameters store the expression (a*sqrt(N) + b)/c.
      * 
      * @param a the integer coefficient of sqrt(N)
      * @param b an integer
@@ -145,12 +147,12 @@ public class SquareRoot extends ContinuedFraction {
     @Override
     public String toString() {
         if (period() == 0)
-            return String.format("[%d]", terms.get(0));
+            return terms.toString();
         
-        String periodStr = "";
+        String s = "";
         for (int i = 1; i < terms.size(); i++)
-            periodStr += (periodStr.equals("") ? terms.get(i) : ", " + terms.get(i));
+            s += (s.equals("") ? terms.get(i) : ", " + terms.get(i));
         
-        return String.format("[%d; (%s)]", terms.get(0), periodStr);
+        return String.format("[%d; (%s)]", terms.get(0), s);
     }
 }
