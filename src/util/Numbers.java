@@ -64,4 +64,21 @@ public class Numbers {
     public static boolean isOdd(long n) {
         return n % 2 == 1;
     }
+    
+    public static int[] digits(int n) {
+        String s = String.valueOf(n);
+        
+        int[] digits = new int[s.length()];
+        for (int i = 0; i < s.length(); i++)
+            digits[i] = Integer.parseInt(s.substring(i, i+1));
+        
+        return digits;
+    }
+    
+    public static int factorial(int n) {
+        if (n <= 1)
+            return 1;
+        
+        return n * factorial(n-1);
+    }
 }
