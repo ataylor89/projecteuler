@@ -3,8 +3,8 @@ package tests;
 import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
-import util.PrimeNumberGraph;
-import util.Vertex;
+import problems.problem60.PrimeNumberGraph;
+import problems.problem60.Vertex;
 
 /**
  *

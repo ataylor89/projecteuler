@@ -1,7 +1,8 @@
-package util;
+package problems.problem60;
 
 import java.util.Collections;
 import java.util.List;
+import util.SieveOfEratosthenes;
 
 /**
  *

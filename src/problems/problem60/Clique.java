@@ -1,4 +1,4 @@
-package util;
+package problems.problem60;
 
 import java.util.ArrayList;
 import java.util.Collections;
