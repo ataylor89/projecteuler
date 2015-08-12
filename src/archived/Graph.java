@@ -1,4 +1,4 @@
- package util;
+ package archived;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ public interface Graph<T> {
     
     public void removeEdge(T n1, T n2);
     
-    public void hasEdge(T n1, T n2);
+    public boolean hasEdge(T n1, T n2);
     
     public List<T> outEdges(T n);
     
