@@ -11,4 +11,9 @@ public enum Polygon {
     HEXAGON, 
     HEPTAGON, 
     OCTAGON;
+    
+    @Override
+    public String toString() {
+        return super.toString().substring(0, 3);
+    }
 }
