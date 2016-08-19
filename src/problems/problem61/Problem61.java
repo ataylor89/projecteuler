@@ -43,17 +43,14 @@ public class Problem61 {
     private void recurse(Node current, List<Node> path) {
         if (cycle != null)
             return;
-        
-        if (path.size() > 6)
-            return;
-        
+
         if (path.size() == 6) {
             System.out.println("Path: " + path);
             
-            if (isCycle(path) && meetsConditions(path)) {
+            if (isCycle(path) && meetsConditions(path)) 
                 cycle = path;
-                return;
-            }
+            
+            return;
         }
         
         for (Node next : current.getEdges()) {
