@@ -1,70 +1,148 @@
 package problems.problem61;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
-import java.util.function.IntUnaryOperator;
-
-import static problems.problem61.Polygon.*;
-import util.princeton.Digraph;
+import java.util.Set;
 
 /**
  *
- * @author andrewtaylor
+ * @author ataylor
  */
 public class Problem61 {
+    private Set<Node> nodes;
+    private List<Node> cycle;
+    
+    public Problem61() {
+        nodes = new HashSet<>();
+    }
     
     public void solve() {
-        List<FigurateNumber> TRI = getFourDigitNumbers(TRIANGLE, n -> n*(n+1)/2);
-        List<FigurateNumber> SQU = getFourDigitNumbers(SQUARE, n -> n*n);
-        List<FigurateNumber> PEN = getFourDigitNumbers(PENTAGON, n -> n*(3*n-1)/2);
-        List<FigurateNumber> HEX = getFourDigitNumbers(HEXAGON, n -> n*(2*n-1));
-        List<FigurateNumber> HEP = getFourDigitNumbers(HEPTAGON, n -> n*(5*n-3)/2);
-        List<FigurateNumber> OCT = getFourDigitNumbers(OCTAGON, n -> n*(3*n-2));
-        
-        List<FigurateNumber> vertices = concat(TRI, SQU, PEN, HEX, HEP, OCT);
-        Digraph graph = new Digraph(vertices.size());
-    }
-    
-    private List<FigurateNumber> concat(List<FigurateNumber> ... lists) {
-        List<FigurateNumber> concatenated = new ArrayList<>();
-        
-        for (List<FigurateNumber> lst : lists) 
-            concatenated.addAll(lst);
-        
-        return concatenated;
-    }
-    
-    private List<FigurateNumber> getFourDigitNumbers(Polygon p, IntUnaryOperator formula) {
-        List<FigurateNumber> fourDigitNumbers = new ArrayList<>();
-        
-        for (int n=1;;n++) {
-            int result = formula.applyAsInt(n);
-
-            if (result < 1000)
-                continue;
-
-            if (result > 9999)
-                break;
-
-            fourDigitNumbers.add(new FigurateNumber(p, result));
+        for (Node n : nodes) {
+            List<Node> path = new ArrayList<>();
+            path.add(n);
+            
+            recurse(n, path);
         }
         
-        System.out.println(p + ": " + fourDigitNumbers);
+        if (cycle == null) {
+            System.out.println("Failed to find solution.");
+            return;
+        }
         
-        return fourDigitNumbers;
+        System.out.println("Solution: " + cycle);
+        
+        int sum = 0;
+        for (Node n : cycle)
+            sum += n.value();
+        
+        System.out.println("Sum: " + sum);
     }
     
-    private boolean isCyclic(FigurateNumber n1, FigurateNumber n2) {
-        String s1 = n1.toString(), s2 = n2.toString();
+    private void recurse(Node current, List<Node> path) {
+        if (cycle != null)
+            return;
         
-        return s2.startsWith(lastTwoChars(s1));
+        if (path.size() > 6)
+            return;
+        
+        if (path.size() == 6) {
+            System.out.println("Path: " + path);
+            
+            if (isCycle(path) && meetsConditions(path)) {
+                cycle = path;
+                return;
+            }
+        }
+        
+        for (Node next : current.getEdges()) {
+            List<Node> newPath = new ArrayList<>();
+            
+            newPath.addAll(path);
+            newPath.add(next);
+            
+            recurse(next, newPath);
+        }
     }
     
-    private String lastTwoChars(String str) {
-        return str.substring(Math.max(str.length() - 2, 0));
+    private boolean isCycle(List<Node> path) {
+        Node n = path.get(0);
+        Node m = path.get(path.size() - 1);
+        
+        return m.last2digits().equals(n.first2digits());
+    }
+    
+    private boolean meetsConditions(List<Node> cycle) {
+        Set<Polygon> polygons = new HashSet<>();
+        Collections.addAll(polygons, Polygon.values());
+        
+        for (Node n : cycle)
+            polygons.remove(n.polygon());
+        
+        return polygons.isEmpty();
+    }
+    
+    public void drawEdges() {
+        for (Node node : nodes) {
+            for (Node node2 : nodes) {
+                if (node.value() == node2.value())
+                    continue;
+                
+                if (node.polygon().equals(node2.polygon()))
+                    continue;
+                
+                if (node.last2digits().equals(node2.first2digits()))
+                    node.drawEdge(node2);
+            }
+        }
+    }
+    
+    public void populate() {
+        int tri = 0, squ, pen, hex, hep, oct = 0;
+        int lb = 1000, ub = 9999;
+        
+        for (int n=1; tri <= ub; n++) {
+            tri = n * (n+1)/2;
+            squ = n * n;
+            pen = n * (3*n - 1)/2;
+            hex = n * (2*n - 1);
+            hep = n * (5*n - 3)/2;
+            oct = n * (3*n - 2);
+            
+            if (fourDigits(tri))
+                add(tri, Polygon.TRIANGLE);
+            
+            if (fourDigits(squ))
+                add(squ, Polygon.SQUARE);
+            
+            if (fourDigits(pen))
+                add(pen, Polygon.PENTAGON);
+            
+            if (fourDigits(hex))
+                add(hex, Polygon.HEXAGON);
+            
+            if (fourDigits(hep))
+                add(hep, Polygon.HEPTAGON);
+            
+            if (fourDigits(oct))
+                add(oct, Polygon.OCTAGON);
+        }
+    }
+    
+    private void add(int value, Polygon p) {
+        nodes.add(new Node(value, p));
+    }
+    
+    private boolean fourDigits(int value) {
+        return value >= 1000 && value <= 9999;
     }
     
     public static void main(String[] args) {
-        new Problem61().solve();
+        Problem61 graph = new Problem61();
+        graph.populate();
+        graph.drawEdges();
+        graph.solve();
     }
+    
 }

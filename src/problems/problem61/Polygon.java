@@ -2,7 +2,7 @@ package problems.problem61;
 
 /**
  *
- * @author andrewtaylor
+ * @author ataylor
  */
 public enum Polygon {
     TRIANGLE, 
