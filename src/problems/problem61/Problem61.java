@@ -97,7 +97,7 @@ public class Problem61 {
     
     public void populate() {
         int tri = 0, squ, pen, hex, hep, oct;
-        int lb = 1000, ub = 9999;
+        int ub = 9999;
         
         for (int n=1; tri <= ub; n++) {
             tri = n * (n+1)/2;
