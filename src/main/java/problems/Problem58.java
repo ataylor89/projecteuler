@@ -1,4 +1,6 @@
-package problems.problem58;
+package problems;
+
+import problems.problem58.SquareSpiral;
 
 /**
  *

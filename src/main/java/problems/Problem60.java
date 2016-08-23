@@ -1,10 +1,14 @@
-package problems.problem60;
+package problems;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import problems.problem60.Clique;
+import problems.problem60.Edge;
+import problems.problem60.PrimeNumberGraph;
+import problems.problem60.Vertex;
 import util.RunningTime;
 
 /**

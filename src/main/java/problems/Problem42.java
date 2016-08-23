@@ -1,4 +1,4 @@
-package problems.problem42;
+package problems;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

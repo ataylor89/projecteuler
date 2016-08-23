@@ -1,4 +1,4 @@
-package problems.problem22;
+package problems;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,9 +1,10 @@
-package problems.problem67;
+package problems;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
+import problems.problem67.Node;
 import problems.problem67.Node;
 import util.RunningTime;
 

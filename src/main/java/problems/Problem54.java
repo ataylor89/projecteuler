@@ -1,8 +1,12 @@
-package problems.problem54;
+package problems;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
+import problems.problem54.Card;
+import problems.problem54.Result;
+import problems.problem54.Score;
+import problems.problem54.SimpleHand;
 
 /**
  *

@@ -1,8 +1,9 @@
-package problems.problem51;
+package problems;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import archived.Library;
+import problems.problem51.NumberFamily;
 import util.Sets;
 
 /**
