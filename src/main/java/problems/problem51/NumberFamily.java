@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import archived.Library;
+import util.Primes;
 
 /**
  *
@@ -77,7 +77,7 @@ public class NumberFamily {
         int numPrimes = 0;
         
         for (Integer member : members) 
-            if (Library.isPrime(member))
+            if (Primes.isPrime(member))
                 numPrimes++;
         
         return numPrimes;

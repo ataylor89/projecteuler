@@ -1,6 +1,6 @@
 package problems;
 
-import archived.Library;
+import util.Palindromes;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ public class Problem55 {
             BigInteger reverse = reverseDigits(num);
             BigInteger sum = num.add(reverse);
             
-            if (Library.isPalindrome(sum.toString()))
+            if (Palindromes.isPalindrome(sum.toString()))
                 return false;
             
             num = sum;

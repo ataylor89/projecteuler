@@ -1,6 +1,5 @@
 package problems;
-
-import archived.Library;
+import util.Primes;
 
 /**
  *
@@ -15,7 +14,7 @@ public class Problem37 {
         int counter = 0, index = 5;
         
         while (counter < 11) {            
-            int prime = Library.getNthPrime(index);
+            int prime = Primes.getNthPrime(index);
             if (isTruncatable(prime)) {
                 primes[counter] = prime;
                 System.out.println(counter + ": " + primes[counter]);
@@ -38,7 +37,7 @@ public class Problem37 {
             Integer left = Integer.parseInt(s.substring(i));
             Integer right = Integer.parseInt(s.substring(0, s.length() - i));
             
-            if (!Library.isPrime(left) || !Library.isPrime(right)) 
+            if (Primes.isPrime(left) || Primes.isPrime(right)) 
                 isTruncatable = false;
         }
         return isTruncatable;

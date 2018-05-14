@@ -1,9 +1,9 @@
 package problems;
-import archived.Library;
 import java.util.ArrayList;
 import java.util.List;
-import static archived.Library.isPalindrome;
-import static archived.Library.base2;
+import util.Palindromes;
+import util.Bases;
+
 /**
  *
  * @author ataylor
@@ -15,10 +15,10 @@ public class Problem36 {
         List<Integer> L = new ArrayList<>();
         
         for (int n = 1; n < limit; n++) {
-            char[] base2 = Library.base2(n);
+            char[] base2 = Bases.base2(n);
             String base10 = String.valueOf(n);
             
-            if (isPalindrome(base10) && isPalindrome(base2)) 
+            if (Palindromes.isPalindrome(base10) && Palindromes.isPalindrome(base2)) 
                 L.add(n);
         }
         
@@ -30,7 +30,7 @@ public class Problem36 {
     }
     
     void test(String s) {
-        if (Library.isPalindrome(s)) 
+        if (Palindromes.isPalindrome(s)) 
             System.out.println(s + " is a palindrome");
         else
             System.out.println(s + " is NOT a palindrome");

@@ -2,9 +2,9 @@ package problems;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-import archived.Library;
 import problems.problem51.NumberFamily;
 import util.Sets;
+import util.Primes;
 
 /**
  *
@@ -12,34 +12,16 @@ import util.Sets;
  */
 public class Problem51 {
     public static void main(String[] args) {
-//        NumberFamily f = new NumberFamily(54321, 1, 2);
-//        System.out.println(f + ": " + f.getMembers());
-//        
-//        NumberFamily f2 = new NumberFamily(123456, 0, 2);
-//        System.out.println(f2 + ": " + f2.getMembers());
-//        
-//        NumberFamily f3 = new NumberFamily(7654321, 4, 5, 6);
-//        System.out.println(f3 + ": " + f3.getMembers());
-//        
-//        NumberFamily f4 = new NumberFamily(1234, 0, 1, 2, 3);
-//        System.out.println(f4 + ": " + f4.getMembers());
-//        
-//        System.out.println("\nCombinations of (1,2,3,4,5):");
-//        System.out.println(Library.combinations("12345"));
-        
-//        List<List<Integer>> cbs = combinations(5);
-//        assert(cbs.size() == Library.combinations("12345").size());
-        
         int start = 56003;
         int size = 5;
         List<List<Integer>> combinations = combinations(size);
-        Library.generatePrimes((int) Math.pow(10, size + 1) - 1);
+        Primes.generatePrimes((int) Math.pow(10, size + 1) - 1);
         
         for (int i = start; ; i++) {
             if (numDigits(i) > size) {
                 size++;
                 combinations = combinations(size);
-                Library.generatePrimes((int) Math.pow(10, size + 1) - 1);
+                Primes.generatePrimes((int) Math.pow(10, size + 1) - 1);
             }
             
             for (List<Integer> cb : combinations) {

@@ -1,14 +1,12 @@
 package problems;
-
-import archived.Library;
-
+import util.PascalsTriangle;
 /**
  *
  * @author ataylor
  */
 public class Problem53 {
     public static void main(String[] args) {
-        long[][] pascalsTriangle = Library.getPascalsTriangle(101);
+        long[][] pascalsTriangle = new PascalsTriangle(101).getTriangle();
         
         String out = "";
         for (int i = 0; i <= 100; i++) {
