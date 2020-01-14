@@ -1,0 +1,2001 @@
+High card. [4S, 8C, 9H, TS, KC] < High card. [2S, 3S, 5D, 7D, AC]
+
+Two pair. [5C, 5D, 9C, AD, AC] > High card. [5H, 7C, 8D, TD, KS]
+
+High card. [3H, 6S, 7H, JS, KC] > High card. [2D, 8S, TD, JC, QH]
+
+One pair. [5C, 8H, TH, TC, QS] < One pair. [4D, 9H, JC, JS, KS]
+
+High card. [5H, 7C, JD, QH, KC] < Two pair. [4C, 4S, KH, AS, AD]
+
+One pair. [5H, 7D, 9C, 9H, KS] > One pair. [3S, 5D, 5C, 8D, AH]
+
+High card. [2H, 3H, 4H, 5C, 6H] < High card. [3S, 5S, 6S, QH, AS]
+
+One pair. [4H, 7C, 8C, TD, TC] < One pair. [3H, 4C, 7S, KC, KS]
+
+High card. [3H, 6D, 7C, 9C, KD] < One pair. [4C, QS, QC, KH, AC]
+
+One pair. [2H, 2D, 5H, 6S, JC] > High card. [7C, 9D, JS, KD, AS]
+
+High card. [8H, 9D, TH, QH, AD] < One pair. [3S, 6D, TS, AS, AC]
+
+One pair. [2H, 4S, 5C, 5S, TC] > High card. [3C, 6C, TS, JD, KC]
+
+High card. [2C, 6H, JS, QD, AS] > High card. [3D, 4H, 8S, 9H, KC]
+
+High card. [2S, 7C, 8S, 9S, KD] < One pair. [3S, 4H, 6D, 6S, KC]
+
+High card. [2D, 3C, 4D, 7D, 8C] < One pair. [4S, 4H, 9S, JD, QH]
+
+High card. [2D, 7S, 8C, TC, KC] < High card. [5C, 8H, TS, QD, AC]
+
+One pair. [3D, 6C, 6S, QD, KH] < One pair. [2H, 8H, QS, AD, AS]
+
+Two pair. [4C, 6S, 6C, 8D, 8S] > High card. [6D, 7D, 9D, TC, QH]
+
+One pair. [2S, 4C, 8D, 8C, TS] < Three of a kind. [3D, 9S, 9D, 9C, AC]
+
+High card. [2S, 3C, 4H, JH, QS] > High card. [2D, 3D, 8S, 9H, TD]
+
+High card. [3C, 5H, 6D, 8S, QS] < One pair. [7H, 7D, 8C, JD, AS]
+
+High card. [6H, 9D, TD, JH, AS] > High card. [6C, 9S, JC, QC, KD]
+
+High card. [4D, 8S, TH, QS, AH] < One pair. [3C, 3D, 5C, TS, AC]
+
+High card. [3D, 4D, 5S, 8H, JS] < High card. [3S, 6C, 8C, TS, AD]
+
+One pair. [3S, 5D, 5H, 6D, 7C] < One pair. [2H, 3D, 5C, 5S, JC]
+
+High card. [2S, 3D, 5H, 6H, KS] < One pair. [5D, 7H, 8H, JD, JS]
+
+High card. [4H, JS, QS, KH, AS] > High card. [6D, 7C, TC, QC, KS]
+
+High card. [2H, 3D, TS, JS, QS] < High card. [4D, 9S, JC, KD, AS]
+
+One pair. [4D, 5H, 5D, QD, KH] > High card. [3D, 4H, 7H, JS, KD]
+
+One pair. [2C, 5C, 6H, 9H, 9D] > High card. [2D, 6C, 9S, TH, JC]
+
+High card. [6D, 7D, JH, QD, AS] > High card. [4D, 5C, 7C, JS, QS]
+
+High card. [3H, 8C, QD, KH, AD] > High card. [3S, 5S, 8H, 9D, TH]
+
+One pair. [4D, 8S, 9S, 9D, AH] > High card. [3C, 4H, 8D, TC, JS]
+
+High card. [2C, 3S, 5H, QD, KS] < One pair. [8S, 9H, TS, AH, AD]
+
+One pair. [5C, 5D, 7H, 9H, KD] > High card. [2D, 3D, 4D, KS, AD]
+
+One pair. [2C, 6D, 9S, KS, KC] < Two pair. [9D, 9H, TS, TC, QH]
+
+High card. [4D, 5D, 6H, 9C, QH] < High card. [6D, JS, QC, KH, AD]
+
+One pair. [3H, 5C, 9S, 9D, JD] > High card. [4D, 9H, TC, QH, AS]
+
+High card. [2C, 3C, 6D, 9C, JC] < One pair. [7D, 9S, 9D, KH, AD]
+
+One pair. [7C, 9C, JC, JS, KC] > One pair. [3H, 3C, 7D, KD, AS]
+
+One pair. [2C, 3S, QD, QS, KH] < Two pair. [8S, 8H, 9H, 9C, JC]
+
+High card. [3C, 4C, 8D, QH, KC] < One pair. [4H, 6D, 9H, 9D, AD]
+
+One pair. [3S, 7H, QS, KS, KH] > One pair. [5H, 5D, 7D, JD, AD]
+
+Two pair. [2H, 2C, 6H, TH, TC] > One pair. [4H, 7D, 8D, 8C, AS]
+
+High card. [2H, 3S, 4S, QC, AC] < One pair. [4D, 4C, 6D, TH, KH]
+
+High card. [4D, 7C, TC, KS, AS] < One pair. [2D, 3C, 6D, 6C, 9H]
+
+High card. [2C, 5D, 8C, TD, QS] < One pair. [3H, 4C, 7H, 9C, 9H]
+
+One pair. [5H, 7S, TS, TD, JH] > One pair. [6H, 8H, 8S, QD, AD]
+
+High card. [5S, 7C, 8C, 9C, AD] < One pair. [2S, 5H, 8D, 8S, 9D]
+
+One pair. [2S, 4H, 9S, KH, KS] > High card. [4S, 5S, 7D, KC, AD]
+
+One pair. [6H, 9C, JS, QS, QD] < One pair. [2S, 5D, 8D, AC, AS]
+
+High card. [3S, 9D, JC, KH, AC] < One pair. [3C, 5S, 9S, 9C, JS]
+
+Three of a kind. [3C, 3D, 3S, KS, AD] > High card. [4S, 5C, 8C, 9C, TS]
+
+High card. [5D, 6H, 8D, JH, KD] < One pair. [3D, 6C, QS, QD, KC]
+
+One pair. [3S, 6C, 8S, 8C, JD] < One pair. [3C, TC, JS, QC, QH]
+
+High card. [2S, 8H, 9H, JC, KC] < Two pair. [8S, 8C, 9C, 9S, JH]
+
+One pair. [2H, 4D, 8S, QH, QC] > High card. [3C, 9D, TH, KC, AS]
+
+High card. [2H, 6H, 7C, 8S, TH] < One pair. [3C, 3H, 6S, 7S, AS]
+
+One pair. [4H, 5S, 5H, JS, QH] < One pair. [8H, TS, JC, AH, AC]
+
+High card. [2S, 4S, 8H, 9D, TC] < One pair. [3C, 3H, 5C, 7H, JC]
+
+Three of a kind. [3D, 3C, 3S, 4C, AD] > High card. [5D, 8C, TH, QC, AS]
+
+High card. [4C, 6S, 9D, JS, KH] < One pair. [8H, TS, JD, AH, AD]
+
+High card. [4C, 6S, 7S, 9D, AC] < One pair. [3D, 3S, 4D, TC, JD]
+
+High card. [4H, 6H, 7H, JH, AD] < One pair. [6S, 7D, TD, TS, KC]
+
+One pair. [3S, 8H, 8D, TC, JH] > High card. [2C, 4D, 5C, 8C, 9S]
+
+High card. [2C, 9D, TH, QH, KC] > High card. [4H, 9C, TS, JC, QS]
+
+One pair. [3C, 8H, QS, QD, KH] > One pair. [4H, 8D, 8S, TD, AC]
+
+High card. [3C, 5S, 7C, 8H, TH] < High card. [8C, 9C, TC, JD, KD]
+
+One pair. [8C, TC, TS, JD, QC] > High card. [3H, 6H, 7C, TD, KD]
+
+High card. [6D, 9C, JH, QS, KS] < One pair. [6S, 6H, 9H, KH, AS]
+
+One pair. [2H, 2D, 4D, JH, AH] > High card. [4H, 5D, 6H, TD, JD]
+
+High card. [8C, 9S, JH, QD, KD] > High card. [2C, 5C, 7C, JS, QS]
+
+High card. [2S, 4S, 7H, 8D, TC] < One pair. [6H, 7S, 7C, 9C, KC]
+
+High card. [4S, 5D, 7H, 8C, TD] < High card. [4H, 8S, JS, QC, KS]
+
+High card. [6D, 8S, TD, JH, AD] < One pair. [2D, 6C, 7C, 7D, KD]
+
+Two pair. [4H, 6H, 6S, JC, JS] > High card. [3C, 4C, 9H, QH, AH]
+
+One pair. [5H, 6H, 7C, 7S, AS] < Two pair. [3D, 5D, 5C, KH, KC]
+
+High card. [3D, 4D, TD, JC, AS] < One pair. [6D, 6S, JD, QH, KS]
+
+One pair. [2S, 7S, 8C, 8S, QH] > High card. [5C, 7H, JD, QD, AH]
+
+One pair. [2C, 3C, 6H, 6C, 8S] > One pair. [4C, 4D, 7D, 8D, TD]
+
+High card. [2S, 5D, 7C, QH, KH] < One pair. [6D, 7H, JS, QC, QD]
+
+One pair. [6C, 6S, 7D, TH, AD] < Flush of H. [2H, 4H, 6H, 8H, KH]
+
+One pair. [2D, 5D, JS, KS, KD] > High card. [3D, 7D, 8C, 9C, KH]
+
+High card. [3C, 6D, 9C, QD, KS] < High card. [2D, 3S, 7S, JD, AH]
+
+One pair. [8S, JC, QH, AH, AS] > High card. [4C, 7D, 8H, TH, KC]
+
+One pair. [5H, 5D, 7C, TD, JC] > High card. [4C, 8H, JS, KD, AD]
+
+One pair. [2H, 7D, KC, AC, AH] > High card. [5D, 6D, 7S, JH, KH]
+
+One pair. [5S, 6H, 8S, 9S, 9C] > High card. [6C, 9H, TD, JD, AC]
+
+High card. [6D, 7D, 8S, TS, KD] < Two pair. [5S, 5D, 7H, 7C, AC]
+
+High card. [4C, TC, JC, QC, AH] < One pair. [2H, 2C, 7D, 8C, TS]
+
+One pair. [3D, 6S, 7D, KD, KC] > One pair. [2S, 3H, 5S, 5C, 8S]
+
+One pair. [4C, 5D, 6H, 8S, 8H] < One pair. [3H, 5S, 7C, KC, KD]
+
+One pair. [3D, 3C, 6C, 8C, JH] < One pair. [4C, 7H, 7C, TD, KC]
+
+High card. [6H, TS, JC, QS, KC] < One pair. [8H, 8C, 9S, TD, KS]
+
+High card. [5S, 6C, 7D, 9C, QH] < One pair. [2C, 9S, KS, KC, AH]
+
+One pair. [4D, 4S, 8H, 9C, TD] > High card. [3S, 7D, 9D, TH, AS]
+
+One pair. [3C, 5D, 6S, 6H, 7D] < One pair. [2C, 5C, 9D, 9C, KD]
+
+One pair. [2H, 3D, 3H, KC, AD] < One pair. [4S, 8D, JC, QD, QS]
+
+High card. [3H, 7C, 8C, 9C, AD] < One pair. [5D, 9D, JC, JS, AS]
+
+One pair. [5D, 5C, 6S, 7H, 9H] < One pair. [6C, 9S, JC, QC, QD]
+
+One pair. [2C, 6S, JC, JH, QS] > High card. [3D, 4S, 9C, TC, QC]
+
+One pair. [3D, 4H, 4D, 5S, 8D] < Three of a kind. [2S, 2H, 2C, JS, KC]
+
+One pair. [3S, 4D, TD, TH, KD] < One pair. [7H, JH, JS, KS, AC]
+
+One pair. [2D, 7S, 8C, 8S, 9S] < One pair. [5C, 7D, 9D, AD, AS]
+
+High card. [2S, 6C, 7H, 8C, TH] < One pair. [3H, 3S, 4C, 8H, AC]
+
+One pair. [5H, 8H, JC, JD, KD] > High card. [2D, 4H, 5C, TD, JH]
+
+High card. [3D, 7H, QH, KS, AS] < One pair. [5S, 5H, 6D, 8S, JD]
+
+High card. [6S, 9S, TC, JC, QS] < One pair. [5C, 5D, 8C, 9C, TH]
+
+High card. [2S, 3S, 5H, 9H, JH] < High card. [2C, 6S, 7S, KS, AS]
+
+One pair. [8C, TC, JC, QD, QS] > High card. [4H, 6C, QC, KH, AC]
+
+High card. [4H, 5H, 7D, TC, JH] < High card. [2H, 4D, 8D, JC, KS]
+
+Two pair. [5S, 9C, 9H, KH, KD] > High card. [2D, 3D, 5C, 7D, TS]
+
+High card. [4D, 5H, 8C, TC, AS] > High card. [2C, 3H, 8D, 9D, TS]
+
+High card. [2D, 6H, 8D, 9H, JD] < Two pair. [4S, 5H, 5S, 6C, 6D]
+
+High card. [6H, 7D, 9C, JC, AD] < One pair. [3C, 6D, 9S, 9H, JS]
+
+High card. [4C, TC, JH, QS, AD] < One pair. [5D, 7C, 9S, 9C, AH]
+
+High card. [2H, 6H, 8S, TH, KD] < One pair. [9D, 9H, QD, KS, AS]
+
+One pair. [4H, 5H, 6C, 8H, 8D] < Three of a kind. [5S, 8S, AH, AS, AD]
+
+High card. [2H, 4S, 5D, TD, QS] < High card. [3H, 5H, JC, KS, AC]
+
+High card. [7D, 9C, QD, KD, AC] < Two pair. [5H, 5S, 6D, 6H, QH]
+
+High card. [2H, 7D, QH, KC, AH] > High card. [3H, 7S, JD, QS, KS]
+
+One pair. [3H, 6C, 6D, 8S, KS] > One pair. [5D, 5C, 8H, TC, QD]
+
+Two pair. [4D, 4S, 6S, 9H, 9D] > High card. [4H, 6C, JD, QC, KH]
+
+High card. [2D, 4S, 6H, TD, QH] < High card. [3C, 8C, JH, QD, KD]
+
+High card. [4S, 6H, 7C, 9D, QD] < Three of a kind. [3C, 6S, AS, AH, AD]
+
+High card. [2C, 6H, 8D, TH, KC] < One pair. [5C, 5D, 6D, 8S, AH]
+
+One pair. [7C, TD, TS, JC, AD] > High card. [3C, 7H, 9H, QD, KC]
+
+Two pair. [4D, 4H, 5D, 5S, 8H] > High card. [2D, 3H, 7D, JD, KD]
+
+High card. [4S, 6H, TD, JH, QS] < One pair. [5C, 7D, 8S, 8H, KD]
+
+One pair. [3D, 8C, TD, AC, AS] > High card. [5D, 6C, 7H, JD, KH]
+
+High card. [6D, 7C, 9D, QH, KS] < One pair. [TC, JD, KD, KC, AS]
+
+One pair. [5S, 7S, 7D, 8S, JH] < Two pair. [2D, 2H, 3D, AS, AD]
+
+High card. [2H, 3C, 5D, QD, AS] < One pair. [2C, 6H, 9H, 9S, KC]
+
+High card. [4C, 5D, 9D, TH, JH] < One pair. [3H, 8D, 8H, 9H, TC]
+
+One pair. [2C, 2H, 6H, TD, KD] > High card. [2D, 6C, 8C, 9D, JS]
+
+One pair. [3C, 7S, 7C, KD, AS] > High card. [2S, 8C, TS, QH, AD]
+
+High card. [4C, 6C, 8H, JS, QS] < One pair. [9S, TD, TS, QC, AD]
+
+One pair. [2H, 7C, 8C, TS, TC] > High card. [2D, 3C, 6D, 9H, JC]
+
+High card. [2H, 8D, TC, JH, KS] < One pair. [3H, 6D, 8H, TD, TH]
+
+One pair. [5D, 9D, 9H, TD, QC] > One pair. [6C, 8H, 8C, TS, KC]
+
+High card. [2H, 3D, 4D, 8C, AH] < One pair. [7D, 8H, TH, TC, KC]
+
+High card. [2D, 5C, 6S, 8C, TS] < One pair. [5H, 6H, KH, KC, AH]
+
+One pair. [4C, 5S, 5D, TC, AH] < Two pair. [6H, 6C, 8D, 8C, JD]
+
+High card. [2D, 3D, 8H, QD, KC] < High card. [2S, 4H, 9H, JC, AD]
+
+High card. [6S, 7D, TD, JS, KD] > High card. [2S, 3S, 4H, 8C, QS]
+
+High card. [3S, 4C, 9H, TS, JH] < One pair. [4H, 5S, 9S, 9C, QC]
+
+One pair. [2C, 9H, 9S, JS, KD] > High card. [3H, 5D, TS, JC, AC]
+
+Two pair. [2H, 5D, 5H, AS, AD] > One pair. [4C, 7S, TD, JC, JS]
+
+High card. [2D, 3D, 4S, 7D, 8H] < High card. [2C, 9C, TS, KD, AD]
+
+One pair. [5H, 7H, JH, JS, QD] > High card. [3D, 4C, 8H, TH, AC]
+
+One pair. [5C, 6D, QD, KH, KC] < One pair. [2D, 4H, 7C, AD, AC]
+
+High card. [3D, 8S, 9D, TC, QD] < One pair. [2C, 4H, JC, JD, AH]
+
+One pair. [5S, 6C, 8S, TD, TC] < Three of a kind. [2C, 5D, AH, AS, AC]
+
+High card. [3D, 6C, 7S, TH, AS] < Two pair. [4C, 4H, 7H, 7D, AH]
+
+High card. [2H, 5C, 6H, 7S, KS] < One pair. [3D, 3C, 4H, 5H, 7H]
+
+High card. [3C, 7S, 9S, QH, AC] < Three of a kind. [2H, 3D, 3S, 3H, 6S]
+
+One pair. [2D, 2C, 3H, 6H, AS] < One pair. [6S, 6C, 9C, TC, JS]
+
+One pair. [6D, QH, QD, KD, AC] > High card. [2C, 6H, 8C, TS, KH]
+
+High card. [3S, 5D, 7D, 8H, 9H] < High card. [3H, 4S, 5H, 9S, QC]
+
+High card. [2D, 3C, 6H, 7H, 9D] < One pair. [3S, 4D, 4S, 5H, 8S]
+
+High card. [4S, 7S, 9S, TC, KD] > High card. [2H, 3S, 7H, 8S, QC]
+
+One pair. [3D, 3H, 6C, 8C, TC] < One pair. [2H, 4D, 6H, KS, KD]
+
+One pair. [3D, 3H, 9S, JS, KC] < One pair. [2D, 4S, 6C, 8H, 8S]
+
+Two pair. [6H, 6C, TC, QS, QD] > One pair. [4D, 5H, 7D, 7C, 9H]
+
+One pair. [6S, 6C, 8D, 9D, TD] < One pair. [5D, 8H, TC, TS, JS]
+
+High card. [4H, 9H, TC, JD, KC] < High card. [2C, 5H, 6S, 8H, AS]
+
+One pair. [5C, 6S, 9C, 9D, JS] > High card. [4C, 6D, 8H, JD, KC]
+
+One pair. [4D, 6C, 7C, 8D, 8S] > High card. [5C, 6H, 7H, 8H, KC]
+
+High card. [3D, 6D, TC, JC, KS] < One pair. [2C, 6H, 7S, 9S, 9C]
+
+High card. [3S, 5H, 6C, TS, KD] < One pair. [6H, 7D, 9H, 9S, KH]
+
+High card. [3D, 4C, 6H, TS, QD] < High card. [2H, 3S, 5C, KD, AC]
+
+High card. [4C, 7C, 9S, JS, AS] > High card. [7H, 9H, TS, JC, KS]
+
+High card. [3H, 4H, 6H, 8C, JD] < High card. [4S, 5S, 9S, KS, AD]
+
+High card. [2C, 3D, 4C, 7D, AS] > High card. [2S, 6C, 9C, QS, KC]
+
+High card. [2S, 3D, 5H, 8S, AC] > High card. [3S, 4D, 6S, 9D, TD]
+
+One pair. [3D, 7S, TH, TS, QD] > High card. [5D, 6C, 7H, QC, AC]
+
+One pair. [9C, TC, QD, QS, AD] > One pair. [3D, 3C, 5C, 8D, KD]
+
+High card. [3S, 7C, 8H, 9D, AS] < One pair. [2D, 8S, 8D, JD, KC]
+
+High card. [4C, TH, JS, QH, AC] < One pair. [7D, 7S, 8D, 9C, KH]
+
+High card. [2C, 4C, 8D, 9D, JH] < High card. [2S, 4H, TS, QD, KD]
+
+High card. [2D, 4D, 5D, 6D, JH] < One pair. [3S, 3H, 8S, TC, KH]
+
+High card. [2C, 4D, 8C, QS, AD] < One pair. [5C, JH, JD, KD, AH]
+
+One pair. [2H, 5C, 5H, 6C, JH] > High card. [3H, 4H, 7C, TC, KS]
+
+High card. [3C, 4C, 5D, JH, QC] < High card. [8D, 9C, TC, QD, KH]
+
+High card. [3H, 7H, 9C, JS, QH] < High card. [5H, 7C, 9H, JC, AS]
+
+High card. [2D, 3C, 4S, 5S, QD] < One pair. [4C, 5C, 6S, 6C, KC]
+
+High card. [2D, 5D, 8S, TS, KH] < One pair. [4C, 7C, 9C, 9S, AS]
+
+One pair. [5S, 7C, 8C, 8D, AH] < One pair. [2C, JH, QH, QS, KD]
+
+One pair. [2H, 8C, 9D, AH, AC] > High card. [2C, 5S, 7H, 8H, QC]
+
+Three of a kind. [5S, 9H, QD, QS, QC] > High card. [4H, 5H, 9C, TH, JC]
+
+Two pair. [3H, 3S, 5H, 6C, 6S] > High card. [6H, 7S, 8D, KS, AC]
+
+High card. [4S, 7H, 8C, QH, AC] < One pair. [3D, 3S, 6C, TC, KC]
+
+High card. [3D, 9D, TH, JS, AC] < One pair. [3H, 3S, 5H, 8S, TC]
+
+One pair. [9S, JS, QD, KH, KS] < One pair. [3C, 8D, QC, AH, AC]
+
+High card. [3S, 5H, 6C, 9S, KH] < High card. [2D, 8C, JH, QD, AS]
+
+One pair. [4D, 5S, 6C, 7S, 7H] < One pair. [4H, 6S, 9H, JC, JH]
+
+One pair. [5S, 6H, 9S, AH, AD] > High card. [2H, 3S, 8C, 9D, TH]
+
+High card. [4C, 7C, 8D, 9H, QC] < High card. [4S, 5S, 9C, KC, AD]
+
+One pair. [4D, 4C, 6H, 9D, TC] > High card. [2S, 3S, 5D, JH, AS]
+
+High card. [2H, 5C, 6C, 7C, KH] < High card. [8S, TH, JD, QS, AD]
+
+One pair. [3S, 4S, 7S, AH, AS] > High card. [2S, TH, JS, KC, AD]
+
+High card. [2S, 7D, 8C, JS, KC] < Two pair. [5C, 5H, 9C, 9D, TS]
+
+High card. [4D, 7S, 9S, TD, JH] < High card. [2C, 5D, 6H, JS, KH]
+
+Three of a kind. [2D, TH, JD, JS, JC] > High card. [3D, 5H, 8C, QD, AC]
+
+One pair. [5S, 5D, 7S, 9D, KH] > High card. [2D, 3C, 4S, 6H, TD]
+
+One pair. [4S, 4D, 5D, 8D, AC] < Three of a kind. [7C, 9C, AD, AS, AH]
+
+One pair. [2C, 6S, TH, TS, KS] < One pair. [3C, 4S, QC, AH, AS]
+
+High card. [2H, 3S, 5C, 8C, JC] < One pair. [3H, 3C, 7C, JH, KH]
+
+High card. [3H, 5S, 6H, 7S, JC] < One pair. [2S, 4C, 4D, 7H, KC]
+
+One pair. [4D, 4H, 7C, 8S, 9S] < One pair. [6S, 6C, TC, JC, AD]
+
+High card. [3S, 4C, TC, QS, KH] < One pair. [3C, 8H, 8S, TS, AC]
+
+Two pair. [3C, TH, TS, QD, QS] > One pair. [7H, 7D, TD, JC, AH]
+
+High card. [4D, 9S, TD, JD, QC] < Two pair. [7S, 7D, TS, AD, AC]
+
+One pair. [4S, 6D, 7H, 7C, AH] > High card. [2H, 9D, TD, JC, KS]
+
+High card. [4H, 6D, 7C, JD, AH] < One pair. [2H, 2C, 5C, TS, QS]
+
+High card. [4C, 8C, 9S, TC, KC] < One pair. [3C, 6S, JS, JC, AH]
+
+High card. [3D, 5S, 7D, QC, AS] < One pair. [9D, TD, JC, JD, KH]
+
+High card. [2S, 3C, 6H, TH, AH] < One pair. [5H, 5C, 7S, 8H, AC]
+
+Two pair. [2D, 2S, QC, QD, AC] > High card. [3S, 6S, 8H, JD, QS]
+
+High card. [3C, 4H, 9D, JS, KC] < One pair. [3S, 6H, 8S, 8C, AS]
+
+One pair. [2H, 7H, 7D, JD, KC] < One pair. [3H, 5S, JC, QH, QS]
+
+High card. [3S, 7S, 8H, 9H, TD] < One pair. [5C, 6C, 7C, AC, AH]
+
+High card. [8D, 9H, TD, JD, AH] > High card. [3S, 7D, 8S, 9C, QS]
+
+High card. [3C, JD, QH, KC, AH] < One pair. [4S, 5S, 5D, TD, KS]
+
+High card. [6S, 7H, 9H, TH, JH] < High card. [2D, 4C, 5C, 7C, AD]
+
+High card. [5S, 7C, 9D, TC, KD] < One pair. [2S, 5D, 6S, 6C, TH]
+
+High card. [5H, 7H, 8D, 9H, KC] < High card. [3D, 4H, 7C, QC, AS]
+
+High card. [4S, 6S, 8S, TD, QC] < One pair. [2S, 5C, TH, QS, QD]
+
+High card. [5H, 8S, 9H, TH, QC] < One pair. [5C, 6S, 7D, 7C, KC]
+
+One pair. [4D, 7H, KD, KH, AH] > High card. [2D, 4S, 5C, QH, KC]
+
+High card. [2C, 6S, TD, JC, AS] < One pair. [4D, 4H, 5S, 6C, 8C]
+
+One pair. [5S, 6S, TC, JC, JD] < One pair. [3S, 8D, 9D, AS, AD]
+
+Two pair. [5D, 5S, 6D, 6H, TC] > One pair. [3D, 7D, 9D, QS, QD]
+
+High card. [3S, 4S, 6C, 7S, 8S] < One pair. [2D, 7D, 7C, KS, AD]
+
+One pair. [JC, QH, QD, KC, AC] > One pair. [5D, 7H, 7D, 8D, QS]
+
+High card. [3D, 5H, 8S, JS, AH] > High card. [3H, 4S, 6C, TD, JH]
+
+High card. [4S, 7D, 9H, QS, AS] > High card. [5C, 6D, TC, JS, KS]
+
+High card. [2D, 4D, 5C, 6H, TC] < High card. [3D, 6C, 8S, 9H, QH]
+
+One pair. [5S, 6D, 7H, TC, TH] < One pair. [5C, 9C, JD, KS, KD]
+
+High card. [4S, 6S, 8D, TD, QH] < High card. [5C, 6C, 8S, TC, KC]
+
+High card. [3D, 4S, 5S, KS, AC] > High card. [2S, 4C, 7D, TH, QD]
+
+High card. [6S, 7S, 8H, 9S, TS] < High card. [3C, 7H, 8C, QH, AH]
+
+High card. [4C, 8C, TS, JS, QC] < One pair. [3D, 5D, 7D, 7S, JH]
+
+High card. [7S, 8S, 9D, QC, AC] > High card. [2H, 6D, 7C, JH, KC]
+
+High card. [3C, 4S, 6S, JS, KD] < High card. [5H, 7C, QC, KS, AH]
+
+High card. [4H, 6S, JD, QS, KS] < High card. [6H, 8H, TC, KC, AS]
+
+One pair. [6S, 7C, TC, TD, KH] > High card. [3S, 5C, 7D, JC, AH]
+
+Two pair. [3H, 4C, 4H, TC, TH] > One pair. [6S, 6D, 7H, 9C, QH]
+
+High card. [4S, 5H, 7D, 8C, JS] < High card. [3D, 4D, 8S, QH, KC]
+
+One pair. [3H, 3S, 6S, 7H, AD] > High card. [4S, 7S, 8S, JS, QC]
+
+High card. [3S, 6H, TH, JD, KH] < One pair. [2D, 6C, 9C, QS, QD]
+
+One pair. [4S, 4D, 5H, QH, KC] > High card. [5S, 6D, 7D, 8D, TH]
+
+High card. [6S, 7H, TD, KD, AD] < One pair. [5S, 9H, JC, KH, KC]
+
+High card. [3H, 4S, TS, QC, AS] < One pair. [7S, 9C, QD, KS, KC]
+
+Two pair. [6S, 6C, TS, TH, QC] > One pair. [5C, 5D, 9D, TC, KD]
+
+One pair. [3S, 4H, 4C, JS, KD] < One pair. [6D, 9S, 9D, JC, QD]
+
+One pair. [4H, 6D, 8S, JS, JH] < Full house. [6H, 6S, 6C, KS, KH]
+
+High card. [5D, 7D, 9S, TC, AC] < One pair. [6S, 6H, QD, KH, AS]
+
+High card. [6D, 7H, 8D, QH, AS] < One pair. [2S, 5C, 5H, TH, KH]
+
+High card. [3D, 4C, 7C, TC, QC] < High card. [2D, 4S, 8C, JS, KH]
+
+One pair. [5D, 5H, 6H, 7S, 9C] > High card. [7H, 8S, 9H, TH, JH]
+
+High card. [2S, JS, QD, KH, AS] < Three of a kind. [4S, 8H, 8D, 8S, AC]
+
+High card. [3H, 4C, 8C, TD, KD] < One pair. [2D, 5C, JC, JD, QS]
+
+High card. [2C, 5D, 6C, 7D, TS] < High card. [2H, 3C, QS, KS, AH]
+
+One pair. [4S, 7C, 7D, 9C, JH] > High card. [5C, 6C, 8H, 9D, QD]
+
+High card. [2S, 6D, 7S, 9C, TD] < One pair. [5C, 9S, QS, QH, KH]
+
+One pair. [6S, 9C, JC, JH, QH] > High card. [2H, 7S, 8D, JS, KH]
+
+High card. [4D, 5H, 8D, TH, KC] < One pair. [3S, 3D, 4S, 6S, QS]
+
+High card. [2D, 4C, 7C, TD, JD] < High card. [6D, 7S, TH, JC, AH]
+
+High card. [4C, 7S, 9D, TH, QS] < High card. [3H, 4D, 6H, TS, AD]
+
+One pair. [2D, 3H, 3D, 7D, JD] > High card. [2S, 8S, 9C, QC, AS]
+
+One pair. [2C, 4H, 7S, 9H, 9C] > One pair. [5C, 5D, 6H, JH, KD]
+
+High card. [3C, 8H, 9H, TC, JC] < One pair. [8D, 9S, KS, KC, AD]
+
+One pair. [5H, TS, JD, QS, QH] > High card. [5D, 8D, QC, KH, AH]
+
+High card. [4C, 5D, 6S, 8S, AS] < One pair. [7H, TH, QC, QD, AH]
+
+One pair. [3H, 4H, 4S, 6S, 7D] < One pair. [8H, 9H, 9D, JS, AS]
+
+High card. [2C, 7D, 8C, 9D, JD] < One pair. [5H, 5S, 9S, JC, KD]
+
+High card. [4S, 9C, QD, KD, AH] < One pair. [7C, 9D, TD, AD, AC]
+
+One pair. [4H, 4S, 6S, 8D, 9C] > High card. [7C, 9D, TC, JH, KS]
+
+One pair. [4S, 5S, 5H, JC, QH] > One pair. [2C, 2S, 9S, JS, AC]
+
+One pair. [5H, 8C, QD, AS, AD] > High card. [5C, 7D, 8S, TD, QC]
+
+High card. [4C, 5C, 8D, JC, KH] < One pair. [2H, 2C, 4D, 6H, QS]
+
+High card. [2D, 3H, 4S, TH, KC] < One pair. [7H, 9D, QD, AC, AD]
+
+High card. [8H, TH, QD, KH, AS] < One pair. [7S, 8D, 8C, QH, KC]
+
+High card. [6C, 7D, 8C, JC, KH] < One pair. [2H, 2D, 6S, QS, AD]
+
+One pair. [2D, 7D, JC, JS, KH] > One pair. [4C, 5H, 5D, QC, AD]
+
+One pair. [3S, 4S, TS, TD, AD] > High card. [2D, 6S, 9H, TH, JH]
+
+One pair. [2D, 2C, 4S, 9H, QS] < One pair. [3D, 9D, KH, AS, AC]
+
+One pair. [4S, 6S, 8H, KH, KD] > One pair. [7D, 9D, TS, QD, QC]
+
+One pair. [5H, JH, KS, AH, AS] > High card. [5S, JC, QC, KH, AD]
+
+One pair. [5D, 6D, 7D, KS, KD] > One pair. [3D, 3S, 4D, 7C, JD]
+
+High card. [5H, 8D, 9C, JS, AC] < One pair. [2C, 3H, 4H, 4D, TS]
+
+One pair. [6H, 7C, 9D, KS, KH] > One pair. [2S, 2H, 3D, 6S, 8S]
+
+High card. [3S, 6H, 7S, JS, AC] < One pair. [3H, 4H, 8H, TD, TH]
+
+High card. [5C, 9H, TC, QC, KC] < High card. [4H, 6H, 8S, KS, AC]
+
+High card. [4S, 7D, TC, JC, QH] < One pair. [6D, 6C, TS, KH, AC]
+
+Two pair. [7D, 7C, JH, QH, QS] > High card. [3H, 5D, TH, QD, KS]
+
+High card. [3D, 4C, 5S, 8D, JS] < High card. [2C, 4H, 7H, 9C, KS]
+
+High card. [2C, 4H, 5H, 8S, TD] < Two pair. [3S, 3H, QD, QC, KC]
+
+High card. [9C, JS, QC, KD, AD] < One pair. [5S, 7D, 7H, 9D, TS]
+
+One pair. [7C, 7S, 8C, JC, KH] < One pair. [2C, 6C, TS, TH, QD]
+
+High card. [3C, 5S, 7S, 9D, TH] < High card. [2H, 5H, 8S, 9C, QH]
+
+High card. [2S, 5D, 6H, 9H, JS] < High card. [2H, 3H, 5S, 7C, KH]
+
+One pair. [2C, 5D, 5S, TC, JD] < One pair. [2S, 3C, 6S, 6C, 8S]
+
+One pair. [2D, 4D, 4H, 8H, KH] > High card. [2S, 3H, 5C, 9H, KS]
+
+High card. [2D, 3S, 7H, 8S, TD] < High card. [6H, 8D, 9C, JD, KC]
+
+High card. [6S, 7C, 9H, JH, QD] < Two pair. [5H, 8S, 8H, TH, TD]
+
+Two pair. [7S, 7D, TD, TS, QS] > High card. [2C, 3C, 7C, JC, KD]
+
+High card. [2D, 3C, 4H, 8S, JD] < One pair. [2S, 4D, TD, AS, AC]
+
+One pair. [4C, 4S, 6C, KS, AH] > High card. [6H, 7D, 8C, 9H, AS]
+
+High card. [2C, 3C, 5S, 9S, QS] < One pair. [4D, 4S, 5D, KD, AC]
+
+One pair. [2D, 2C, TS, JS, KH] > High card. [5D, 8C, QH, KC, AS]
+
+High card. [3H, 6C, 8S, TH, KD] < High card. [6H, 7S, 9S, KH, AC]
+
+One pair. [6H, 6C, 7S, QS, AH] < Two pair. [2S, 2H, 4H, 5D, 5H]
+
+One pair. [2C, 2S, 5H, JC, QD] > High card. [6S, 7D, JD, QC, AS]
+
+High card. [6C, 8H, TC, KD, AS] < One pair. [2C, 7D, 9D, 9S, JH]
+
+High card. [2H, 4C, 6C, 8S, AH] < Three of a kind. [3H, 7C, TD, TH, TS]
+
+High card. [4S, 6C, TS, QH, KD] < One pair. [7D, 8D, 9D, 9C, AH]
+
+One pair. [5C, 6D, JS, QD, QC] > High card. [2H, 5D, 8C, 9C, KD]
+
+High card. [3C, 6S, JH, QH, AD] < One pair. [6D, 6H, 8S, KC, AH]
+
+One pair. [3D, 4C, 5S, 7C, 7S] > One pair. [3S, 3C, 5H, 6S, JC]
+
+One pair. [3C, 3S, 5H, 7C, QH] > High card. [4C, 8C, 9C, TS, KD]
+
+One pair. [3S, 5H, 7S, 7H, QD] > High card. [7C, 8C, JC, QH, KD]
+
+One pair. [2S, 3C, 4C, KD, KH] > High card. [2C, 6S, 7C, TS, AC]
+
+High card. [2C, 3C, 4C, 6H, KH] < One pair. [4D, 5H, 5S, 7S, QD]
+
+High card. [4D, 7C, 8S, TS, QD] < One pair. [3C, 6H, 9D, KS, KD]
+
+One pair. [4D, 4C, 7S, TS, QS] > High card. [3H, 8D, 9S, TC, QD]
+
+High card. [3C, 6S, TS, QH, AC] < One pair. [6H, 8S, 9H, 9D, QS]
+
+High card. [3S, 4S, 5D, 7S, JS] < One pair. [2D, 6C, 6S, TH, QH]
+
+One pair. [4C, 4H, 5D, JS, AS] > High card. [3D, 8S, 9C, TS, AC]
+
+High card. [3S, 5C, 6S, 7C, 9C] < One pair. [3C, 6H, QS, AD, AS]
+
+High card. [3H, 6S, 7H, 8C, 9S] < High card. [7C, 9H, JD, KH, AS]
+
+One pair. [3D, 3H, 4D, 6C, 7S] > High card. [2H, 7C, 9C, TH, AC]
+
+High card. [3H, 4H, 5S, TC, AC] < Three of a kind. [8D, 9C, 9H, 9S, TH]
+
+High card. [4D, 5H, 6C, 8D, 9H] < High card. [2H, 3S, 5D, 6S, QD]
+
+One pair. [4C, 4D, 5C, JD, QS] > High card. [3H, 8C, TH, QH, AC]
+
+High card. [3C, 5S, 7H, QC, AD] < One pair. [4C, 4H, 6D, JD, KS]
+
+High card. [3H, 9H, QS, KS, AH] < Two pair. [2S, 2H, 5H, JS, JH]
+
+One pair. [2H, 5S, 6S, TH, TS] > One pair. [3S, 3C, 5H, JS, KS]
+
+High card. [2D, 3D, 7H, 9S, KC] < One pair. [6D, 7D, TD, JH, JS]
+
+One pair. [2C, 8H, 8C, JS, AC] < One pair. [2D, 7S, TH, JH, JC]
+
+High card. [2H, 3D, 5D, 8H, 9S] < High card. [9C, TC, JC, KD, AH]
+
+High card. [2H, 6D, 9D, JC, QD] < One pair. [9S, TS, TH, QH, KH]
+
+High card. [2C, 4S, 5H, 8D, JD] < One pair. [3H, 9C, TH, TC, KC]
+
+High card. [3D, 4D, 7D, 9H, AS] > High card. [2H, 3H, 7S, TH, KH]
+
+High card. [2S, 4H, 7S, JS, KS] < One pair. [2H, 8S, 8D, TS, QD]
+
+High card. [5S, 6H, 8H, JH, KS] < High card. [2S, 3S, 6S, QC, AC]
+
+One pair. [8H, JC, QS, AS, AD] > One pair. [4C, 4D, 6C, QD, KH]
+
+One pair. [2S, 3D, 9S, TS, TD] > High card. [5C, 6S, 8D, QS, KS]
+
+High card. [3C, 4S, 6D, QC, KC] < High card. [TH, JH, QD, KH, AD]
+
+High card. [2S, 4D, 9H, KS, AH] < One pair. [7C, 8D, JH, JC, QS]
+
+High card. [2D, 3C, 6C, 8H, TH] < One pair. [2S, 3S, QD, QH, KS]
+
+High card. [4C, 5D, 6H, 9S, TS] < One pair. [9D, TD, JS, JD, QD]
+
+Two pair. [5H, 8H, 8S, KH, KS] > High card. [4S, 7C, TD, KD, AD]
+
+High card. [2C, 5S, 7C, JC, AS] > High card. [5H, 6C, 7D, 8S, 9C]
+
+High card. [6S, 9S, TS, QD, KH] < One pair. [3C, 5S, QS, QH, KC]
+
+One pair. [3H, 3C, 5C, 7D, KD] < One pair. [6H, 7H, JH, JD, AS]
+
+One pair. [5C, 8H, 9D, 9H, KC] > One pair. [2S, 4S, 4D, KS, AD]
+
+High card. [2S, 3S, 8D, JD, QD] < One pair. [5S, 5H, 6S, 7C, TS]
+
+High card. [3S, 6D, 9S, TD, KC] > High card. [5C, 6H, 8D, JD, QD]
+
+High card. [5H, 8D, 9D, TS, KD] > High card. [4C, 6H, 7D, TD, QC]
+
+High card. [4S, 6D, 9D, JD, AH] < One pair. [9S, 9H, TD, QD, AS]
+
+One pair. [2D, 2H, 5S, 6H, 9C] < One pair. [7D, 9S, TD, TC, QC]
+
+One pair. [2H, 2C, 3S, TS, KS] < One pair. [7D, 8S, 9C, 9D, JS]
+
+One pair. [3C, 5D, 6D, 6C, KC] > High card. [6H, 7S, 8S, QS, AS]
+
+High card. [2H, 4C, 8D, 9S, JH] < High card. [8H, 9H, TH, KH, AD]
+
+High card. [2S, 5C, JS, QC, AS] > High card. [2C, 3H, 6H, 7H, KD]
+
+One pair. [2S, 3S, 8H, 8D, QD] > High card. [2C, 5C, 6D, TC, AH]
+
+One pair. [3H, 8S, TS, JD, JS] > High card. [5D, 6H, TD, JC, KC]
+
+High card. [3H, 5D, 6S, TC, QS] < One pair. [4H, 7C, 7D, JC, AH]
+
+High card. [2H, 5D, 7C, 8H, 9C] < High card. [2C, 5S, 9H, JH, KH]
+
+High card. [3S, 6S, 7H, 9C, TH] < One pair. [4C, JD, QC, QD, AC]
+
+High card. [2H, 5D, 7D, 9S, KC] < High card. [2D, 3S, QS, KH, AS]
+
+One pair. [2S, 2H, 4S, 5C, 7D] < One pair. [4D, 9S, TD, TH, QH]
+
+One pair. [3S, 4H, 6D, 6H, TS] > High card. [2D, 5S, 8H, 9D, KS]
+
+High card. [3S, 4H, 5C, 9H, KS] < One pair. [5D, 6H, 6S, JS, KH]
+
+High card. [4C, 8C, JC, KC, AS] < One pair. [TH, QC, QD, KH, AH]
+
+High card. [2C, 5H, 6S, 9S, KH] > High card. [3C, 4D, 7H, TC, JC]
+
+High card. [4S, 5S, 6S, 8D, JD] < Two pair. [2H, 4D, 4C, 7H, 7S]
+
+One pair. [5D, 7H, 9H, 9C, KH] < Two pair. [5H, 7C, 7S, TS, TC]
+
+One pair. [4C, 4S, 8D, TS, QC] > High card. [3D, 7C, 9H, JS, AD]
+
+One pair. [3H, 5C, 5D, 8C, QS] > High card. [4S, 9D, JS, KC, AH]
+
+One pair. [8S, TS, TH, JD, QS] < One pair. [2D, JH, JS, QD, KH]
+
+High card. [5D, 6S, 9H, JD, QC] > High card. [2C, 3S, 8H, 9S, TS]
+
+High card. [2S, 4C, 7H, JC, AD] > High card. [2D, 3D, 4H, 5C, 6D]
+
+High card. [2C, 4H, 7S, 8C, JS] < High card. [3S, 9C, TD, QD, AD]
+
+High card. [4C, 6H, 9H, TS, JD] < High card. [3C, 6D, 7D, QD, AS]
+
+High card. [4C, 5D, 6S, 7C, AS] < One pair. [4S, 5S, 5C, JS, QC]
+
+High card. [3C, 6S, 7C, 9S, KD] < One pair. [5S, 7D, JH, JS, QD]
+
+High card. [2C, 4S, 7S, 8S, JH] < High card. [3D, 5D, 7H, QH, AD]
+
+High card. [2H, 4H, 6H, 8D, TD] < High card. [2D, 5D, 7C, KH, AD]
+
+High card. [2C, 3S, 5H, TS, QD] < High card. [2S, 5C, TD, KH, AH]
+
+High card. [4D, 5D, 8C, KC, AS] < One pair. [2H, 2S, 6C, 7C, 9H]
+
+One pair. [TS, JS, QC, QS, KD] > High card. [2C, 5D, JH, KH, AD]
+
+High card. [3S, 5H, 6C, 9H, KC] < One pair. [2H, 3H, 7D, 7S, AD]
+
+One pair. [7S, 8S, JS, JH, KD] < Two pair. [2S, 2H, 7D, 7C, 9H]
+
+High card. [2D, 6S, 8D, 9H, QC] < One pair. [5H, 6C, 8H, AD, AS]
+
+Two pair. [2S, 6C, 6D, 7H, 7D] > High card. [3C, 5D, 8C, 9D, JC]
+
+One pair. [2H, 7C, 7H, 9C, JD] < One pair. [3S, 4S, KD, KH, AD]
+
+High card. [4D, 9H, JD, QH, AS] < Three of a kind. [5H, TS, KS, KD, KH]
+
+One pair. [3S, 3D, 4C, 5S, 8H] < One pair. [7D, 7S, TD, KC, AD]
+
+Two pair. [5S, 8S, 8H, JS, JC] > High card. [4D, 5D, 9C, TH, KC]
+
+High card. [2C, 5S, 7C, 9C, QD] < High card. [5H, 8D, JS, QH, KH]
+
+High card. [2S, 3D, TD, KS, AD] > High card. [3C, 5D, 7S, TC, KC]
+
+High card. [2S, 4C, 6C, QS, AD] < One pair. [5C, 9S, TH, QD, QH]
+
+One pair. [2D, 2S, 8C, QS, AD] < Two pair. [6C, JD, JC, KC, KS]
+
+High card. [2H, 4D, 5D, 8D, JS] < Two pair. [7S, 7D, TS, QD, QH]
+
+One pair. [3S, 6S, 7H, 8C, 8S] < One pair. [6C, 8H, 9D, 9S, QS]
+
+High card. [2S, 4S, 5C, TC, QD] < One pair. [4D, 6D, 6S, TH, QS]
+
+High card. [3S, 5C, 6H, 8D, 9D] < Two pair. [4C, 7D, 7C, TC, TD]
+
+One pair. [5S, 6S, 7H, AH, AS] > High card. [3H, 4C, 5H, KD, AC]
+
+One pair. [8D, 8S, QS, KS, AH] > High card. [2C, 5D, 6H, 7D, AD]
+
+One pair. [2H, 6H, 9H, 9S, QS] > High card. [2D, 5D, 8S, 9C, KD]
+
+High card. [5S, 7D, TS, JH, QC] < One pair. [7S, 9S, 9H, TH, AC]
+
+High card. [3H, 4D, 6S, 7H, KC] > High card. [4S, 5C, 6D, TS, QD]
+
+High card. [2S, 3H, 7C, TD, QD] < One pair. [4H, 7S, 7H, 9D, JH]
+
+High card. [3D, 4H, 5H, TC, KS] < One pair. [2S, 2D, 6D, 7D, AS]
+
+One pair. [3C, 3H, 7H, 8H, TD] < One pair. [9C, TH, KC, KH, AD]
+
+One pair. [2C, 4C, 9S, 9D, TC] > High card. [2H, 3C, 5C, 9C, JD]
+
+One pair. [3H, 5D, TS, AC, AD] < Two pair. [6H, 6S, 8D, 8C, QC]
+
+High card. [2S, 3S, 7H, TS, JD] < One pair. [4C, 5S, 8S, 8D, QH]
+
+High card. [3C, 4S, 6C, KH, AC] < One pair. [2D, 2H, 3D, 7C, 8S]
+
+High card. [2H, 4H, 6C, 8S, TH] > High card. [3H, 4S, 7S, 8H, 9S]
+
+Flush of C. [2C, 4C, 5C, 7C, 9C] > High card. [4D, 5D, QH, KD, AS]
+
+High card. [4H, 7D, 9H, TS, AS] < One pair. [2H, 5D, 8D, 8C, 9S]
+
+One pair. [2H, QC, KD, AC, AD] > High card. [2D, 3S, 7S, 9S, AS]
+
+High card. [2H, 6D, 8H, TC, QC] < One pair. [3C, 5D, QD, QS, KH]
+
+High card. [2S, 4C, TH, JD, QS] < One pair. [3S, 5S, 7H, AD, AS]
+
+One pair. [3D, 3S, 6C, 7H, JS] < One pair. [6D, 9S, QS, AS, AC]
+
+One pair. [8C, 9C, TS, TC, AS] < Two pair. [6H, 6C, 8S, 8D, 9D]
+
+High card. [4D, 7C, 9C, JD, KC] < High card. [3S, 6D, 8C, KS, AS]
+
+One pair. [3H, 6S, 8D, TC, TS] > High card. [3S, 7C, 9S, KC, AS]
+
+Two pair. [4H, 4S, 8C, 8S, QC] > One pair. [3S, 6C, TC, AH, AC]
+
+High card. [2H, 4D, 5C, 7D, AS] < One pair. [6S, TS, TC, QC, AD]
+
+One pair. [4S, 8S, TH, QD, QC] > High card. [3D, 4H, TS, JH, AH]
+
+One pair. [2D, 2C, 3H, 5C, 9S] < One pair. [3C, 7D, 9D, QD, QH]
+
+One pair. [6C, 7S, 9H, KC, KD] > High card. [2D, 3C, 4D, TC, AS]
+
+High card. [3D, 4D, 9D, JS, KS] < One pair. [3H, 3C, 7D, TH, QC]
+
+High card. [2H, 3H, 5S, 8D, 9D] < One pair. [3C, 4C, 4H, 8C, TH]
+
+One pair. [4S, 6S, TH, JC, JD] > One pair. [2D, 3D, 4D, 4C, 6C]
+
+High card. [2D, 3S, 4H, TS, AC] < Two pair. [2C, 2H, 6S, 6H, JH]
+
+Two pair. [8S, TD, TC, AD, AH] > High card. [6S, 7S, 9S, JH, AC]
+
+High card. [4S, 6C, 8D, JD, KC] < High card. [5S, 7H, 9H, QH, AH]
+
+High card. [5C, 8D, TS, JH, KD] < One pair. [3H, 5H, JS, AD, AS]
+
+High card. [2D, 3D, 4H, 6C, 8C] < One pair. [5D, 5C, 7S, 8S, AD]
+
+High card. [4S, 5D, 7S, 9C, TD] < One pair. [4C, 5H, 6C, 8C, 8S]
+
+High card. [5C, 9C, JS, QH, AS] < One pair. [3D, 7C, JC, QS, QC]
+
+One pair. [9C, JC, JH, QS, KH] > High card. [2C, 3D, TS, QC, AD]
+
+One pair. [5D, 5C, 9S, JH, AC] > High card. [4C, 8C, TS, JD, KS]
+
+One pair. [2D, 9H, KC, KH, AS] > High card. [2C, 3D, 4D, 5S, 6H]
+
+High card. [2D, 8S, TH, JC, AH] < One pair. [3D, 3S, 7S, 8C, QH]
+
+High card. [4H, 8H, JC, QD, AS] < One pair. [3C, 6D, 9S, KH, KS]
+
+One pair. [4S, 7D, 9S, 9C, QH] < One pair. [4D, 7H, KH, KD, AC]
+
+One pair. [6D, 9C, TH, AH, AD] > One pair. [4H, 9S, QH, KD, KS]
+
+One pair. [6H, 7C, 9C, QD, QS] > One pair. [5S, 6D, 6S, 9D, JH]
+
+High card. [2H, 5H, 8D, QD, AH] < One pair. [4H, 5S, JC, KS, KH]
+
+High card. [2S, 5C, 8D, 9C, JS] < One pair. [3D, 8C, KC, AS, AH]
+
+High card. [2H, 8H, 9S, JD, QS] < One pair. [4C, 5S, 5C, 8C, TH]
+
+Two pair. [2S, 2C, 8C, QC, QS] > One pair. [3S, 4C, 9C, KS, KH]
+
+One pair. [2D, 5D, 8S, AH, AD] > High card. [2C, 8C, TD, JS, KS]
+
+One pair. [5S, 5H, 8H, TC, QC] < One pair. [4H, 6H, 9H, 9S, JD]
+
+High card. [3C, 4H, 9H, JH, AH] < One pair. [2H, 4S, 4C, 8D, AC]
+
+High card. [4D, 6D, 7D, 8S, TH] < Two pair. [7S, 7C, TC, QD, QS]
+
+High card. [2D, 5H, 6D, JD, KH] < Two pair. [4H, 4S, JS, JH, QD]
+
+High card. [3S, 4S, 7S, 9C, JH] < One pair. [4H, 8C, TS, TC, QC]
+
+One pair. [4D, 9D, JH, QH, QS] > One pair. [2C, 2D, 3S, 6C, 7C]
+
+One pair. [4H, 5C, 5H, 9S, JD] > High card. [2D, 4C, 9D, TS, AH]
+
+High card. [2D, 5D, TS, JH, KS] < One pair. [7H, 8D, JS, AH, AS]
+
+One pair. [8C, JS, KS, AH, AD] > High card. [2C, 5S, 6C, 8H, TH]
+
+One pair. [2H, 5D, KS, AD, AC] > High card. [3D, 6H, 8H, TS, QC]
+
+High card. [4H, 5H, 6D, 9C, TS] < Three of a kind. [4C, 6S, JS, JH, JD]
+
+High card. [2C, 4H, 6D, JH, QH] < High card. [3C, 4C, 5D, QS, KC]
+
+Three of a kind. [4H, 6H, 6C, 6S, 7H] > One pair. [2S, 8S, 8C, QC, KH]
+
+One pair. [3H, 3D, 4H, 5D, KS] < One pair. [3S, 4D, TD, TS, AD]
+
+One pair. [2C, 5S, 7C, 7D, 8S] > High card. [6C, 7S, 8C, JS, KS]
+
+One pair. [2H, 3S, 5D, 5C, 7C] < One pair. [5H, 6D, 9C, 9H, QD]
+
+High card. [2S, 8D, 9S, JS, KD] < One pair. [8C, 9D, TD, TS, AC]
+
+High card. [2S, 5H, 8C, QD, AC] > High card. [3C, 4S, 7C, 9H, KS]
+
+High card. [3H, 8S, 9C, KH, AS] < One pair. [4S, 4D, JS, QS, AD]
+
+One pair. [2S, 4D, TD, AS, AD] > High card. [4C, 5H, 9H, JC, QS]
+
+High card. [2D, 4H, 5D, 7C, TC] < High card. [3S, 4S, 6C, JS, KC]
+
+High card. [2C, 4C, 5D, 9H, AC] < One pair. [3D, 8S, JD, QS, QH]
+
+High card. [2C, 3C, 6H, 8S, QH] < One pair. [6D, TC, KD, AC, AH]
+
+One pair. [3S, 4S, 6C, QC, QS] < One pair. [5C, 8D, KH, AC, AD]
+
+One pair. [4C, 5S, KH, AC, AS] > High card. [2C, 5C, 8D, 9C, QC]
+
+One pair. [3C, 8H, 8D, JD, KH] < Two pair. [5C, 9C, 9D, QD, QH]
+
+High card. [2C, 4S, 7H, 8C, TS] < High card. [5H, 9C, TD, JC, QH]
+
+High card. [2C, 4S, 7C, TH, JS] < High card. [6C, 7S, JD, KS, AS]
+
+One pair. [7C, 7H, 9H, TC, JH] > One pair. [3D, 4D, 5H, 5D, 6D]
+
+One pair. [2C, 2H, 9D, JH, QD] > High card. [3D, 5S, TD, KS, AD]
+
+High card. [3S, 4D, TH, JD, QH] < High card. [4H, 6S, 7D, QS, KS]
+
+One pair. [5S, 8D, 8H, TC, KS] > One pair. [2S, 2D, 4C, JH, AD]
+
+High card. [2D, 3S, 5S, TC, JH] < One pair. [4C, 9D, 9S, QS, KD]
+
+One pair. [3H, 9D, KH, AC, AS] > One pair. [6C, 6S, 9H, QD, KC]
+
+One pair. [3D, 5C, 7S, 7D, 9H] > High card. [4H, 6S, 8H, TD, KC]
+
+High card. [3C, 7H, 8H, TC, QD] < One pair. [4D, 6S, 6C, 7S, QH]
+
+One pair. [4C, 6D, 6C, QD, AD] > High card. [5D, 7D, 9D, TS, KS]
+
+One pair. [2H, 7S, 9S, JH, JD] > One pair. [5D, 8D, 8H, TS, KH]
+
+One pair. [2D, 4C, 7D, 9S, 9D] > One pair. [5H, 6D, 6S, QD, AC]
+
+One pair. [6D, 7S, JC, JH, QD] > High card. [2H, 4C, 6S, 7D, QS]
+
+High card. [2H, 8C, TD, JH, KD] > High card. [2C, 5C, 7S, JS, QS]
+
+High card. [4H, 5H, TC, JH, QD] < One pair. [3S, 5S, 5D, 8S, KH]
+
+One pair. [2C, 5D, 7C, KS, KH] < Two pair. [6S, 6D, 9C, JH, JC]
+
+One pair. [5H, 9C, JD, JS, AH] > High card. [2H, 4D, 5S, 6H, KC]
+
+High card. [3C, 6H, TH, QC, AS] < One pair. [7C, 8S, 8C, 9C, TD]
+
+One pair. [2C, 9C, QD, KC, KH] > High card. [3C, 4D, 7S, 9H, TS]
+
+High card. [2S, 8C, 9C, TS, QC] < One pair. [3S, 3C, 9S, TD, QD]
+
+High card. [4D, 9D, TH, JH, AH] < One pair. [2S, 6S, JD, JS, QH]
+
+High card. [6C, 7D, 9H, QD, KD] < High card. [5D, 6S, 7H, 8H, AH]
+
+High card. [2H, 3C, 4S, 5H, 8H] < One pair. [4H, 7S, QS, QH, AC]
+
+High card. [3C, 4H, 7S, 9S, QS] < High card. [3S, 7C, 9D, KS, AH]
+
+One pair. [2H, 2D, 5S, 6S, AD] > High card. [3C, 4S, 5H, 8C, TC]
+
+High card. [4D, 6S, TS, JS, QH] < High card. [6D, 8S, JH, KS, AS]
+
+One pair. [2C, 2S, 5H, 8S, TD] < One pair. [6C, TC, TS, KC, AS]
+
+High card. [2H, 3H, 8H, TS, KC] < One pair. [4C, 5S, 7C, TH, TD]
+
+Two pair. [7H, 7S, KD, KH, AD] < Three of a kind. [2D, 5D, 5H, 5S, 9C]
+
+High card. [3D, 7S, 8C, 9S, AD] < One pair. [7C, 9C, QC, KD, KS]
+
+High card. [3C, 4D, 8C, 9S, QC] < High card. [2C, 5C, 6C, QD, AS]
+
+High card. [2H, 7S, 8S, JD, KC] < High card. [2S, 4D, 5C, 8D, AC]
+
+High card. [2S, 3D, 9D, TC, QH] < One pair. [3S, 3C, 9H, TD, KS]
+
+High card. [2C, 6S, 7H, KD, AC] < One pair. [3S, 5H, 6C, 6H, 8C]
+
+High card. [6S, 8S, TC, QH, KH] < Two pair. [4H, 4D, 5D, TH, TS]
+
+High card. [2C, 4H, 6H, 8C, JS] < High card. [2H, 3D, 7D, QD, AC]
+
+High card. [2D, 5S, 6S, QS, KC] < One pair. [3H, 4H, 4C, TD, JH]
+
+One pair. [5H, 7S, 7H, 8H, KH] > High card. [6H, 7D, TH, QS, KD]
+
+One pair. [5H, 7C, KD, KH, AD] > One pair. [3C, 5S, 6D, 6C, TD]
+
+High card. [5H, 7C, 8C, 9C, JD] < One pair. [2H, 3S, 7H, KC, KH]
+
+One pair. [4H, 4D, 7S, 8S, AD] > High card. [3D, 5S, 7H, TH, QS]
+
+One pair. [8D, 9S, TC, KS, KD] > High card. [2S, 5C, 6D, JD, AD]
+
+High card. [2H, 6C, 7H, 8H, QD] < One pair. [6H, 7C, 9D, 9S, TC]
+
+One pair. [4C, 6D, 6C, 7C, 8D] < One pair. [3C, TH, JS, JH, KH]
+
+High card. [3S, 5S, 8S, 9H, JS] < One pair. [7S, 8H, KD, AS, AD]
+
+High card. [2C, 5H, 7C, JH, KC] < Two pair. [9C, 9S, JS, AS, AD]
+
+One pair. [2C, 6S, QD, AD, AC] > One pair. [3H, 7C, TH, KS, KD]
+
+One pair. [4H, 4C, 8H, 9D, JD] < One pair. [7S, 8C, TS, KH, KC]
+
+High card. [2H, 3S, 5S, 6H, 7S] < High card. [5C, 6D, 7D, KS, AD]
+
+High card. [5S, 7H, 8C, 9H, QS] < One pair. [2H, 6C, 7S, 7D, TD]
+
+High card. [5S, 9D, TD, QS, AC] > High card. [2D, 3D, 4D, TC, KC]
+
+High card. [2H, 7D, TD, JD, QD] < High card. [3D, 4C, 5D, 7H, KC]
+
+High card. [3H, 4C, 8S, QH, KD] < One pair. [5S, 5H, 9H, TC, QC]
+
+One pair. [5H, 9C, TH, TS, QD] > High card. [2C, 5C, 9H, QH, AH]
+
+One pair. [3C, 4D, 6S, 6C, AC] < Two pair. [2C, 2H, 3D, TD, TH]
+
+High card. [4D, 5D, 9C, QC, AC] < One pair. [6D, 8D, 8C, KC, AD]
+
+One pair. [3C, 4H, 8D, AD, AC] > High card. [7S, 8H, 9S, TD, JC]
+
+High card. [2D, 4H, 9H, JS, QH] < Full house. [TH, TD, TC, KD, KS]
+
+High card. [5S, 6S, 8D, 9S, TH] < One pair. [5H, 5C, 8S, KH, AS]
+
+High card. [2S, 5S, 6S, 9S, JD] < One pair. [5D, 7S, 7H, 8S, 9D]
+
+High card. [4C, 5D, 8C, 9D, AD] < One pair. [2C, 7D, TS, TC, KD]
+
+High card. [4D, 5C, 8S, QS, KC] < One pair. [4S, 8D, JD, KH, KD]
+
+One pair. [5C, 7D, QH, AS, AD] > One pair. [2H, 7H, 7C, 9S, TC]
+
+High card. [2S, 7S, 8S, JD, KH] < One pair. [5D, 6C, 6D, QC, AD]
+
+One pair. [3S, 6H, 8C, 8H, 9H] < One pair. [4H, TC, TD, JS, AH]
+
+One pair. [2C, 2D, 4D, 7H, TS] > High card. [5D, 7C, 9C, TH, QC]
+
+High card. [5D, 6C, 8H, TS, QC] < One pair. [4S, 5C, 5H, 9H, JH]
+
+High card. [2D, 7H, JS, QC, AS] < Two pair. [2H, 4C, 4H, 8S, 8D]
+
+High card. [3D, 6S, JS, KD, AC] > High card. [3C, 4S, 7H, TH, KC]
+
+One pair. [5S, 6S, QH, QS, KH] < Three of a kind. [3C, 3S, 3H, 4H, QD]
+
+High card. [4H, 7H, 8C, KH, AS] > High card. [3D, 5S, 6S, 9C, TS]
+
+High card. [3H, 5S, 7C, 9C, QD] < One pair. [2C, 3D, 5H, AD, AC]
+
+One pair. [2D, 4C, TD, TS, JH] > One pair. [3H, 3S, 7S, KH, AD]
+
+One pair. [4C, 4D, 5H, 6S, AS] > High card. [2D, 3C, 6H, JC, KD]
+
+High card. [2D, 3H, 6S, 8C, TH] < One pair. [4S, 5H, QH, AH, AD]
+
+One pair. [2S, 7C, 7H, 9H, KC] > One pair. [3H, 5C, 5S, 6D, JC]
+
+High card. [3C, 4H, 9C, TC, QD] > High card. [5S, 6D, 9H, TD, JH]
+
+Two pair. [5C, 5D, 6S, 6C, 7C] > High card. [4S, 6H, 7H, 9H, AH]
+
+One pair. [2H, 2C, 7D, KC, AD] > High card. [2S, 3S, 4C, 7H, 9S]
+
+High card. [3S, 4C, 6S, 8S, TH] < One pair. [TD, JH, KS, AD, AS]
+
+One pair. [4S, 4D, 5C, TD, AD] > High card. [5D, 6S, 7D, 9C, TC]
+
+One pair. [3S, 4D, 4S, 5S, 8H] > One pair. [3H, 3D, 5C, 6H, AC]
+
+High card. [3C, 4S, 9H, QS, AC] > High card. [4D, 5H, 8S, 9D, QH]
+
+High card. [5H, 6C, TS, JC, AC] > High card. [7C, 8C, 9C, JD, QD]
+
+One pair. [2D, 8S, 8H, 9C, JD] < One pair. [3C, 6H, 8D, QC, QH]
+
+High card. [2H, 5H, 6H, JS, KS] < One pair. [3H, 6D, 7C, QH, QS]
+
+High card. [3H, 4S, 7H, TC, QC] < High card. [2H, 3S, 8C, JS, KH]
+
+High card. [4C, 5S, 8H, 9H, AH] < One pair. [3H, 7S, JD, JC, AC]
+
+High card. [2D, 3C, 4C, 5S, 6C] < One pair. [3S, 3D, 4S, JD, QS]
+
+High card. [2D, 5H, TC, KS, AH] < One pair. [6D, 6H, 7H, 8C, AD]
+
+One pair. [3C, 6C, 7S, 7C, JD] < One pair. [6D, 8H, KS, KH, AH]
+
+One pair. [3H, 7D, 8H, 8S, AH] > High card. [2D, 5H, 7H, 9D, QS]
+
+High card. [4H, 7S, 8S, JD, AC] < One pair. [9S, 9D, QH, KS, AS]
+
+High card. [2C, 5S, 7S, 8S, JH] < High card. [4C, JC, QS, KD, AH]
+
+High card. [2S, 4H, 8D, 9H, AH] < One pair. [6H, TS, TD, JD, QH]
+
+High card. [3H, 4H, 6D, JC, QS] < Two pair. [7S, 8S, 8D, 9C, 9D]
+
+One pair. [4S, 4C, 5H, 9S, TD] < Two pair. [3H, 3D, 7H, 8C, 8D]
+
+One pair. [2C, 2S, 3S, QS, KH] > High card. [3C, 4S, 7S, TD, QD]
+
+High card. [4D, 5S, 7C, TD, KH] < One pair. [4C, 6C, 7H, AC, AS]
+
+High card. [2S, 5H, 6D, 9H, JD] < One pair. [2C, 2H, 8S, TD, QS]
+
+High card. [2S, 6H, 7S, 9H, TS] < Two pair. [4H, 4C, 5D, 5S, JC]
+
+High card. [2C, 3S, 4H, 5H, 7D] < One pair. [6D, 8H, JC, JS, QH]
+
+One pair. [3S, 4C, 7C, QH, QD] > One pair. [5S, 8S, TH, TS, AD]
+
+One pair. [2S, 9H, TC, TD, JC] > One pair. [3S, 3D, 7D, TH, QH]
+
+High card. [4C, 5C, 7D, 8S, JH] < One pair. [3S, 3H, 6S, 8H, KC]
+
+High card. [3H, TC, JC, QH, KH] < High card. [2C, 5H, 6H, TH, AC]
+
+One pair. [2H, 2C, 9D, QS, AS] < Two pair. [2S, 6S, 6C, 8C, 8S]
+
+High card. [4H, 7D, 9H, TH, QC] < High card. [3C, 7S, QS, KD, AC]
+
+High card. [4D, 5S, 6S, 8H, JH] < High card. [3S, 9S, QC, KS, AS]
+
+High card. [2D, 6S, 7S, TC, JD] < One pair. [3H, 7D, 9H, KC, KD]
+
+One pair. [2H, 4D, 4S, 7C, KH] > High card. [3H, 7D, JS, QD, KC]
+
+High card. [3C, 4C, 9D, JC, AS] > High card. [4D, 6C, 8H, JS, QD]
+
+High card. [3S, 4C, 6C, JS, AH] < One pair. [3D, 6D, 9C, 9H, JH]
+
+High card. [2D, 5S, 7H, 8C, 9H] < High card. [2S, 6H, 9C, TC, KS]
+
+One pair. [6C, 6H, 7H, 8C, AD] > High card. [3D, 5D, TH, KH, AS]
+
+One pair. [3S, 8C, 8S, TS, KS] > One pair. [4D, 4H, 5S, 6C, 9S]
+
+One pair. [4S, 4H, 5C, 7D, 9H] > One pair. [2D, 2H, 9D, JH, KC]
+
+One pair. [5C, 9D, 9H, TC, JS] > High card. [5H, 6S, 7S, JC, KH]
+
+High card. [4D, 7C, 8H, 9H, JC] < One pair. [2H, TD, TC, JD, KH]
+
+One pair. [2H, 2C, 6C, 8H, KH] < One pair. [5H, 6H, 9D, QS, QH]
+
+High card. [2S, 3D, 7D, QD, AC] < Three of a kind. [2D, 8D, JC, JD, JH]
+
+Three of a kind. [2H, 2D, 2C, 7H, JC] > High card. [3C, 4H, 8D, TD, KD]
+
+High card. [3S, 4H, 6D, 8D, TS] < Two pair. [3H, 3D, 6H, TD, TH]
+
+One pair. [3S, JH, JC, QH, AC] > High card. [2C, 7H, 8S, 9H, QC]
+
+High card. [4S, 7H, 8S, TD, QS] < One pair. [2S, 2H, 4D, 5D, 9C]
+
+One pair. [2S, 3D, 3H, TS, QC] < One pair. [6H, 8H, JC, KC, KS]
+
+High card. [5D, 7D, 8C, TC, JD] < High card. [3D, 6C, 8D, 9S, AC]
+
+One pair. [5D, 6H, 6C, 8H, JH] < One pair. [2C, 4H, 8D, 8S, AD]
+
+One pair. [2D, 2C, 3S, 4H, 9D] < One pair. [3C, 5D, TS, TC, AS]
+
+High card. [4D, 5H, TH, QS, KS] < High card. [2H, 3D, 4S, 6C, AD]
+
+One pair. [2C, 5C, 5S, 6H, KC] < One pair. [2D, 3C, 4D, 9H, 9S]
+
+High card. [3H, 4C, TH, JD, QH] < One pair. [5S, 8S, 9H, AH, AC]
+
+High card. [2H, 6S, 7D, 9S, TD] < One pair. [4H, 4C, 8H, 9C, QS]
+
+High card. [3C, 4H, 5D, 6H, 8C] < One pair. [6S, 9C, QD, QS, KC]
+
+High card. [2D, 3S, 9H, TC, KD] < One pair. [4H, 4S, 6S, 8C, JS]
+
+High card. [2S, 4C, 6H, 8S, QS] < High card. [3H, 5D, 8C, TH, KH]
+
+High card. [2C, 3S, 5S, 7S, KH] > High card. [6C, 7H, 8D, 9D, QD]
+
+One pair. [2D, 8H, KS, KH, AC] > High card. [6C, 7H, TS, JS, KC]
+
+High card. [5C, 9C, TD, QC, KS] < High card. [5H, 6C, 7C, 9S, AH]
+
+One pair. [3H, 4D, 4H, 5D, 6S] < One pair. [7C, 7S, TD, QD, AH]
+
+High card. [2H, 6S, 7D, TC, QC] < High card. [3H, 7S, 9D, TS, AH]
+
+High card. [5H, 9S, TH, QD, KS] < One pair. [6H, 7S, 7C, 8C, TD]
+
+High card. [2D, 4D, 5C, TH, QC] < High card. [4H, 7D, 9C, JD, AH]
+
+High card. [3H, 4H, 6H, 8D, AH] < Two pair. [2H, 2C, 9H, QC, QH]
+
+High card. [2D, 4C, 6H, TS, AD] < One pair. [4H, 7S, TH, TD, QS]
+
+One pair. [2H, 3C, 3H, QS, KD] > High card. [5D, 8H, TC, JD, QC]
+
+High card. [9S, TH, JC, QD, KS] < One pair. [2D, 8D, 8C, 9C, KD]
+
+High card. [3C, 4D, 6D, QD, KD] < Two pair. [8D, 8S, QC, AH, AD]
+
+One pair. [2S, 3S, 3H, 8H, 9D] < One pair. [4C, 6H, 7C, KS, KC]
+
+High card. [3D, 5C, 7D, 9S, TH] < High card. [2C, 4D, 6H, 7S, AC]
+
+High card. [2D, 3D, 4D, 5C, JD] < High card. [4C, 5H, 6D, 9H, KH]
+
+High card. [2H, 6C, 7H, TD, AS] < One pair. [3D, 4C, 4S, QD, KS]
+
+One pair. [3C, 7C, JC, JD, AC] > High card. [5D, 8H, 9S, JS, QC]
+
+High card. [2H, 5S, 6S, JD, AS] > High card. [3D, 5H, 7D, 8C, JH]
+
+One pair. [5S, 8D, 8S, 9S, TC] > High card. [3H, 5H, 7S, JC, AS]
+
+High card. [3D, 4H, 5C, 7D, TD] < High card. [4D, 5D, 7H, 8D, JS]
+
+High card. [2S, 9C, TD, QS, KS] < High card. [2H, 4H, 5C, 8S, AS]
+
+One pair. [3H, 4H, 7S, 7D, TH] < One pair. [2S, 5D, JD, KD, KC]
+
+One pair. [4S, 4C, 7H, 8H, JD] > High card. [4H, 5S, 6H, JS, QH]
+
+High card. [2C, 3H, 5S, 8C, QS] < One pair. [2S, 6C, QC, QD, AD]
+
+High card. [3D, 4H, 8C, TC, JD] < Two pair. [2H, 2S, 5S, AD, AC]
+
+One pair. [2C, 2D, 5D, JS, AD] < One pair. [3D, 4C, 4S, 9D, JH]
+
+One pair. [5H, 5D, 6H, 7S, 8D] > High card. [4D, 9D, TD, JD, KS]
+
+High card. [2S, 3D, 6D, 9C, AS] < One pair. [5S, 5C, 7D, 8H, JD]
+
+High card. [3S, 5H, 6S, 7C, 8S] < One pair. [7H, 7S, TC, JD, AD]
+
+High card. [2S, 4D, 9D, TS, AC] > High card. [3H, 6C, 8D, JD, QD]
+
+High card. [2C, 3C, 9S, KH, AC] < One pair. [3D, 5H, 5D, 6H, 8D]
+
+High card. [2D, 3D, 6S, KS, AS] < One pair. [2S, 4C, 7C, 7H, KH]
+
+High card. [2H, 3S, 5C, JC, AC] > High card. [2D, 4D, 5H, 7S, QH]
+
+High card. [6H, 8C, TS, JD, AS] < One pair. [2C, 5S, 5D, 8S, JC]
+
+Two pair. [6C, 7S, 7H, QH, QC] > One pair. [2D, 2S, 7C, 8H, JD]
+
+Three of a kind. [2C, 2S, 2H, JC, QD] > One pair. [2D, 5D, 9C, JD, JH]
+
+One pair. [5C, 7C, 7D, 8S, 9C] > One pair. [6D, 6C, 8D, 9S, JH]
+
+High card. [2C, 3S, 5H, 6S, AD] < One pair. [4C, 7S, 9D, KS, KH]
+
+High card. [2C, 5C, 6C, 7H, TH] < High card. [3S, 8D, 9D, QC, AH]
+
+One pair. [5S, 5H, 6H, TC, KC] > High card. [3C, 6D, 8S, TH, AH]
+
+High card. [4H, 9C, TD, KD, AD] > High card. [4S, 5D, 6H, 7D, 9S]
+
+One pair. [5C, 5H, 6D, 7H, AS] < Two pair. [4C, 4H, 9D, KD, KH]
+
+High card. [2S, 3C, 5C, 6C, JD] < High card. [2H, 3H, 7D, 9D, QS]
+
+High card. [2S, 6S, 7S, JS, AC] < One pair. [5C, 6H, QD, QS, AD]
+
+One pair. [5H, 7H, TH, TC, QC] > One pair. [3S, 3D, 6D, 7C, KC]
+
+High card. [3D, 4H, 8H, 9S, QC] < High card. [2C, 3S, 5C, JC, KS]
+
+One pair. [2C, 4S, 6S, 6H, 8S] < Three of a kind. [3S, 3D, 3H, 9H, JS]
+
+Two pair. [2D, 4S, 4D, 8C, 8H] > One pair. [7D, 9H, 9D, TS, AH]
+
+One pair. [2C, 4C, 8D, 9S, 9H] > High card. [3D, 5S, 6D, 7D, AS]
+
+High card. [3H, 4C, 6S, 7H, 8C] < One pair. [5H, 9D, 9C, JC, AH]
+
+High card. [2S, 5S, 7C, 8C, JD] < One pair. [3S, 3D, 4D, 6S, 7D]
+
+High card. [3C, 4S, 5D, 7D, KC] < One pair. [3D, 3H, 4H, 7H, JD]
+
+Two pair. [4H, 4D, 9C, 9H, TH] > High card. [6D, 7S, 8S, 9S, QD]
+
+One pair. [2H, 4S, 8S, AC, AD] > High card. [2C, 7D, 8C, TC, AH]
+
+High card. [3C, 9H, TS, KS, AD] < One pair. [3D, 8C, 8H, TC, JD]
+
+High card. [2C, 3C, 7D, 8D, QC] < One pair. [6C, 7C, 9H, 9C, JD]
+
+One pair. [5D, 6S, JS, JH, AH] > High card. [2C, TD, JD, QC, AS]
+
+One pair. [2H, 2D, 5D, 9H, KD] < One pair. [3S, 7D, TC, TS, AH]
+
+One pair. [5D, 8H, TD, AS, AH] > High card. [5H, 6S, TC, QC, AC]
+
+One pair. [4S, 4D, 7H, 8D, KS] > High card. [2H, 3H, 6H, 9C, TC]
+
+One pair. [3H, 4S, QD, QH, KD] > One pair. [3D, 7S, 8H, 8C, TD]
+
+One pair. [8S, TC, JD, JS, AH] < One pair. [2D, 4D, QS, KH, KS]
+
+One pair. [3C, JC, JS, KD, AD] > High card. [2C, 4S, 9H, TH, KH]
+
+High card. [5S, 9S, JS, QC, KS] < High card. [2S, 7C, JD, QD, AS]
+
+High card. [2D, 3S, 5S, QS, KC] < High card. [5D, 8H, 9H, KS, AC]
+
+High card. [2C, 6H, 9C, TC, AD] < One pair. [5S, 6D, 6C, 7C, JD]
+
+One pair. [2C, TD, QS, QD, KH] > High card. [2S, 3H, 8S, QC, AH]
+
+One pair. [9D, 9H, TC, JH, QH] > High card. [2S, 3C, 5C, 7H, JS]
+
+One pair. [2S, 3S, 3D, 4S, 6C] > One pair. [2D, 2C, 5D, TH, QD]
+
+Two pair. [2D, 2S, 6H, 6D, JC] > High card. [4H, 7H, QH, KH, AS]
+
+High card. [5H, 6S, TC, KS, AD] < One pair. [4S, 4H, 7C, TS, AC]
+
+High card. [3C, 4H, 8C, QS, AD] < One pair. [2H, 2D, 4D, 9D, KS]
+
+Two pair. [4S, 6C, 6D, 9D, 9C] > High card. [3H, 7H, 8D, KD, AC]
+
+One pair. [6C, TS, JC, JD, AH] > High card. [3S, 5D, 6D, QD, AD]
+
+Three of a kind. [3S, 7S, JC, JH, JD] > High card. [3H, 4S, 8S, JS, QC]
+
+High card. [2C, 5C, TH, JD, AD] < One pair. [2H, 7H, 7S, 9S, JS]
+
+High card. [3S, 4D, 8D, JH, QC] < High card. [2C, 6H, JD, KC, AS]
+
+One pair. [2C, 5H, 5S, KD, AC] > High card. [2D, 7H, JH, QD, AH]
+
+One pair. [8D, 8S, TC, JC, QH] > One pair. [5H, 5C, 6C, 8C, AH]
+
+One pair. [3H, 8S, JS, JH, QD] > One pair. [3C, 3S, 4H, 5C, 6D]
+
+One pair. [4S, 4C, 5H, 6D, AH] > High card. [3H, 5S, 7C, 8D, JD]
+
+High card. [2H, 3H, 8H, JS, AH] > High card. [3C, 4H, 7D, QC, KD]
+
+High card. [2H, 5H, 6S, 8H, KD] > High card. [2D, 3C, 7S, 8S, QD]
+
+High card. [2S, 7S, QC, KC, AH] > High card. [4C, 6D, 8D, TC, QS]
+
+High card. [2C, 3S, 5S, 9H, QD] < One pair. [2H, 6C, 7S, 7C, 9D]
+
+One pair. [3C, 5C, 5S, 6C, JD] > High card. [3S, 5D, TS, JC, KS]
+
+High card. [2S, 5S, 6S, 7C, KS] < One pair. [2D, 2H, 5H, TC, QS]
+
+High card. [5H, 6S, 7H, TS, AS] < One pair. [2H, 3C, 9S, 9D, KD]
+
+One pair. [3S, 4S, 4H, JS, QS] > High card. [2S, 6S, 7C, 9D, AC]
+
+High card. [2H, 5H, 7C, 8C, JH] < Three of a kind. [5D, QH, QS, QC, KH]
+
+One pair. [3S, 3H, 7C, TD, KC] < Three of a kind. [5H, 8D, 8S, 8C, KH]
+
+High card. [3C, 4H, TS, JD, KH] < High card. [5S, 7H, JS, QC, AS]
+
+High card. [2C, 4D, 8D, 9D, AH] < Three of a kind. [2D, 6H, 6C, 6S, KC]
+
+High card. [2S, 3S, 6H, 7H, 9D] < One pair. [3D, 4D, 8H, KH, KD]
+
+High card. [9C, TC, JH, KH, AC] > High card. [3S, 4D, 5H, TD, JD]
+
+One pair. [4H, 4C, 7S, 9D, AS] > High card. [2S, 7D, 9S, QS, KH]
+
+Three of a kind. [3S, 8D, 8S, 8C, KS] > One pair. [2H, 5C, 5D, JC, KH]
+
+High card. [2C, 4D, 8S, QH, KC] < High card. [6H, 9D, JS, QC, AC]
+
+Two pair. [7C, 8S, 8C, JS, JD] > One pair. [4C, 4S, 6S, 9C, AC]
+
+High card. [2C, 5D, 7D, JC, QH] < One pair. [2D, 4C, 8S, JS, JH]
+
+One pair. [4C, 7S, TS, JS, JH] < One pair. [4S, 5H, QD, KC, KH]
+
+One pair. [2D, 6S, 8C, 8D, QD] > High card. [5S, 9D, TD, QH, AC]
+
+Two pair. [3D, 3C, JS, QH, QC] > High card. [4H, 5C, 7H, 8S, KH]
+
+High card. [2C, 5S, 7C, 8S, JC] < High card. [2H, 3H, 5D, QC, KC]
+
+High card. [4H, 5S, 6H, 8D, KD] < One pair. [3D, 6D, QD, QH, AH]
+
+High card. [2S, 4D, 6C, 7S, KS] < High card. [5H, TS, JD, QS, AC]
+
+High card. [2D, 5D, 7C, TC, QS] < High card. [6C, JS, QC, KC, AC]
+
+High card. [2C, 3H, 4D, TS, KS] < High card. [4H, 7S, 8S, 9S, AD]
+
+One pair. [4H, 5H, 9H, QD, QH] > High card. [3S, 4D, JC, KH, AD]
+
+High card. [4D, 6D, 8D, KC, AC] < One pair. [2D, 2C, 4C, JD, KH]
+
+One pair. [2C, 2D, 3H, 9H, AH] > High card. [6D, 7D, 9C, TC, KS]
+
+High card. [3H, 5C, 7C, 8C, KD] < One pair. [2S, 4S, 5H, AS, AH]
+
+High card. [3H, 4H, TH, JD, KD] < High card. [3S, 5C, TC, KH, AC]
+
+One pair. [6D, 7H, 7S, QC, AH] > High card. [2D, 6H, TD, JD, AS]
+
+High card. [5D, 7H, 9S, TC, JH] < High card. [5S, 7D, JC, KH, AS]
+
+High card. [2H, 6H, 8C, TH, AD] < One pair. [6S, 6C, 9H, QD, KD]
+
+High card. [3S, 4D, 9D, QH, KC] < One pair. [2C, 4H, 9H, JS, JH]
+
+High card. [4H, 7H, TC, JC, KH] < One pair. [3H, 7D, 7S, 9S, QS]
+
+One pair. [6C, 7D, 7H, JH, AD] < Two pair. [3S, 3H, 4H, 4D, QH]
+
+High card. [2H, 5C, 6C, JD, AS] > High card. [3C, 4D, TC, JH, QC]
+
+High card. [3H, 4C, 6H, JD, AC] < One pair. [7D, 7H, 9H, JC, AD]
+
+One pair. [2C, 4H, 8C, TC, TS] > High card. [2H, 6S, 9S, JD, KS]
+
+One pair. [3H, 4C, 9S, QS, QC] < Three of a kind. [6D, 9H, 9D, 9C, KC]
+
+High card. [2C, 5C, 8C, QH, AD] < One pair. [8D, 8H, TH, JC, QD]
+
+Two pair. [2C, 2S, 9C, QC, QD] > High card. [3S, 4D, 8D, JH, QS]
+
+One pair. [2C, 3S, 7S, 7C, 9D] < One pair. [3C, 9H, TD, TC, JC]
+
+High card. [3C, 4C, 5C, 8H, TS] > High card. [2C, 4H, 6S, 7C, 8D]
+
+High card. [2H, 4H, 7H, TC, KS] < One pair. [2C, 3S, QS, AS, AH]
+
+Three of a kind. [2D, 2H, 2C, 4S, 8C] > High card. [3S, 4C, 5S, 6S, 7D]
+
+One pair. [3C, 5D, TH, TD, QC] < Three of a kind. [QS, KD, KC, KS, AS]
+
+One pair. [4D, 9H, KD, KS, AH] > High card. [4C, 5C, 6H, 7S, JC]
+
+High card. [4H, 5C, TC, QS, KC] < High card. [2H, 9S, JC, QH, AH]
+
+One pair. [3H, 3C, 4S, 5H, 9H] < One pair. [2H, 8H, JH, QD, QC]
+
+High card. [2C, 3D, 5D, 7H, AS] < One pair. [4C, 6H, 6S, 7D, JH]
+
+Two pair. [9C, 9H, JD, JS, AH] > One pair. [3H, 8S, 8H, QH, KS]
+
+High card. [3S, 4D, TS, QC, AC] < One pair. [3D, 8S, 9H, AD, AH]
+
+One pair. [3H, 7H, 9C, 9S, QS] < Two pair. [5H, JH, JS, AH, AC]
+
+High card. [2H, 3C, 8D, JD, AC] > High card. [4D, 5S, 7H, 8H, 9C]
+
+One pair. [6C, 7C, 9H, JH, JS] > One pair. [4H, 7H, 8C, 9S, 9D]
+
+High card. [2D, 4D, 6H, 9S, AS] < One pair. [9H, JS, JH, QD, AD]
+
+High card. [6H, 7S, JH, KH, AH] > High card. [2C, 5S, 6S, 7H, TD]
+
+One pair. [5H, 5S, 6S, 8H, JH] < One pair. [4C, 9D, 9S, TC, QC]
+
+High card. [2C, 3H, 5H, 7D, KD] < High card. [4D, 7H, JS, QD, AS]
+
+One pair. [6C, 8H, TS, TH, QH] < Two pair. [3C, 3H, 5H, 9C, 9D]
+
+High card. [3H, 5D, JS, KH, AD] < One pair. [5C, 9S, KC, AS, AC]
+
+High card. [2C, 8C, JC, QS, KH] < High card. [2D, 6D, TC, KC, AH]
+
+High card. [2S, 3H, 4D, 7C, 9D] < One pair. [6D, 7D, 8D, KH, KS]
+
+High card. [2S, 9H, TC, JH, AC] < One pair. [3H, 3S, 5S, 8H, QC]
+
+High card. [3S, 4C, 8H, KD, AS] > High card. [3H, 7C, TS, JH, QH]
+
+One pair. [6D, 7S, 7H, 9D, JH] > One pair. [3D, 3S, 4C, 6C, AS]
+
+Two pair. [2H, 2C, 4S, 4C, 8S] > One pair. [5H, 8C, QC, QD, KC]
+
+Two pair. [3H, 3S, 6C, QS, QC] > One pair. [2D, 2C, 5D, 6S, 9D]
+
+One pair. [2H, 2S, 3H, 8D, JH] > High card. [2D, 5C, 6C, 7S, AD]
+
+High card. [5D, 8S, 9H, JS, QH] < High card. [2H, 6S, 7S, TS, AD]
+
+High card. [5H, 6D, 7H, 9S, QC] < High card. [4H, 5C, 7D, JD, KC]
+
+One pair. [4D, 5S, 9H, 9C, QC] > High card. [2S, 4C, 6S, 7C, KS]
+
+High card. [3S, 4H, 7C, 8D, 9H] < High card. [5C, 6H, 7S, 8H, JS]
+
+High card. [2D, 4H, 6H, TD, JS] < High card. [4D, 5H, TH, JC, KC]
+
+High card. [3H, 7C, 8D, TH, AC] < One pair. [2D, 4C, 4D, 9S, KC]
+
+High card. [3D, 7S, 9C, QS, KD] < One pair. [4C, 4H, TS, KS, AD]
+
+High card. [2S, 7D, 8H, 9C, QH] < One pair. [4C, 5D, 7H, KS, KD]
+
+One pair. [2S, 2H, 6S, 9C, JC] > High card. [5C, 6C, TC, JH, QC]
+
+One pair. [7S, 8H, 8S, KC, AC] > One pair. [3D, 6H, 6S, JC, QS]
+
+One pair. [2D, 4S, 8C, JS, JH] > One pair. [5D, 6H, 6D, 8H, AD]
+
+High card. [2S, 4H, 6H, 7D, 9H] < One pair. [5S, 7C, 8H, AS, AC]
+
+High card. [3C, 4S, 5H, 6D, JS] < One pair. [2S, 2C, 6S, 9C, QH]
+
+High card. [3D, 4C, 5S, 6S, 9S] < Two pair. [8D, 8S, TC, QS, QD]
+
+One pair. [3D, 5S, 9C, 9H, AH] > High card. [2C, 3S, 7D, JC, AD]
+
+High card. [3C, 6S, 7H, TC, AS] < One pair. [6D, 7S, 9H, KH, KC]
+
+High card. [3S, 5H, 6S, 8H, TC] < High card. [2S, 7D, 8C, JH, AC]
+
+One pair. [3S, 9D, 9C, JC, QD] > One pair. [4D, 5D, 8C, 8H, KS]
+
+One pair. [6D, 9D, JS, JD, AH] < Two pair. [3H, 8C, 8H, 9H, 9S]
+
+One pair. [2D, 4C, 4D, 6S, 8S] < One pair. [4S, 9H, TC, AD, AH]
+
+One pair. [TS, TH, QC, KC, AC] > High card. [2H, 4H, 6D, 7S, 8C]
+
+High card. [3C, 5S, 9D, JS, QD] < High card. [2H, 9H, TS, JC, AH]
+
+High card. [3H, 4D, 5D, 9C, QH] > High card. [3S, 4S, 5H, 7D, JC]
+
+High card. [2H, 3H, 7C, 8S, TH] < One pair. [8D, TS, JD, JS, AC]
+
+High card. [2H, 9C, TD, JD, KC] < One pair. [2S, 2C, 5S, 8C, AD]
+
+High card. [3D, 4D, 5H, 7C, KD] < One pair. [6H, 7D, TC, QH, QD]
+
+One pair. [2C, 5S, 7H, KC, KD] > One pair. [6H, 7S, QC, QH, AH]
+
+One pair. [2C, 5C, 5H, 6H, AC] > One pair. [2D, 2S, 7C, 9C, TD]
+
+High card. [3D, 4D, 7C, 9D, AH] < One pair. [4H, 4C, 8C, JD, KS]
+
+High card. [3C, 8H, TH, JS, QH] < One pair. [3D, 4C, QS, QC, AS]
+
+High card. [4D, 5H, 6D, 7S, JH] < High card. [3C, 6H, 7D, JS, KH]
+
+One pair. [2H, 2C, 7D, 8S, QD] > High card. [2S, 5H, 7C, 8C, JC]
+
+High card. [2H, 8S, 9D, TC, QH] < High card. [6S, 7C, 8D, QD, AD]
+
+High card. [2H, 3S, 7C, 9H, AD] > High card. [2D, 4C, 9S, TS, JD]
+
+High card. [2C, 3S, 4H, QC, AS] < Two pair. [7S, 8H, 8S, TD, TC]
+
+One pair. [3S, 4D, TH, TD, JH] > One pair. [2C, 4H, 5S, 5D, QS]
+
+One pair. [6D, 8C, TC, QD, QH] < Two pair. [4S, 4H, 9S, 9D, QC]
+
+One pair. [6H, 8C, 9D, JS, JD] > High card. [3H, 6S, TD, QC, AD]
+
+High card. [3D, 7C, 8S, TD, KC] > High card. [3S, 4S, 7D, 8D, 9H]
+
+High card. [3D, 4S, 6C, 9D, KD] < One pair. [5S, TC, KC, KS, AC]
+
+High card. [3D, 6S, 7C, JS, QH] < One pair. [2D, 6H, 6D, 8C, KD]
+
+High card. [2S, 4H, 5S, 8S, JD] < High card. [2D, 5C, 6S, TS, AC]
+
+One pair. [3C, 4S, 5H, 5S, 8C] > One pair. [3D, 3H, 7C, 8D, AS]
+
+One pair. [3H, 7C, TS, AS, AD] > One pair. [6C, 6H, 7D, JC, QS]
+
+High card. [3S, 4C, 9S, QH, AC] < One pair. [4H, 5H, 5D, 9H, TS]
+
+One pair. [5C, 6C, 7H, 7S, TD] > One pair. [2H, 2S, 5S, JD, AD]
+
+High card. [3S, 6C, 7D, JD, KC] < One pair. [8D, 8S, TS, QS, KH]
+
+One pair. [6C, 8S, 8D, TH, QS] < One pair. [2C, 8H, 9S, AC, AH]
+
+High card. [7H, 8S, TD, QH, KH] < One pair. [3D, 4D, JD, AH, AS]
+
+One pair. [2H, 2S, 3D, TS, JC] < One pair. [6C, JH, JS, QC, KH]
+
+High card. [2D, 6H, 7S, TH, KC] > High card. [2S, 8C, 9D, TC, QS]
+
+High card. [3C, 6S, 8H, 9D, KH] < One pair. [2C, 2H, 5D, 6D, TH]
+
+High card. [4D, 6H, 7D, TC, AD] < One pair. [7S, 8S, 9H, TS, TD]
+
+Three of a kind. [2H, 6D, JS, JD, JC] > High card. [3D, 6C, 8D, KH, AC]
+
+High card. [4H, 5D, 9S, JD, KH] > High card. [3H, 4C, 5C, 7S, QS]
+
+One pair. [3S, 3C, 4H, 5D, JD] < One pair. [4D, 7S, QH, QS, KH]
+
+High card. [8S, TS, JD, QD, AH] > High card. [2C, 3S, 4C, 5S, 6H]
+
+High card. [3D, 8D, JD, QS, AS] > High card. [6S, 7C, TH, QC, KS]
+
+One pair. [2H, 7S, 7H, 8C, QC] > High card. [2D, 6D, TH, KH, AC]
+
+One pair. [5S, 6C, 7H, 7D, KH] > High card. [3D, 5C, 7S, 8C, AH]
+
+High card. [3C, 6C, 7D, KD, AD] < One pair. [2D, 4D, 4S, 8C, KS]
+
+One pair. [2D, 2S, 5S, 7C, 8D] < One pair. [2C, 9D, TD, AH, AD]
+
+High card. [3C, 4S, JH, KS, AD] > High card. [5C, 7C, 8C, 9C, TH]
+
+High card. [4D, 7C, TD, JD, AS] > High card. [3C, 5H, 8C, 9S, QH]
+
+One pair. [3H, 6S, 8S, 9C, 9S] > High card. [5H, JH, QD, KS, AH]
+
+High card. [2H, 4H, 5S, 9C, QC] < High card. [7D, 8C, 9D, TD, AS]
+
+High card. [2C, 8C, 9D, TC, KD] < One pair. [3D, 3C, 7S, QC, KH]
+
+One pair. [4D, 4C, 5S, QS, AS] > High card. [6S, 9D, JD, QH, KS]
+
+One pair. [4C, 5H, 6D, 6C, AH] > High card. [3D, 5S, 7D, 9H, TS]
+
+High card. [7C, 8D, 9C, JD, QS] < One pair. [3S, 6S, 6C, KH, AC]
+
+High card. [5D, 6D, 8H, 9S, JH] < High card. [3S, 6S, 7H, QC, AS]
+
+High card. [2H, 5C, JH, QD, AD] < One pair. [2C, 4H, KC, AH, AS]
+
+One pair. [2C, 2D, 6H, 9C, JH] > High card. [5D, 6D, 9H, JS, KC]
+
+High card. [3H, 7D, 9D, TH, KD] < Two pair. [6S, 6H, QC, AS, AD]
+
+High card. [3H, 4H, 7D, JD, KC] < One pair. [3C, 3D, TH, JS, QS]
+
+High card. [3H, 4C, 5H, 8C, QD] < One pair. [6H, 8H, JD, AS, AD]
+
+High card. [5D, 8S, TH, QC, KD] < One pair. [5S, 5H, 7D, TS, JS]
+
+High card. [3H, 7D, 9D, QS, KC] < High card. [3C, 6D, 7S, TS, AH]
+
+One pair. [4H, 7C, 7H, QC, AH] > High card. [4D, 5D, 6D, TH, AC]
+
+High card. [2S, 3C, 4H, 8H, KD] < One pair. [5H, 6C, TC, JH, JD]
+
+One pair. [3D, 4S, 4H, 8C, JS] > High card. [7S, TD, JH, QS, KD]
+
+One pair. [4D, 7C, 7H, QC, KD] < One pair. [6S, TD, TC, KH, AD]
+
+High card. [3H, 4D, 5H, 9H, KC] < One pair. [3D, 6S, 6H, QD, AD]
+
+One pair. [6H, 7C, TH, TS, QH] > High card. [2C, 5S, 6S, TD, KC]
+
+One pair. [4D, 5S, 7C, JD, JH] < One pair. [4H, 7D, KD, KH, AC]
+
+One pair. [5C, 6C, 7D, 8D, 8H] < One pair. [8S, TH, JH, JD, QD]
+
+One pair. [6C, 7D, 7C, 8D, 9D] > High card. [5C, JH, QH, KD, AS]
+
+High card. [2C, 3C, 4C, 8C, 9S] < High card. [2D, 4H, 8D, JH, KS]
+
+High card. [6C, 7S, 8H, JH, KH] < High card. [2D, 3H, 6D, 9D, AH]
+
+High card. [4D, 7H, 8D, 9C, TC] < Two pair. [3C, TD, TH, KS, KD]
+
+High card. [8D, 9H, JD, QD, AS] < Two pair. [2C, 2S, 9D, 9C, KD]
+
+High card. [3H, 5C, 7H, 8D, KS] > High card. [2D, 5H, 8C, 9H, QH]
+
+One pair. [2D, 6D, 6C, TH, QD] > One pair. [3H, 3S, 4C, KC, AD]
+
+One pair. [3H, 3C, 4H, 9D, JS] < One pair. [5H, TC, JC, QH, QC]
+
+Three of a kind. [3D, 3S, 3C, 5C, 6H] > High card. [2S, 5S, 7S, JC, QH]
+
+One pair. [4D, 5C, 5D, 8C, AC] > One pair. [2S, 3C, 3H, 4H, QD]
+
+High card. [2C, 9C, TD, KD, AH] < One pair. [4C, 6S, JS, QD, QC]
+
+High card. [3S, 4H, 8C, TC, QS] < One pair. [3H, 7C, JS, JC, AD]
+
+High card. [4D, 5H, 9C, JC, KS] < Two pair. [8S, 9S, 9H, TD, TS]
+
+One pair. [7D, TS, QD, AS, AC] > High card. [2C, 6H, 8H, TD, AH]
+
+High card. [4S, 6S, 8C, 9H, AD] < One pair. [3C, 8D, 8S, 9D, KH]
+
+High card. [2D, 4D, 7S, QS, KH] < One pair. [3C, 4C, JS, JC, AD]
+
+High card. [7H, 9S, TD, QS, KC] < One pair. [5H, TH, JS, JH, AC]
+
+High card. [2S, 6D, 7C, QS, AC] < One pair. [5S, 6S, KS, KH, AS]
+
+High card. [3C, 6D, 8H, QS, KH] < One pair. [2H, 5C, 6C, 9C, 9D]
+
+High card. [2C, 4C, 6H, 7D, JS] < High card. [3H, TD, JC, QD, AC]
+
+One pair. [4H, 4C, 8H, JD, QC] < Three of a kind. [5C, 7S, KD, KS, KC]
+
+One pair. [2D, 2S, 3H, 6D, QD] > High card. [5S, 6S, 7H, TH, AS]
+
+One pair. [2C, 6D, 8D, 8S, AS] > High card. [8H, TD, JC, QD, AH]
+
+One pair. [2D, 9C, 9H, TD, QH] > High card. [2H, 3D, 5C, 8H, TC]
+
+One pair. [2S, 3D, 8S, KC, KH] > One pair. [4D, 6S, TS, TC, JH]
+
+One pair. [9H, 9D, QS, KC, AC] > High card. [4D, 5D, 6H, 8D, AH]
+
+High card. [4H, 5C, 7C, 9S, QS] < High card. [2H, 7D, 8S, JS, AD]
+
+One pair. [2C, 3D, 9S, AC, AS] > One pair. [2D, 2H, 3H, JC, KH]
+
+High card. [7H, TC, JD, QH, KH] < One pair. [4C, 5S, 8H, 8D, KS]
+
+One pair. [2H, 2S, 3S, 5H, 7H] > High card. [3C, 9H, QS, KD, AS]
+
+High card. [3D, 5S, 6H, JD, AD] < One pair. [3S, 6D, 9C, 9S, AC]
+
+High card. [2D, 3D, 5D, 9C, AC] < One pair. [2S, 4S, 6C, 6S, AD]
+
+High card. [2D, 3H, 4C, 6S, QC] < One pair. [2H, JH, QH, QD, KC]
+
+High card. [3C, 4D, 8S, 9S, QC] < One pair. [2H, 5C, 8H, QS, QD]
+
+One pair. [3S, 6D, 6S, 7H, KD] > High card. [2H, 5C, 6C, JC, KH]
+
+High card. [3S, 6S, 8H, 9S, TC] < High card. [2D, 7S, 8S, TS, AD]
+
+One pair. [3C, 3H, 5C, 6H, 9C] < One pair. [8H, TD, JC, QH, QD]
+
+High card. [3C, 5D, TD, JS, QD] < High card. [2C, 9H, TH, KH, AS]
+
+High card. [3D, 5C, 9S, TC, JD] < High card. [5H, 9H, QH, KC, AD]
+
+High card. [3H, 4H, 7H, 8H, TC] < High card. [2S, 6S, 7C, TD, AC]
+
+High card. [3C, 5D, 9D, JC, QS] < High card. [2S, 4D, 6C, JH, KS]
+
+High card. [3C, 6S, 7H, 9S, TS] < High card. [3D, 4C, 6D, 9C, KD]
+
+One pair. [2D, 7H, 9H, AH, AC] > High card. [2S, 3S, 7C, JH, QC]
+
+High card. [2H, 3C, 9H, QD, AC] < Two pair. [8S, 8C, KD, KH, AS]
+
+One pair. [2D, 6D, 7S, TD, TH] > High card. [2H, 4D, 5S, 8D, JD]
+
+One pair. [8S, JD, QH, QS, KD] > High card. [3S, 4D, 5H, JH, KC]
+
+High card. [3C, 6D, 8H, QC, KH] < High card. [2D, 3S, 7D, TD, AH]
+
+High card. [4S, 5S, 6S, 9H, QH] < Two pair. [6C, 6D, 7S, TS, TH]
+
+One pair. [4C, 6C, 6D, JS, QS] < One pair. [3H, 8D, 8S, 9C, TS]
+
+High card. [2C, 5C, 7S, JS, AS] < One pair. [2H, 5S, TC, AH, AD]
+
+One pair. [6C, 9C, 9D, TS, KD] > One pair. [2S, 2C, 4H, JC, QD]
+
+High card. [3H, 9H, TC, QS, KC] < High card. [3C, 4H, TH, KS, AD]
+
+Two pair. [2H, 9C, 9D, KH, KD] > High card. [2D, 7S, TC, JH, KC]
+
+High card. [3S, 7C, 8C, KC, AS] < One pair. [3H, 5D, 9C, 9S, QH]
+
+One pair. [2D, 2H, 4C, 8C, TD] > High card. [2C, 5D, 7D, TC, QC]
+
+High card. [4D, 6C, TD, QH, KS] < High card. [5D, 7C, 8D, KH, AD]
+
+One pair. [2S, 4C, 8S, 8C, 9S] > One pair. [3D, 6H, 7C, 7H, QD]
+
+High card. [5H, 6C, 8S, TS, QH] < One pair. [2S, 2H, 3C, 4S, 5C]
+
+High card. [2H, 3S, 6S, 8S, JC] > High card. [2S, 3H, 7H, 8C, 9D]
+
+High card. [2C, 8H, 9C, QC, AC] < One pair. [3S, 4C, 4H, 6S, JD]
+
+One pair. [3H, 3S, 4C, 7D, 9S] > High card. [3D, 5H, 8H, TC, JC]
+
+One pair. [2S, 2D, 9S, QH, KD] < One pair. [6D, 9H, 9C, QD, AD]
+
+High card. [2D, 8D, 9S, JC, KS] < One pair. [4C, 4S, TH, JD, KC]
+
+High card. [4D, 5C, 6D, TS, KH] < One pair. [5H, 9H, KD, AS, AD]
+
+High card. [5D, 6D, 7C, JS, QD] < Two pair. [5C, 5H, TH, QH, QS]
+
+High card. [5H, 9D, JH, QH, KH] < Two pair. [4C, 4D, 6C, TC, TH]
+
+One pair. [9D, TS, KH, KD, AS] > High card. [4D, 5S, 7S, 8H, 9C]
+
+High card. [2S, 7D, 9D, KH, AS] < One pair. [4C, 7C, TS, TH, AH]
+
+High card. [4D, 8S, 9S, KS, AC] > High card. [5C, 8D, 9D, TH, QH]
+
+One pair. [5D, 5C, 8C, TC, QS] > One pair. [2C, 3D, 3S, 4C, 8D]
+
+One pair. [2D, 3C, 9D, KS, KC] > High card. [4S, 6C, 8C, JC, KH]
+
+One pair. [6H, 7D, 7S, 8H, AH] > High card. [3C, 4C, 6C, QD, KC]
+
+High card. [2C, 3H, 8H, QH, AS] < One pair. [4C, 4H, 7D, 8C, KC]
+
+High card. [2C, 4H, 5S, TD, QD] < High card. [4C, 8S, JH, QH, AH]
+
+High card. [3H, 5S, 8H, JS, QS] < Two pair. [2S, 2C, 3S, 9H, 9C]
+
+High card. [6H, 7S, TS, JC, QD] < High card. [3H, 5S, TD, KC, AC]
+
+One pair. [7D, JC, QH, QS, AS] > One pair. [2C, 4C, 5C, 5S, KC]
+
+High card. [3D, 4H, JS, QH, AS] > High card. [2S, 7H, 8D, 9C, JC]
+
+One pair. [2S, 4D, 4S, 5D, 9D] > High card. [2D, 7H, 8H, 9C, QS]
+
+High card. [3H, 6D, 7H, TS, JS] < High card. [2D, 7C, 8S, JH, AC]
+
+High card. [3C, 5H, TC, JH, KC] < One pair. [4C, 5S, 8H, 9H, 9D]
+
+High card. [5H, 8S, 9H, KC, AD] < One pair. [8D, 9D, KS, KH, AH]
+
+High card. [2H, 6S, 9H, JC, KS] < High card. [3H, 5H, 9C, QC, AH]
+
+One pair. [5C, 5S, 6C, KH, AD] < One pair. [9H, 9C, TD, JC, QC]
+
+One pair. [2D, 5S, 5D, JC, QH] > High card. [2H, 8H, TS, QS, KS]
+
+One pair. [5H, 5S, 7H, JH, AH] > High card. [3C, 8S, TD, KH, AS]
+
+High card. [2C, 3D, 4C, 6H, JD] < High card. [6C, 7S, JH, KC, AH]
+
+High card. [4C, 7S, 9D, KS, AD] > High card. [3S, 7D, 8H, 9C, KC]
+
+One pair. [3C, 5C, 5H, 7H, 8H] > High card. [3D, 6D, JC, QC, KH]
+
+High card. [2D, 4H, 5D, 7D, QC] < One pair. [8H, 9H, QH, AD, AH]
+
+High card. [3S, 8C, 9D, JS, KD] < One pair. [2H, 2S, 3C, 5D, 6D]
+
+One pair. [3C, 6S, 6H, 8S, TS] > High card. [3H, 5S, 6C, 8D, TD]
+
+High card. [3D, 7C, 9C, JH, KS] > High card. [4H, 5S, 6H, 9S, QS]
+
+High card. [4S, 6S, 7S, TH, KC] < Two pair. [3S, JC, JH, KD, KS]
+
+High card. [2S, 3C, 6D, 7C, QH] < High card. [2C, 5H, 7S, 8H, AH]
+
+One pair. [6D, 8D, QD, KC, KH] > One pair. [3D, 5C, 7H, 9D, 9C]
+
+High card. [2D, 6H, 8S, 9S, JS] < High card. [2S, 6D, 7C, TC, KC]
+
+One pair. [7H, 9C, JH, KD, KC] > High card. [2S, 3D, 6H, 7S, 8S]
+
+One pair. [2D, 4H, 4C, 8H, 9H] < One pair. [2H, 5S, 7H, 8S, 8D]
+
+One pair. [3C, 5S, 7C, 7S, AD] > High card. [3D, 4D, 9H, JC, KH]
+
+High card. [5D, 6D, 7D, 9C, AS] < One pair. [4C, JC, QH, QS, KH]
+
+High card. [3D, 7D, JD, QS, KD] < One pair. [6D, 8S, JS, QC, QD]
+
+High card. [5S, 6S, 8C, TH, QH] < One pair. [2C, 9H, JD, AS, AC]
+
+One pair. [3C, 7S, QC, QH, KS] > One pair. [4C, 5C, 5D, KC, AH]
+
+High card. [2C, 4H, 6C, 9D, AH] < One pair. [3H, 3D, 5C, TS, KD]
+
+High card. [8S, TD, JS, QS, AS] < One pair. [3H, 4H, KD, KS, AC]
+
+High card. [4H, 5D, 7D, 9H, TS] < High card. [2H, 4C, 8C, 9C, QC]
+
+High card. [2C, 4D, 7D, 9H, KS] < High card. [4C, JS, QH, KD, AD]
+
+One pair. [9D, QD, KH, AD, AH] < Three of a kind. [9H, JS, JC, JD, KD]
+
+High card. [3C, 4S, 7S, 8S, TS] > High card. [2S, 4D, 5C, 6H, 7C]
+
+High card. [5C, 6D, 7S, JS, KD] > High card. [2H, 6S, 8S, TD, QH]
+
+Two pair. [6C, 6H, TC, TD, QH] > High card. [2H, 4C, 8H, 9D, QC]
+
+High card. [2H, 3D, 4D, 6H, TS] < One pair. [2C, 6S, 6C, 7H, 8S]
+
+Two pair. [3S, 9H, 9D, JD, JH] > High card. [2C, 3H, 6S, 8S, AH]
+
+High card. [2C, 3H, 5S, 8C, QS] < High card. [2S, 3C, 4S, 7D, AD]
+
+One pair. [5C, TS, QC, QH, AS] > One pair. [4S, 4C, 5H, 6S, JS]
+
+High card. [4C, 5C, 6H, TD, JH] < One pair. [4H, JS, QS, KD, KH]
+
+High card. [4D, 9H, TC, JC, KH] < One pair. [3C, 8D, 8H, 9D, KC]
+
+High card. [2H, 8S, 9S, TC, AD] > High card. [2C, 4H, 5C, 7H, TS]
+
+High card. [2S, 4H, 5S, 6C, KS] < High card. [7C, 8H, 9C, KD, AH]
+
+Two pair. [3C, TS, TD, QH, QS] > High card. [2C, 7D, 8D, JH, AH]
+
+One pair. [3H, 5D, 5S, KC, AC] > One pair. [2H, 4S, 4C, 7H, QS]
+
+High card. [3D, 7D, JH, QC, KH] < Two pair. [6D, 6C, TD, TH, KD]
+
+High card. [5S, 6C, 8D, 9D, TH] < High card. [6D, 7D, 8C, 9S, KH]
+
+One pair. [2S, 7S, JD, QS, QC] > High card. [4S, 8D, JC, QH, KS]
+
+High card. [5S, 7S, 9S, JD, KD] < High card. [2D, 7C, 9C, JC, AD]
+
+High card. [4S, 5H, 9C, JH, AH] > High card. [2D, 5D, 6S, 7C, TD]
+
+One pair. [6C, 6S, 7H, 9C, KC] > High card. [4H, 5S, TD, QD, KS]
+
+High card. [2D, 6S, 8D, TH, KS] < One pair. [3S, 9H, TD, TS, JD]
+
+High card. [4H, 5D, 9D, JS, KH] < Three of a kind. [TC, TD, TS, JD, QC]
+
+Two pair. [4C, QS, QD, AC, AD] > High card. [2D, 3H, 6S, KC, AS]
+
+High card. [3C, 4C, 7C, TD, QS] < One pair. [8D, 9C, KC, AS, AD]
+
+High card. [6D, 7H, 8H, QC, KC] < High card. [5S, 6S, 7S, 8C, AH]
+
+High card. [3S, 6D, 9H, JC, AD] < One pair. [6S, JD, JH, KH, AS]
+
+High card. [3D, 7H, TS, KS, AD] < One pair. [2D, JH, JS, QD, AC]
+
+High card. [6D, 7C, 9C, TC, JD] < Two pair. [3D, 3S, 6H, 6C, JC]
+
+One pair. [3S, JC, QC, KC, KD] > High card. [2C, 8D, TS, QS, AH]
+
+High card. [3D, 8H, JD, KD, AS] > High card. [5C, 6C, 7C, 8C, QD]
+
+Player 1: 379	Player 2: 621
